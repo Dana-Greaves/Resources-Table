@@ -1,0 +1,433 @@
+This is BibTeX, Version 0.99e
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+Reallocating 'name_of_file' (item size: 1) to 9 items.
+The style file: plainnat.bst
+Reallocating 'name_of_file' (item size: 1) to 4 items.
+Reallocating 'field_info' (item size: 4) to 23088 items.
+Database file #1: bib.bib
+Reallocating 'str_pool' (item size: 1) to 130000 items.
+Warning--I'm ignoring caida_itdk's extra "note" field
+--line 15215 of file bib.bib
+Warning--I didn't find a database entry for "iana-allocation"
+Warning--to sort, need author or key in fabric_mflib
+Warning--to sort, need author or key in internet_atlas
+Warning--to sort, need author or key in internet_health_report
+Warning--to sort, need author or key in isolario_project
+Warning--to sort, need author or key in justdomains_blocklist
+Warning--to sort, need author or key in mlab_traceroute
+Warning--to sort, need author or key in measuring_broadband_america
+Warning--to sort, need author or key in media_bias_fact_check
+Warning--to sort, need author or key in national_broadband_map
+Warning--to sort, need author or key in nro_delegation_file
+Warning--to sort, need author or key in one_step_measurement
+Warning--to sort, need author or key in orbis_database
+Warning--to sort, need author or key in phishtank
+Warning--to sort, need author or key in pyasn
+Warning--to sort, need author or key in rdap_ietf
+Warning--to sort, need author or key in rir_stats
+Warning--to sort, need author or key in routeservers
+Warning--to sort, need author or key in secrank
+Warning--to sort, need author or key in speedchecker
+Warning--to sort, need author or key in statista
+Warning--to sort, need author or key in telegeography
+Warning--to sort, need author or key in trinocular
+Warning--to sort, need author or key in vultr
+Warning--to sort, need author or key in nl_authoritative_servers
+Warning--to sort, need author or key in 1host_filter
+Warning--to sort, need author or key in 360_security
+Warning--to sort, need author or key in abusech_feodo
+Warning--to sort, need author or key in abusech_sslbl
+Warning--to sort, need author or key in ad_fontes
+Warning--to sort, need author or key in afnic
+Warning--to sort, need author or key in afrinic_ftp
+Warning--to sort, need author or key in akamai_prolexic
+Warning--to sort, need author or key in alice_lg
+Warning--to sort, need author or key in allsides
+Warning--to sort, need author or key in american_community_survey
+Warning--to sort, need author or key in amppot
+Warning--to sort, need author or key in android_trust_store
+Warning--to sort, need author or key in androzoo
+Warning--to sort, need author or key in anoncdn_dataset
+Warning--to sort, need author or key in ant_lab_hits
+Warning--to sort, need author or key in anycast_census
+Warning--to sort, need author or key in apnic_asn
+Warning--to sort, need author or key in apnic_customers
+Warning--to sort, need author or key in apnic_eyeballs
+Warning--to sort, need author or key in apnic_ftp
+Warning--to sort, need author or key in apnic_erx
+Warning--to sort, need author or key in apple_safari_ct
+Warning--to sort, need author or key in apple_store
+Warning--to sort, need author or key in appview_getfeed
+Warning--to sort, need author or key in arin_ftp
+Warning--to sort, need author or key in arin_erx
+Warning--to sort, need author or key in arin_rrs
+Warning--to sort, need author or key in as_hegemony
+Warning--to sort, need author or key in axfr_protocol
+Warning--to sort, need author or key in azure_dns
+Warning--to sort, need author or key in berkman_lists
+Warning--to sort, need author or key in us_news_rankings
+Warning--to sort, need author or key in bgp_community_dict
+Warning--to sort, need author or key in bgpie
+Warning--to sort, need author or key in bgpmon
+Warning--to sort, need author or key in bgpstream
+Warning--to sort, need author or key in bitcoin_abuse
+Warning--to sort, need author or key in bluesky_relay
+Warning--to sort, need author or key in census
+Warning--to sort, need author or key in linx_members
+Warning--to sort, need author or key in qihoo
+Warning--to sort, need author or key in reddit
+Warning--to sort, need author or key in scamadviser
+Warning--to sort, need author or key in scamwatcher
+Warning--to sort, need author or key in shutterstock
+Warning--to sort, need author or key in sketchfab
+Warning--to sort, need author or key in sknic
+Warning--to sort, need author or key in snortip
+Warning--to sort, need author or key in snortcomrules
+Warning--to sort, need author or key in snyk
+Warning--to sort, need author or key in steam
+Warning--to sort, need author or key in tinygs
+Warning--to sort, need author or key in towermaps
+Warning--to sort, need author or key in unacast
+Warning--to sort, need author or key in ucbsb
+Warning--to sort, need author or key in vanguard
+Warning--to sort, need author or key in vpntierlist
+Warning--to sort, need author or key in web3
+Warning--to sort, need author or key in who
+Warning--to sort, need author or key in xml
+Warning--empty year in 1host_filter
+Warning--empty year in 360_security
+Warning--empty year in abusech_feodo
+Warning--empty year in abusech_sslbl
+Warning--empty year in ad_fontes
+Warning--empty year in afnic
+Warning--empty year in afrinic_ftp
+Warning--empty year in akamai_prolexic
+Warning--empty year in alice_lg
+Warning--empty year in allsides
+Warning--empty year in american_community_survey
+Warning--empty year in amppot
+Warning--empty year in android_trust_store
+Warning--empty year in androzoo
+Warning--empty year in anoncdn_dataset
+Warning--empty year in ant_lab_hits
+Warning--empty year in anycast_census
+Warning--empty year in apnic_asn
+Warning--empty year in apnic_customers
+Warning--empty year in apnic_erx
+Warning--empty year in apnic_eyeballs
+Warning--empty year in apnic_ftp
+Warning--empty year in apple_safari_ct
+Warning--empty year in apple_store
+Warning--empty year in appview_getfeed
+Warning--empty year in arin_erx
+Warning--empty year in arin_ftp
+Warning--empty year in arin_rrs
+Warning--empty year in as_hegemony
+Warning--empty year in axfr_protocol
+Warning--empty year in azure_dns
+Warning--empty year in berkman_lists
+Warning--empty year in bgp_community_dict
+Warning--empty year in bgpie
+Warning--empty year in bgpmon
+Warning--empty year in bgpstream
+Warning--empty year in bitcoin_abuse
+Warning--empty year in bluesky_relay
+Warning--empty year in census
+Warning--empty year in fabric_mflib
+Warning--empty year in internet_atlas
+Warning--empty year in internet_health_report
+Warning--empty year in isolario_project
+Warning--empty year in justdomains_blocklist
+Warning--empty year in measuring_broadband_america
+Warning--empty year in media_bias_fact_check
+Warning--empty year in mlab_traceroute
+Warning--empty year in national_broadband_map
+Warning--empty year in nl_authoritative_servers
+Warning--empty year in nro_delegation_file
+Warning--empty year in one_step_measurement
+Warning--empty year in orbis_database
+Warning--empty year in phishtank
+Warning--empty year in pyasn
+Warning--empty year in qihoo
+Warning--empty year in rdap_ietf
+Warning--empty year in reddit
+Warning--empty year in rir_stats
+Warning--empty year in routeservers
+Warning--empty year in scamadviser
+Warning--empty year in scamwatcher
+Warning--empty year in secrank
+Warning--empty year in shutterstock
+Warning--empty year in sketchfab
+Warning--empty year in sknic
+Warning--empty year in snortcomrules
+Warning--empty year in snortip
+Warning--empty year in snyk
+Warning--empty year in speedchecker
+Warning--empty year in statista
+Warning--empty year in steam
+Warning--empty year in telegeography
+Warning--empty year in tinygs
+Warning--empty year in towermaps
+Warning--empty year in trinocular
+Warning--empty year in ucbsb
+Warning--empty year in unacast
+Warning--empty year in us_news_rankings
+Warning--empty year in vanguard
+Warning--empty year in vpntierlist
+Warning--empty year in vultr
+Warning--empty year in web3
+Warning--empty year in who
+Warning--empty year in xml
+Warning--empty year in abusech-urlhaus
+Warning--empty year in threatfox
+Warning--empty year in afrinicwhois
+Warning--empty year in paloalto
+Warning--empty year in amigo-framework
+Warning--empty year in apwg-blacklist
+Warning--empty year in apnicwhois
+Warning--empty year in brokers
+Warning--empty year in apple_trust_store
+Warning--empty year in httparchive
+Warning--empty year in google_ancho_api
+Warning--empty year in arinwhois
+Warning--empty year in bgpkit
+Warning--empty year in bgptools
+Warning--empty year in massdns
+Warning--empty year in brightdata
+Warning--empty year in asrelationships
+Warning--empty year in caida-cc-dataset
+Warning--empty year in caida-dzdb
+Warning--empty year in caida-ipv6-routed-48
+Warning--empty year in caida-ixp-dataset
+Warning--empty year in caida_itdk
+Warning--empty year in caidaait
+Warning--empty year in caidaark
+Warning--empty year in caidaas2org
+Warning--empty year in caidaasclassification
+Warning--empty year in caidaasrank
+Warning--empty year in caidapfx2as
+Warning--empty year in caidaucsdnt
+Warning--empty year in caida-ditl
+Warning--empty year in certstream
+Warning--empty year in ccc-honeypots
+Warning--empty year in geofeed_finder
+Warning--empty year in celestrak-norad
+Warning--empty year in censys
+Warning--empty year in gaccnifc
+Warning--empty year in caida-dns-names
+Warning--empty year in cia-world-factbook
+Warning--empty year in ct_logs
+Warning--empty year in chainabuse
+Warning--empty year in chainalysis
+Warning--empty year in ciscoumbrellatop1m
+Warning--empty year in thousandeyes
+Warning--empty year in cisco-crosswork
+Warning--empty year in cisco-nvm
+Warning--empty year in cisco-umbrella
+Warning--empty year in clearbit
+Warning--empty year in cloudflare-domain-intelligence
+Warning--empty year in cloudflare-request-data
+Warning--empty year in cloudflare-speedtest
+Warning--empty year in cloudflareradar
+Warning--empty year in cloudlab
+Warning--empty year in comcast-xfinity
+Warning--empty year in commoncrawl
+Warning--empty year in cowrie
+Warning--empty year in crtsh
+Warning--empty year in crunchbase
+Warning--empty year in curlie
+Warning--empty year in cvedetails
+Warning--empty year in fabric-framework
+Warning--empty year in darkvisitors
+Warning--empty year in dwa
+Warning--empty year in netacuity
+Warning--empty year in disconnect-entity-list
+Warning--empty year in dns-oarc-dnsperf
+Warning--empty year in domainlist-io
+Warning--empty year in domains-monitor
+Warning--empty year in dnsdb
+Warning--empty year in domaintools-iris
+Warning--empty year in domaintools-whois
+Warning--empty year in dscope-tool
+Warning--empty year in ddg-tracker-radar
+Warning--empty year in dnb
+Warning--empty year in easyprivacy
+Warning--empty year in eigenphi
+Warning--empty year in ens-ethereum
+Warning--empty year in euroix
+Warning--empty year in sie-europe
+Warning--empty year in faker-lib
+Warning--empty year in fiebig-ipv6
+Warning--empty year in whotracksme
+Warning--empty year in chrome-telemetry
+Warning--empty year in crux
+Warning--empty year in google-public-dns
+Warning--empty year in googlectlogs
+Warning--empty year in googleplay
+Warning--empty year in googlesearch
+Warning--empty year in related
+Warning--empty year in youtube
+Warning--empty year in youtubedata
+Warning--empty year in uksanctions
+Warning--empty year in greynoise_data
+Warning--empty year in moniotr
+Warning--empty year in rfc
+Warning--empty year in wand
+Warning--empty year in worldbank
+Warning--empty year in movielens
+Warning--empty year in everyday-conv-llm
+Warning--empty year in czds
+Warning--empty year in icann_m3_dns
+Warning--empty year in ieee-oui-db
+Warning--empty year in ietf_datatracker
+Warning--empty year in ietf_mail_archive
+Warning--empty year in igdb
+Warning--empty year in infrapedia
+Warning--empty year in imf_fiscal_monitor
+Warning--empty year in internet-archive
+Warning--empty year in internet_archive_bot
+Warning--empty year in wayback-machine
+Warning--empty year in ip2location
+Warning--empty year in ipgeolocation
+Warning--empty year in ipinfo
+Warning--empty year in ipwhois
+Warning--empty year in dst-index
+Warning--empty year in grip_platform
+Warning--empty year in mlabndt
+Warning--empty year in nlnet
+Warning--empty year in opencellid
+Warning--empty year in lacnicftp
+Warning--empty year in lacnicwhois
+Warning--empty year in netcraft
+Warning--empty booktitle in rltd
+Warning--empty year in manrs
+Warning--empty year in maxmindgeo
+Warning--empty year in mlab-speedtest
+Warning--empty year in mempoolguru
+Warning--empty year in irr
+Warning--empty year in radb
+Warning--empty year in crowdtangle
+Warning--empty year in metaadlibrary
+Warning--empty year in fb-ads-api
+Warning--empty year in microsoftroot
+Warning--empty year in academicknowledge
+Warning--empty year in microsoft-trust-stores
+Warning--empty year in owa
+Warning--empty year in ccadb
+Warning--empty year in mozilla-trust-stores
+Warning--empty year in mozillapsl
+Warning--empty year in sslgenerator
+Warning--empty year in nanogmailinglist
+Warning--empty year in nvd-nist
+Warning--empty year in ripeftp
+Warning--empty year in riperpkiarchive
+Warning--empty year in maccdc
+Warning--empty year in netscout
+Warning--empty year in newsguard
+Warning--empty year in nextdns
+Warning--empty year in nlnoglg
+Warning--empty year in rir-delegation-files
+Warning--empty year in ofac
+Warning--empty year in ooklaspeedtest
+Warning--empty year in openintel
+Warning--empty year in openphish
+Warning--empty year in xponent
+Warning--empty year in orion-nt
+Warning--empty year in ovhwm
+Warning--empty year in pch-data
+Warning--empty year in peeringdb
+Warning--empty year in easylist
+Warning--empty year in politifact
+Warning--empty year in zdns
+Warning--empty year in qax
+Warning--empty year in rapid7_sonar
+Warning--empty year in ipmap
+Warning--empty year in ripelegacy
+Warning--empty year in ripewhois
+Warning--empty year in ripeatlas
+Warning--empty year in riperis
+Warning--empty year in historyapi
+Warning--empty year in fierce-scanner
+Warning--empty year in rpki-views
+Warning--empty year in rssac
+Warning--empty year in statcounter
+Warning--empty year in majesticmillion
+Warning--empty year in shodan
+Warning--empty year in similarweb
+Warning--empty year in browsertime
+Warning--empty year in snopes
+Warning--empty year in dishy
+Warning--empty year in stevenblack
+Warning--empty year in dridex-malware-traffic
+Warning--empty year in surbl
+Warning--empty year in switch
+Warning--empty year in team-cymru-ip-asn
+Warning--empty year in commsupdate
+Warning--empty year in caida-bgpview
+Warning--empty year in caida-pyipmeta
+Warning--empty year in caida-router-names
+Warning--empty year in caida-rsdos
+Warning--empty year in caida-scamper
+Warning--empty year in citizen-lab
+Warning--empty year in cve_mitre
+Warning--empty year in spamhaus_blocklist
+Warning--empty year in tor
+Warning--empty year in udger
+Warning--empty year in ukrenegro
+Warning--empty year in isi-ipv4-hitlist
+Warning--empty year in isi-ipv4-response
+Warning--empty year in openaiforum
+Warning--empty year in verisign
+Warning--empty year in virustotal
+Warning--empty year in webrtc
+Warning--empty booktitle in pdns
+Warning--empty year in mawi-archive
+Warning--empty year in wikipedia
+Warning--empty year in wonder
+Warning--empty year in twitter-x
+Warning--empty year in zeromev
+Warning--empty year in zoominfo
+Warning--empty year in zvelo
+You've used 645 entries,
+            2773 wiz_defined-function locations,
+            3303 strings with 102773 characters,
+and the built_in function-call counts, 336746 in all, are:
+= -- 32900
+> -- 17778
+< -- 576
++ -- 6188
+- -- 5457
+* -- 23550
+:= -- 47580
+add.period$ -- 3088
+call.type$ -- 645
+change.case$ -- 3644
+chr.to.int$ -- 559
+cite$ -- 1754
+duplicate$ -- 16900
+empty$ -- 26376
+format.name$ -- 6078
+if$ -- 75883
+int.to.chr$ -- 87
+int.to.str$ -- 1
+missing$ -- 312
+newline$ -- 4087
+num.names$ -- 2452
+pop$ -- 9452
+preamble$ -- 1
+purify$ -- 3000
+quote$ -- 0
+skip$ -- 14618
+stack$ -- 0
+substring$ -- 8096
+swap$ -- 5258
+text.length$ -- 302
+text.prefix$ -- 1
+top$ -- 0
+type$ -- 7095
+warning$ -- 379
+while$ -- 2308
+width$ -- 0
+write$ -- 10341
+(There were 381 warnings)

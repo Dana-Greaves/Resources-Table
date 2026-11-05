@@ -1,0 +1,427 @@
+\documentclass[11pt,a4paper]{article}
+
+% ---------- Packages ----------
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+
+\usepackage{geometry}
+\geometry{margin=1in}
+
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{xcolor}
+\usepackage{hyperref}
+
+% Citation support
+\usepackage[numbers,sort&compress]{natbib}
+
+% ---------- Document information ----------
+\title{Usage of Data Resources in ACM IMC and PAM Papers 2021-2026}
+\author{Dana Greaves}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\tableofcontents
+\newpage
+
+% ---------- Main content ----------
+\section{What is a Resource?}
+
+We classify a resource as a dataset, measurement platform, list, registry, tool or other source of data that is made public and accessible to researchers. This does not include tools or software that generate data or other tools inwhich the independant usage of such tool or software may result in biased data but which is due to fault of the researchers and not of the tool, if the data that is collected from that usage is made a public resource and mentioned in one of the papers we have surveyed, it will be included in the table of resources considered for further analysis. 
+
+\section{Resource Usages and Categorization}
+\begin{longtable}{@{}p{0.11\textwidth}p{0.045\textwidth}r p{0.14\textwidth}p{0.21\textwidth}p{0.09\textwidth}p{0.32\textwidth}@{}}
+\hline
+Resource & Where to find & Total & Data Category & Measurement Infrastructure & Active or Passive & References \\
+\hline
+\endfirsthead
+\hline
+Resource & Where to find & Total & Data Category & Measurement Infrastructure & Active or Passive & References \\
+\hline
+\endhead
+\hline
+\endfoot
+\hline
+\endlastfoot
+Tranco  & \cite{10.14722/ndss.2019.23386} & 42 & Web Popularity & Synthetic/Aggregated Ranking & Passive & \cite{10.1145/3730567.3764500}, \cite{10.1145/3730567.3732921}, \cite{10.1145/3730567.3764490}, \cite{10.1145/3730567.3764501}, \cite{10.1145/3730567.3732913}, \cite{10.1145/3730567.3764507}, \cite{10.1145/3730567.3764427}, \cite{10.1145/3646547.3689014}, \cite{10.1145/3646547.3688410}, \cite{10.1145/3646547.3688449}, \cite{10.1145/3646547.3688444}, \cite{10.1145/3618257.3624821}, \cite{10.1145/3618257.3624844}, \cite{10.1145/3618257.3624835}, \cite{10.1145/3618257.3624842}, \cite{10.1145/3618257.3624795}, \cite{10.1145/3618257.3624817}, \cite{10.1145/3618257.3624797}, \cite{10.1145/3517745.3561457}, \cite{10.1145/3517745.3561445}, \cite{10.1145/3517745.3561437}, \cite{10.1145/3517745.3561415}, \cite{10.1145/3517745.3561446}, \cite{10.1145/3517745.3561453}, \cite{10.1145/3517745.3561444}, \cite{10.1145/3517745.3561460}, \cite{10.1145/3487552.3487843}, \cite{10.1145/3487552.3487857}, \cite{10.1145/3487552.3487850}, \cite{10.1145/3487552.3487855}, \cite{10.1145/3487552.3487836}, \cite{10.1007/978-3-030-72582-2_26}, \cite{10.1007/978-3-030-72582-2_33}, \cite{10.1007/978-3-030-98785-5_19}, \cite{10.1007/978-3-031-28486-1_6}, \cite{10.1007/978-3-031-28486-1_20}, \cite{10.1007/978-3-031-28486-1_26}, \cite{10.1007/978-3-031-56249-5_5}, \cite{10.1007/978-3-031-56249-5_10}, \cite{10.1007/978-3-031-85960-1_3}, \cite{10.1007/978-3-031-85960-1_5}, \cite{10.1007/978-3-031-85960-1_15} \\
+RIPE Atlas  & \cite{ripeatlas} & 33 & Network Perf / Topology & Active Probing Network & Active & \cite{10.1145/3730567.3764439}, \cite{10.1145/3730567.3764427}, \cite{10.1145/3646547.3688429}, \cite{10.1145/3646547.3688449}, \cite{10.1145/3646547.3689017}, \cite{10.1145/3618257.3624818}, \cite{10.1145/3618257.3624811}, \cite{10.1145/3618257.3624817}, \cite{10.1145/3517745.3561416}, \cite{10.1145/3517745.3561443}, \cite{10.1145/3517745.3561422}, \cite{10.1145/3517745.3561421}, \cite{10.1145/3517745.3561426}, \cite{10.1145/3487552.3487854}, \cite{10.1145/3487552.3487817}, \cite{10.1145/3487552.3487849}, \cite{10.1145/3487552.3487848}, \cite{10.1145/3487552.3487824}, \cite{10.1007/978-3-030-72582-2_12}, \cite{10.1007/978-3-030-72582-2_21}, \cite{10.1007/978-3-030-72582-2_25}, \cite{10.1007/978-3-030-98785-5_12}, \cite{10.1007/978-3-030-98785-5_22}, \cite{10.1007/978-3-031-28486-1_16}, \cite{10.1007/978-3-031-28486-1_18}, \cite{10.1007/978-3-031-28486-1_19}, \cite{10.1007/978-3-031-56249-5_5}, \cite{10.1007/978-3-031-56252-5_6}, \cite{10.1007/978-3-031-56252-5_7}, \cite{10.1007/978-3-031-56252-5_10}, \cite{10.1007/978-3-031-85960-1_2}, \cite{10.1007/978-3-031-85960-1_3}, \cite{10.1007/978-3-031-85960-1_15} \\
+RouteViews  & \cite{10.7264/1y7v-2d90} & 32 & BGP & Passive BGP Collection (Collectors) & Passive & \cite{10.1145/3730567.3764485}, \cite{10.1145/3730567.3764781}, \cite{10.1145/3730567.3764432}, \cite{10.1145/3730567.3764452}, \cite{10.1145/3730567.3732917}, \cite{10.1145/3730567.3764449}, \cite{10.1145/3646547.3689010}, \cite{10.1145/3618257.3624838}, \cite{10.1145/3618257.3624831}, \cite{10.1145/3618257.3624819}, \cite{10.1145/3618257.3624809}, \cite{10.1145/3618257.3624815}, \cite{10.1145/3618257.3624812}, \cite{10.1145/3618257.3624817}, \cite{10.1145/3517745.3561419}, \cite{10.1145/3517745.3561454}, \cite{10.1145/3487552.3487865}, \cite{10.1145/3487552.3487829}, \cite{10.1145/3487552.3487838}, \cite{10.1007/978-3-030-72582-2_2}, \cite{10.1007/978-3-030-72582-2_4}, \cite{10.1007/978-3-030-72582-2_14}, \cite{10.1007/978-3-030-72582-2_21}, \cite{10.1007/978-3-030-98785-5_10}, \cite{10.1007/978-3-030-98785-5_16}, \cite{10.1007/978-3-030-98785-5_20}, \cite{10.1007/978-3-030-98785-5_28}, \cite{10.1007/978-3-030-98785-5_29}, \cite{10.1007/978-3-031-28486-1_16}, \cite{10.1007/978-3-031-56252-5_7}, \cite{10.1007/978-3-031-56252-5_10}, \cite{10.1007/978-3-031-85960-1_14} \\
+Alexa Web Information Service & Discontinued & 27 & Web Popularity & Historical Passive/Panel Ranking & Passive & \cite{10.1145/3618257.3624804}, \cite{10.1145/3618257.3624844}, \cite{10.1145/3618257.3624821}, \cite{10.1145/3618257.3624822}, \cite{10.1145/3517745.3561456}, \cite{10.1145/3517745.3561451}, \cite{10.1145/3517745.3561427}, \cite{10.1145/3517745.3561440}, \cite{10.1145/3517745.3561468}, \cite{10.1145/3517745.3561444}, \cite{10.1145/3487552.3487826}, \cite{10.1145/3487552.3487850}, \cite{10.1145/3487552.3487816}, \cite{10.1145/3487552.3487832}, \cite{10.1145/3487552.3487844}, \cite{10.1145/3487552.3487841}, \cite{10.1145/3487552.3487820}, \cite{10.1007/978-3-030-72582-2_4}, \cite{10.1007/978-3-030-72582-2_6}, \cite{10.1007/978-3-030-72582-2_12}, \cite{10.1007/978-3-030-72582-2_18}, \cite{10.1007/978-3-030-72582-2_25}, \cite{10.1007/978-3-030-72582-2_33}, \cite{10.1007/978-3-031-28486-1_22}, \cite{10.1007/978-3-031-28486-1_27}, \cite{10.1007/978-3-031-56249-5_6}, \cite{10.1007/978-3-031-56249-5_12} \\
+RIPE RIS  & \cite{riperis} & 26 & BGP & Passive BGP Collection (Collectors) & Passive & \cite{10.1145/3730567.3764469}, \cite{10.1145/3730567.3764485}, \cite{10.1145/3730567.3764432}, \cite{10.1145/3730567.3764452}, \cite{10.1145/3646547.3688420}, \cite{10.1145/3646547.3689010}, \cite{10.1145/3646547.3688444}, \cite{10.1145/3618257.3624838}, \cite{10.1145/3618257.3624819}, \cite{10.1145/3618257.3624815}, \cite{10.1145/3618257.3624812}, \cite{10.1145/3517745.3561419}, \cite{10.1145/3517745.3561440}, \cite{10.1145/3517745.3561421}, \cite{10.1145/3487552.3487865}, \cite{10.1145/3487552.3487835}, \cite{10.1145/3487552.3487838}, \cite{10.1007/978-3-030-72582-2_13}, \cite{10.1007/978-3-030-72582-2_14}, \cite{10.1007/978-3-030-98785-5_10}, \cite{10.1007/978-3-030-98785-5_20}, \cite{10.1007/978-3-030-98785-5_29}, \cite{10.1007/978-3-031-28486-1_18}, \cite{10.1007/978-3-031-85960-1_3}, \cite{10.1007/978-3-031-85960-1_13}, \cite{10.1007/978-3-031-85960-1_14} \\
+PeeringDB  & \cite{peeringdb} & 22 & Infrastructure Registry & User-Submitted Registry & Registry/Synthesis & \cite{10.1145/3730567.3732918}, \cite{10.1145/3730567.3764502}, \cite{10.1145/3646547.3688414}, \cite{10.1145/3646547.3688429}, \cite{10.1145/3646547.3688444}, \cite{10.1145/3618257.3624812}, \cite{10.1145/3517745.3561443}, \cite{10.1145/3487552.3487853}, \cite{10.1145/3487552.3487854}, \cite{10.1145/3487552.3487822}, \cite{10.1145/3487552.3487840}, \cite{10.1007/978-3-030-72582-2_14}, \cite{10.1007/978-3-030-98785-5_10}, \cite{10.1007/978-3-030-98785-5_15}, \cite{10.1007/978-3-030-98785-5_16}, \cite{10.1007/978-3-030-98785-5_29}, \cite{10.1007/978-3-031-28486-1_15}, \cite{10.1007/978-3-031-28486-1_17}, \cite{10.1007/978-3-031-56249-5_2}, \cite{10.1007/978-3-031-56252-5_10}, \cite{10.1007/978-3-031-85960-1_13}, \cite{10.1007/978-3-031-85960-1_18} \\
+CAIDA As2Org  & \cite{caidaas2org} & 21 & Topology / Mapping & Synthetic/Derived Dataset & Registry/Synthesis & \cite{10.1145/3730567.3732918}, \cite{10.1145/3730567.3764485}, \cite{10.1145/3730567.3732917}, \cite{10.1145/3646547.3689010}, \cite{10.1145/3618257.3624838}, \cite{10.1145/3618257.3624831}, \cite{10.1145/3618257.3624819}, \cite{10.1145/3517745.3561458}, \cite{10.1145/3517745.3561419}, \cite{10.1145/3517745.3561425}, \cite{10.1145/3487552.3487825}, \cite{10.1145/3487552.3487822}, \cite{10.1007/978-3-030-98785-5_14}, \cite{10.1007/978-3-030-98785-5_15}, \cite{10.1007/978-3-030-98785-5_29}, \cite{10.1007/978-3-031-28486-1_10}, \cite{10.1007/978-3-031-28486-1_15}, \cite{10.1007/978-3-031-28486-1_17}, \cite{10.1007/978-3-031-28486-1_23}, \cite{10.1007/978-3-031-85960-1_3}, \cite{10.1007/978-3-031-85960-1_9} \\
+WHOIS & \cite{arinwhois}, \cite{ripewhois}, \cite{afrinicwhois}, \cite{lacnicwhois}, \cite{apnicwhois} & 20 & Address/Domain Registration & Distributed Directory Registry & Passive & \cite{10.1145/3730567.3764491}, \cite{10.1145/3730567.3732918}, \cite{10.1145/3730567.3764485}, \cite{10.1145/3730567.3764452}, \cite{10.1145/3646547.3688410}, \cite{10.1145/3646547.3688441}, \cite{10.1145/3646547.3689010}, \cite{10.1145/3618257.3624805}, \cite{10.1145/3618257.3624802}, \cite{10.1145/3618257.3624803}, \cite{10.1145/3517745.3561440}, \cite{10.1145/3487552.3487822}, \cite{10.1007/978-3-030-72582-2_3}, \cite{10.1007/978-3-030-72582-2_4}, \cite{10.1007/978-3-030-72582-2_14}, \cite{10.1007/978-3-030-98785-5_6}, \cite{10.1007/978-3-031-28486-1_15}, \cite{10.1007/978-3-031-56249-5_9}, \cite{10.1007/978-3-031-56249-5_10}, \cite{10.1007/978-3-031-85960-1_9} \\
+MaxMind GeoIP Databases  & \cite{maxmindgeo} & 19 & IP Geolocation & Synthetic Mapping Database & Hybrid & \cite{10.1145/3730567.3764481}, \cite{10.1145/3618257.3624831}, \cite{10.1145/3618257.3624796}, \cite{10.1145/3618257.3624809}, \cite{10.1145/3618257.3624797}, \cite{10.1145/3517745.3561449}, \cite{10.1145/3487552.3487849}, \cite{10.1145/3487552.3487844}, \cite{10.1007/978-3-030-72582-2_16}, \cite{10.1007/978-3-030-98785-5_6}, \cite{10.1007/978-3-030-98785-5_11}, \cite{10.1007/978-3-030-98785-5_15}, \cite{10.1007/978-3-030-98785-5_30}, \cite{10.1007/978-3-031-28486-1_2}, \cite{10.1007/978-3-031-28486-1_16}, \cite{10.1007/978-3-031-28486-1_25}, \cite{10.1007/978-3-031-56252-5_11}, \cite{10.1007/978-3-031-85960-1_2}, \cite{10.1007/978-3-031-85960-1_18} \\
+TUM IPv6 Hitlist  & \cite{gasser2016scanningipv6internetcomprehensive} & 19 & IPv6 Topology / Reachability & Active Scanning (Hitlist) & Active & \cite{10.1145/3730567.3764484}, \cite{10.1145/3646547.3688420}, \cite{10.1145/3646547.3688417}, \cite{10.1145/3646547.3688449}, \cite{10.1145/3646547.3689017}, \cite{10.1145/3517745.3561431}, \cite{10.1145/3517745.3561440}, \cite{10.1145/3487552.3487826}, \cite{10.1145/3487552.3487848}, \cite{10.1007/978-3-030-72582-2_32}, \cite{10.1007/978-3-030-98785-5_28}, \cite{10.1007/978-3-031-28486-1_2}, \cite{10.1007/978-3-031-56249-5_5}, \cite{10.1007/978-3-031-56252-5_13}, \cite{10.1007/978-3-031-85960-1_2}, \cite{10.1007/978-3-031-85960-1_3}, \cite{10.1145/3730567.3764502}, \cite{10.1007/978-3-031-56249-5_4}, \cite{10.1007/978-3-031-85960-1_16} \\
+ICANN Centralized Zone Data Service  & \cite{czds} & 18 & DNS Zone Data & Centralized Zone File Registry & Passive & \cite{10.1145/3730567.3764501}, \cite{10.1145/3646547.3689021}, \cite{10.1145/3646547.3689017}, \cite{10.1145/3618257.3624844}, \cite{10.1145/3618257.3624821}, \cite{10.1145/3618257.3624835}, \cite{10.1145/3618257.3624802}, \cite{10.1145/3618257.3624797}, \cite{10.1145/3517745.3561440}, \cite{10.1145/3487552.3487826}, \cite{10.1145/3487552.3487816}, \cite{10.1007/978-3-030-98785-5_2}, \cite{10.1007/978-3-030-98785-5_23}, \cite{10.1007/978-3-031-28486-1_22}, \cite{10.1007/978-3-031-56249-5_9}, \cite{10.1007/978-3-031-56249-5_10}, \cite{10.1007/978-3-031-56252-5_13}, \cite{10.1007/978-3-031-85960-1_5} \\
+Cisco Umbrella Top 1M Domains  & \cite{ciscoumbrellatop1m} & 17 & Web Popularity & Synthetic/Aggregated Ranking & Passive & \cite{10.1145/3730567.3764501}, \cite{10.1145/3646547.3688449}, \cite{10.1145/3646547.3688444}, \cite{10.1145/3618257.3624821}, \cite{10.1145/3618257.3624844}, \cite{10.1145/3517745.3561440}, \cite{10.1145/3517745.3561444}, \cite{10.1145/3487552.3487826}, \cite{10.1007/978-3-030-72582-2_17}, \cite{10.1007/978-3-030-72582-2_25}, \cite{10.1007/978-3-030-72582-2_31}, \cite{10.1007/978-3-030-98785-5_15}, \cite{10.1007/978-3-031-28486-1_21}, \cite{10.1007/978-3-031-56249-5_2}, \cite{10.1007/978-3-031-56249-5_12}, \cite{10.1007/978-3-031-85960-1_3}, \cite{10.1007/978-3-031-85960-1_5} \\
+Censys  & \cite{censys} & 16 & Internet-wide Security/Topology & Active Scanning Infrastructure & Active & \cite{10.1145/3730567.3764781}, \cite{10.1145/3646547.3688449}, \cite{10.1145/3618257.3624845}, \cite{10.1145/3618257.3624831}, \cite{10.1145/3618257.3624840}, \cite{10.1145/3517745.3561431}, \cite{10.1145/3517745.3561425}, \cite{10.1145/3517745.3561423}, \cite{10.1145/3487552.3487820}, \cite{10.1007/978-3-030-72582-2_4}, \cite{10.1007/978-3-030-72582-2_11}, \cite{10.1007/978-3-030-72582-2_25}, \cite{10.1007/978-3-030-98785-5_30}, \cite{10.1007/978-3-031-56249-5_5}, \cite{10.1007/978-3-031-56249-5_8}, \cite{10.1007/978-3-031-85960-1_3} \\
+CAIDA AS Rank  & \cite{caidaasrank} & 13 & Routing / Topology & Synthetic/Derived Dataset & Registry/Synthesis & \cite{10.1145/3730567.3764436}, \cite{10.1145/3646547.3688429}, \cite{10.1145/3618257.3624819}, \cite{10.1145/3517745.3561443}, \cite{10.1145/3517745.3561419}, \cite{10.1145/3487552.3487825}, \cite{10.1007/978-3-030-98785-5_10}, \cite{10.1007/978-3-030-98785-5_14}, \cite{10.1007/978-3-030-98785-5_20}, \cite{10.1007/978-3-030-98785-5_28}, \cite{10.1007/978-3-030-98785-5_29}, \cite{10.1007/978-3-031-28486-1_17}, \cite{10.1007/978-3-031-85960-1_14} \\
+CAIDA AS Relationships  & \cite{asrelationships} & 12 & Routing / Topology & Synthetic/Derived Dataset & Registry/Synthesis & \cite{10.1145/3646547.3689010}, \cite{10.1145/3618257.3624838}, \cite{10.1145/3618257.3624812}, \cite{10.1145/3517745.3561419}, \cite{10.1007/978-3-030-72582-2_14}, \cite{10.1007/978-3-030-98785-5_10}, \cite{10.1007/978-3-030-98785-5_14}, \cite{10.1007/978-3-030-98785-5_15}, \cite{10.1007/978-3-030-98785-5_20}, \cite{10.1007/978-3-030-98785-5_29}, \cite{10.1007/978-3-031-56252-5_4}, \cite{10.1007/978-3-031-85960-1_14} \\
+CAIDA Prefix-to-AS  & \cite{caidapfx2as} & 12 & Routing / Topology & Synthetic/Derived Dataset & Registry/Synthesis & \cite{10.1145/3618257.3624831}, \cite{10.1145/3517745.3561458}, \cite{10.1145/3517745.3561419}, \cite{10.1145/3517745.3561425}, \cite{10.1145/3487552.3487822}, \cite{10.1145/3487552.3487862}, \cite{10.1145/3487552.3487820}, \cite{10.1007/978-3-030-72582-2_32}, \cite{10.1007/978-3-030-98785-5_14}, \cite{10.1007/978-3-030-98785-5_15}, \cite{10.1007/978-3-030-98785-5_29}, \cite{10.1007/978-3-031-28486-1_10} \\
+Ookla  & \cite{ooklaspeedtest} & 12 & Performance / QoE & Active Client-based Testing & Active & \cite{10.1145/3730567.3732914}, \cite{10.1145/3730567.3764491}, \cite{10.1145/3646547.3689007}, \cite{10.1145/3646547.3688441}, \cite{10.1145/3517745.3561416}, \cite{10.1145/3517745.3561441}, \cite{10.1145/3487552.3487862}, \cite{10.1007/978-3-030-98785-5_4}, \cite{10.1007/978-3-030-98785-5_6}, \cite{10.1007/978-3-031-28486-1_1}, \cite{10.1007/978-3-031-28486-1_13}, \cite{10.1007/978-3-031-85960-1_20} \\
+OpenINTEL  & \cite{openintel} & 12 & DNS & DNS Measurement Platform & Active & \cite{10.1145/3730567.3764484}, \cite{10.1145/3730567.3764501}, \cite{10.1145/3730567.3732917}, \cite{10.1145/3646547.3688444}, \cite{10.1145/3517745.3561458}, \cite{10.1145/3517745.3561424}, \cite{10.1145/3517745.3561423}, \cite{10.1145/3487552.3487835}, \cite{10.1145/3487552.3487820}, \cite{10.1007/978-3-031-28486-1_23}, \cite{10.1007/978-3-031-56252-5_1}, \cite{10.1007/978-3-031-85960-1_16} \\
+IPInfo  & \cite{ipinfo} & 11 & IP Metadata / Geo & Synthetic Mapping Database & Hybrid & \cite{10.1145/3730567.3764491}, \cite{10.1145/3730567.3764449}, \cite{10.1145/3730567.3764427}, \cite{10.1145/3618257.3624831}, \cite{10.1145/3618257.3624809}, \cite{10.1145/3517745.3561457}, \cite{10.1145/3487552.3487853}, \cite{10.1007/978-3-030-98785-5_17}, \cite{10.1007/978-3-031-28486-1_25}, \cite{10.1007/978-3-031-56249-5_8}, \cite{10.1007/978-3-031-85960-1_15} \\
+Majestic Million  & \cite{majesticmillion} & 11 & Web Popularity (Domain Rankings) & Synthetic/Aggregated Ranking & Passive & \cite{10.1145/3730567.3764501}, \cite{10.1145/3646547.3688449}, \cite{10.1145/3618257.3624844}, \cite{10.1145/3618257.3624821}, \cite{10.1145/3517745.3561440}, \cite{10.1145/3517745.3561444}, \cite{10.1145/3487552.3487826}, \cite{10.1007/978-3-030-98785-5_22}, \cite{10.1007/978-3-031-56249-5_12}, \cite{10.1007/978-3-031-85960-1_3}, \cite{10.1007/978-3-031-85960-1_5} \\
+IRR  & \cite{irr} & 10 & Routing / Control Plane & Distributed Routing Registry & Registry/Synthesis & \cite{10.1145/3730567.3732924}, \cite{10.1145/3646547.3688414}, \cite{10.1145/3646547.3689018}, \cite{10.1145/3646547.3688444}, \cite{10.1145/3618257.3624838}, \cite{10.1145/3618257.3624819}, \cite{10.1145/3618257.3624812}, \cite{10.1145/3517745.3561419}, \cite{10.1145/3517745.3561454}, \cite{10.1007/978-3-030-98785-5_14} \\
+Mozilla Public Suffix List  & \cite{mozillapsl} & 10 & DNS & Managed Registry/List & Registry/Synthesis & \cite{10.1145/3730567.3764501}, \cite{10.1145/3618257.3624836}, \cite{10.1145/3618257.3624797}, \cite{10.1145/3517745.3561418}, \cite{10.1145/3517745.3561444}, \cite{10.1145/3487552.3487820}, \cite{10.1007/978-3-031-28486-1_21}, \cite{10.1007/978-3-031-28486-1_22}, \cite{10.1007/978-3-031-28486-1_26}, \cite{10.1007/978-3-031-56249-5_10} \\
+Rapid7 Project Sonar  & \cite{rapid7_sonar} & 10 & Network Security / Scanning & Intelligence/Scanning Platform & Active & \cite{10.1145/3517745.3561424}, \cite{10.1145/3487552.3487833}, \cite{10.1007/978-3-030-98785-5_3}, \cite{10.1007/978-3-031-28486-1_4}, \cite{10.1145/3646547.3688449}, \cite{10.1007/978-3-030-72582-2_17}, \cite{10.1007/978-3-031-85960-1_3}, \cite{10.1145/3517745.3561443}, \cite{10.1007/978-3-031-56252-5_4}, \cite{10.1007/978-3-031-28486-1_21} \\
+CRuX  & \cite{crux} & 9 & Performance / QoE & Synthetic/Aggregated Dataset & Passive & \cite{10.1145/3730567.3764439}, \cite{10.1145/3730567.3764489}, \cite{10.1145/3730567.3764505}, \cite{10.1145/3618257.3624836}, \cite{10.1145/3618257.3624821}, \cite{10.1145/3618257.3624846}, \cite{10.1145/3517745.3561444}, \cite{10.1007/978-3-030-72582-2_5}, \cite{10.1007/978-3-031-28486-1_25} \\
+RPKI Repositories  & \cite{riperpkiarchive} & 9 & Routing Security & Distributed PKI Registry & Registry/Synthesis & \cite{10.1145/3730567.3732917}, \cite{10.1145/3646547.3688444}, \cite{10.1145/3618257.3624819}, \cite{10.1145/3618257.3624817}, \cite{10.1145/3517745.3561419}, \cite{10.1145/3517745.3561454}, \cite{10.1007/978-3-030-98785-5_14}, \cite{10.1007/978-3-031-28486-1_18}, \cite{10.1007/978-3-031-56252-5_5} \\
+Google Certificate Transparency Logs  & \cite{googlectlogs} & 8 & Security (Certificate transparency) & Distributed Log Registry & Passive & \cite{10.1145/3646547.3689017}, \cite{10.1145/3618257.3624835}, \cite{10.1145/3618257.3624797}, \cite{10.1007/978-3-030-72582-2_10}, \cite{10.1145/3618257.3624802}, \cite{10.1007/978-3-031-28486-1_4}, \cite{10.1007/978-3-031-56249-5_9}, \cite{10.1007/978-3-031-56249-5_10} \\
+CAIDA Ark  & \cite{caidaark} & 7 & Topology & Probing Network & Active & \cite{10.1145/3730567.3764457}, \cite{10.1145/3646547.3688429}, \cite{10.1145/3517745.3561440}, \cite{10.1007/978-3-030-72582-2_14}, \cite{10.1007/978-3-030-98785-5_7}, \cite{10.1007/978-3-030-98785-5_20}, \cite{10.1007/978-3-031-28486-1_16} \\
+VirusTotal  & \cite{virustotal} & 7 & Security / Threat Intelligence & Intelligence Aggregation Platform & Passive & \cite{10.1145/3618257.3624812}, \cite{10.1145/3618257.3624800}, \cite{10.1145/3618257.3624839}, \cite{10.1145/3517745.3561463}, \cite{10.1145/3487552.3487833}, \cite{10.1007/978-3-030-72582-2_3}, \cite{10.1007/978-3-031-56249-5_6} \\
+CAIDA UCSD Anonymized Internet Traces  & \cite{caidaait} & 6 & Traffic / Flow & Observation Repository & Passive & \cite{10.1145/3730567.3764459}, \cite{10.1145/3730567.3764487}, \cite{10.1145/3646547.3689011}, \cite{10.1145/3646547.3689016}, \cite{10.1145/3487552.3487856}, \cite{10.1007/978-3-030-72582-2_32} \\
+Cloudflare Radar  & \cite{cloudflareradar} & 6 & Traffic / Web Popularity & Intelligence Aggregation Platform & Passive & \cite{10.1145/3730567.3764501}, \cite{10.1145/3646547.3688449}, \cite{10.1145/3646547.3688444}, \cite{10.1007/978-3-031-85960-1_3}, \cite{10.1007/978-3-031-85960-1_5}, \cite{10.1007/978-3-031-85960-1_13} \\
+EasyList  & \cite{easylist} & 6 & Security / Privacy & User-Maintained Filter Registry & Registry/Synthesis & \cite{10.1145/3730567.3764427}, \cite{10.1145/3618257.3624823}, \cite{10.1145/3517745.3561460}, \cite{10.1145/3487552.3487850}, \cite{10.1145/3487552.3487855}, \cite{10.1007/978-3-030-72582-2_7} \\
+GooglePlay  & \cite{googleplay} & 6 & App Metadata & Proprietary Application Registry & Registry/Synthesis & \cite{10.1145/3646547.3688405}, \cite{10.1145/3618257.3624830}, \cite{10.1145/3517745.3561439}, \cite{10.1145/3487552.3487837}, \cite{10.1145/3487552.3487863}, \cite{10.1007/978-3-031-56252-5_2} \\
+GoogleSearch  & \cite{googlesearch} & 6 & Web Content & Proprietary Indexing Infrastructure & Passive & \cite{10.1145/3730567.3764427}, \cite{10.1145/3646547.3688405}, \cite{10.1145/3517745.3561428}, \cite{10.1145/3487552.3487822}, \cite{10.1007/978-3-030-72582-2_3}, \cite{10.1007/978-3-031-85960-1_17} \\
+M-Lab NDT  & \cite{mlabndt} & 6 & Performance & Probing Network & Active & \cite{10.1145/3646547.3689007}, \cite{10.1145/3646547.3688441}, \cite{10.1145/3646547.3688411}, \cite{10.1145/3618257.3624828}, \cite{10.1145/3618257.3624831}, \cite{10.1145/3517745.3561449} \\
+CAIDA AS Classification  & \cite{caidaasclassification} & 5 & Routing / Topology & Synthetic/Derived Dataset & Registry/Synthesis & \cite{10.1145/3618257.3624811}, \cite{10.1007/978-3-030-72582-2_25}, \cite{10.1007/978-3-031-28486-1_4}, \cite{10.1007/978-3-031-28486-1_16}, \cite{10.1007/978-3-031-85960-1_18} \\
+CAIDA UCSD Network Telescope  & \cite{caidaucsdnt} & 5 & Security / Traffic & Observation Repository & Passive & \cite{10.1145/3646547.3688426}, \cite{10.1145/3646547.3688451}, \cite{10.1145/3517745.3561458}, \cite{10.1145/3487552.3487833}, \cite{10.1145/3487552.3487840} \\
+Farsight DNSDB SIE  & \cite{dnsdb} & 5 & DNS & Intelligence Feed & Passive & \cite{10.1145/3618257.3624805}, \cite{10.1007/978-3-030-98785-5_2}, \cite{10.1145/3517745.3561431}, \cite{10.1007/978-3-031-28486-1_10}, \cite{10.1007/978-3-031-28486-1_22} \\
+HTTP Archive  & \cite{httparchive} & 5 & Web Perf / Structure & Synthetic/Active Crawl Dataset & Active & \cite{10.1145/3618257.3624836}, \cite{10.1145/3487552.3487832}, \cite{10.1007/978-3-030-72582-2_5}, \cite{10.1007/978-3-030-72582-2_26}, \cite{10.1007/978-3-031-85960-1_8} \\
+IA Wayback Machine  & \cite{wayback-machine} & 5 & Web Content / Archiving & Passive Web Crawl Repository & Passive & \cite{10.1145/3730567.3764507}, \cite{10.1145/3618257.3624832}, \cite{10.1145/3517745.3561451}, \cite{10.1145/3487552.3487816}, \cite{10.1007/978-3-030-98785-5_19} \\
+NVD  & \cite{nvd-nist} & 5 & Security / Vulnerability & Vulnerability Database/Registry & Registry/Synthesis & \cite{10.1145/3618257.3624804}, \cite{10.1145/3618257.3624810}, \cite{10.1145/3487552.3487833}, \cite{10.1007/978-3-030-72582-2_5}, \cite{10.1007/978-3-030-98785-5_30} \\
+OpenPhish  & \cite{openphish} & 5 & Security (Phishing URLs) & Intelligence Aggregation/Feed & Passive & \cite{10.1145/3517745.3561467}, \cite{10.1007/978-3-031-28486-1_20}, \cite{10.1007/978-3-031-28486-1_24}, \cite{10.1007/978-3-031-28486-1_26}, \cite{10.1007/978-3-031-56249-5_9} \\
+Packey Clearing House  & \cite{pch-data} & 5 & Routing & Network Infrastructure & Passive & \cite{10.1145/3517745.3561443}, \cite{10.1145/3487552.3487865}, \cite{10.1007/978-3-030-98785-5_10}, \cite{10.1007/978-3-030-98785-5_16}, \cite{10.1007/978-3-031-56252-5_5} \\
+RADB  & \cite{radb} & 5 & Routing & Distributed Routing Registry & Registry/Synthesis & \cite{10.1145/3618257.3624812}, \cite{10.1145/3517745.3561454}, \cite{10.1007/978-3-030-72582-2_14}, \cite{10.1007/978-3-030-98785-5_10}, \cite{10.1007/978-3-030-98785-5_14} \\
+SimilarWeb  & \cite{similarweb} & 5 & Web Analytics / Traffic & Synthetic/Aggregated Ranking & Passive & \cite{10.1145/3646547.3688427}, \cite{10.1145/3517745.3561416}, \cite{10.1007/978-3-030-72582-2_33}, \cite{10.1007/978-3-030-98785-5_19}, \cite{10.1007/978-3-031-28486-1_1} \\
+Spamhaus Blacklist  & \cite{spamhaus_blocklist} & 5 & Security & Security/Reputation Feed & Passive & \cite{10.1145/3646547.3689010}, \cite{10.1145/3517745.3561454}, \cite{10.1145/3487552.3487838}, \cite{10.1007/978-3-030-98785-5_2}, \cite{10.1007/978-3-031-56249-5_9} \\
+Apple Trust Stores  & \cite{apple_trust_store} & 4 & Security (Certificates) & Trust/Certificate Registry & Registry/Synthesis & \cite{10.1145/3618257.3624815}, \cite{10.1145/3646547.3688415}, \cite{10.1007/978-3-030-72582-2_11}, \cite{10.1007/978-3-031-28486-1_4} \\
+CAIDA ITDK  & \cite{caida_itdk} & 4 & Topology & Network Measurement/Probing & Registry/Synthesis & \cite{10.1145/3618257.3624818}, \cite{10.1145/3517745.3561422}, \cite{10.1145/3487552.3487848}, \cite{10.1007/978-3-031-85960-1_4} \\
+Certificate Transparency logs  & \cite{ct_logs} & 4 & Security (Certificates) & Trust/Certificate Registry & Passive & \cite{10.1145/3517745.3561440}, \cite{10.1145/3517745.3561423}, \cite{10.1145/3517745.3561434}, \cite{10.1007/978-3-030-72582-2_17} \\
+CVE  & \cite{cve_mitre} & 4 & Security (Vulnerabilities) & Vulnerability/Alerting Database & Registry/Synthesis & \cite{10.1145/3618257.3624804}, \cite{10.1145/3618257.3624810}, \cite{10.1145/3487552.3487833}, \cite{10.1007/978-3-030-72582-2_5} \\
+GreyNoise  & \cite{greynoise_data} & 4 & Security (Internet Noise) & Intelligence/Scanning Platform & Passive & \cite{10.1145/3646547.3689012}, \cite{10.1145/3618257.3624818}, \cite{10.1145/3487552.3487833}, \cite{10.1145/3487552.3487840} \\
+MAnycast2  & \cite{10.1145/3419394.3423646} & 4 & Routing (Anycast) & Network Measurement/Probing & Active & \cite{10.1145/3517745.3561458}, \cite{10.1007/978-3-031-56252-5_1}, \cite{10.1007/978-3-031-56252-5_6}, \cite{10.1007/978-3-031-85960-1_16} \\
+MIDAR  & \cite{caida_midar} & 4 & Topology / Geolocation & Network Measurement/Probing & Active & \cite{10.1145/3487552.3487812}, \cite{10.1007/978-3-030-98785-5_20}, \cite{10.1007/978-3-031-85960-1_4}, \cite{10.1007/978-3-031-85960-1_6} \\
+Mozilla CA Certificate Program & \cite{mozilla-trust-stores} & 4 & Security/Threat intelligence & Trust/Certificate Registry & Registry/Synthesis & \cite{10.1145/3618257.3624815}, \cite{10.1007/978-3-030-72582-2_11}, \cite{10.1007/978-3-031-28486-1_4}, \cite{10.1145/3646547.3688415} \\
+NetAcuity  & \cite{netacuity} & 4 & Geolocation & Intelligence/Scanning Platform & Passive & \cite{10.1145/3517745.3561425}, \cite{10.1145/3487552.3487822}, \cite{10.1007/978-3-030-72582-2_4}, \cite{10.1007/978-3-030-98785-5_29} \\
+ASdb  & \cite{10.1145/3487552.3487853} & 3 & Routing / AS Relationships & IP/ASN/Routing Registry & Registry/Synthesis & \cite{10.1145/3730567.3764481}, \cite{10.1145/3730567.3732917}, \cite{10.1145/3618257.3624811} \\
+bdrmapIT  & \cite{10.1145/3278532.3278538} & 3 & Topology & Network Measurement/Probing & Active & \cite{10.1007/978-3-030-72582-2_14}, \cite{10.1007/978-3-030-98785-5_20}, \cite{10.1007/978-3-030-98785-5_29} \\
+BGP.Tools  & \cite{bgptools} & 3 & Routing (BGP) & Intelligence/Scanning Platform & Passive & \cite{10.1145/3646547.3688444}, \cite{10.1007/978-3-031-28486-1_15}, \cite{10.1007/978-3-031-28486-1_21} \\
+CAIDA UCSD IPv6 DNS Names Dataset & \cite{caida-dns-names} & 3 & DNS / Infrastructure & Network Measurement/Probing & Registry/Synthesis & \cite{10.1145/3646547.3688449}, \cite{10.1007/978-3-031-85960-1_2}, \cite{10.1007/978-3-031-85960-1_3} \\
+CAIDA UCSD IPv6 Routed /48 Topology Dataset  & \cite{caida-ipv6-routed-48} & 3 & Network Topology & Passive Observation/Data Repository & Passive & \cite{10.1145/3487552.3487829}, \cite{10.1007/978-3-031-56252-5_10}, \cite{10.1145/3646547.3688449} \\
+Common Crawl  & \cite{commoncrawl} & 3 & Web Content & Web Crawl/Archive & Passive & \cite{10.1145/3730567.3732913}, \cite{10.1145/3517745.3561437}, \cite{10.1007/978-3-031-85960-1_9} \\
+EasyPrivacy  & \cite{easyprivacy} & 3 & Web Filtering & Filtering/Blocking List & Passive & \cite{10.1145/3730567.3764427}, \cite{10.1145/3618257.3624823}, \cite{10.1145/3487552.3487855} \\
+EuroIX  & \cite{euroix} & 3 & Infrastructure/Address space & Network Service/Infrastructure & Registry/Synthesis & \cite{10.1145/3517745.3561443}, \cite{10.1007/978-3-030-98785-5_10}, \cite{10.1007/978-3-030-98785-5_16} \\
+Google Public DNS  & \cite{google-public-dns} & 3 & DNS & Network Service/Infrastructure & Passive & \cite{10.1145/3487552.3487844}, \cite{10.1007/978-3-031-28486-1_24}, \cite{10.1007/978-3-031-85960-1_3} \\
+IANA Allocations  & \cite{iana-allocation} & 3 & Infrastructure/Address space & IP/ASN/Routing Registry & Registry/Synthesis & \cite{10.1145/3730567.3764452}, \cite{10.1145/3517745.3561446}, \cite{10.1145/3487552.3487825} \\
+Internet Archive  & \cite{internet-archive} & 3 & Web Content / Archiving & Web Crawl/Archive & Passive & \cite{10.1145/3646547.3689010}, \cite{10.1145/3517745.3561437}, \cite{10.1007/978-3-031-28486-1_8} \\
+IP2location  & \cite{ip2location} & 3 & Infrastructure/Address space & Intelligence/Scanning Platform & Registry/Synthesis & \cite{10.1145/3517745.3561423}, \cite{10.1007/978-3-030-98785-5_6}, \cite{10.1007/978-3-031-56252-5_1} \\
+ISI Internet Addresses IPv4 Response History Dataset  & \cite{isi-ipv4-response} & 3 & Infrastructure/Address space & Network Measurement/Probing & Passive & \cite{10.1145/3730567.3764781}, \cite{10.1145/3618257.3624831}, \cite{10.1007/978-3-031-56249-5_8} \\
+ISI IPv4 Hitlist  & \cite{isi-ipv4-hitlist} & 3 & Infrastructure/Address space & Network Measurement/Probing & Active & \cite{10.1145/3730567.3764484}, \cite{10.1145/3517745.3561421}, \cite{10.1007/978-3-031-85960-1_16} \\
+M-Lab Speed Test  & \cite{mlab-speedtest} & 3 & Performance/Quality of Experience & Network Measurement/Probing & Active & \cite{10.1145/3517745.3561422}, \cite{10.1145/3517745.3561441}, \cite{10.1145/3487552.3487862} \\
+MAWI Working Group Traffic Archive  & \cite{mawi-archive} & 3 & Traffic/Flow & Network Measurement/Probing & Passive & \cite{10.1007/978-3-030-72582-2_32}, \cite{10.1007/978-3-030-98785-5_9}, \cite{10.1007/978-3-031-56252-5_12} \\
+Microsoft Trust Stores  & \cite{microsoft-trust-stores} & 3 & Security/Threat intelligence & Trust/Certificate Registry & Registry/Synthesis & \cite{10.1145/3618257.3624815}, \cite{10.1007/978-3-030-72582-2_11}, \cite{10.1007/978-3-031-28486-1_4} \\
+ORION NT  & \cite{orion-nt} & 3 & Security/Threat intelligence & Network Measurement/Probing & Passive & \cite{10.1145/3646547.3689012}, \cite{10.1145/3646547.3688451}, \cite{10.1145/3618257.3624818} \\
+RIPE FTP  & \cite{ripeftp} & 3 & Infrastructure/Address space & IP/ASN/Routing Registry & Passive & \cite{10.1145/3730567.3764452}, \cite{10.1145/3618257.3624815},  \\
+RIR Delegation Files  & \cite{rir-delegation-files} & 3 & Infrastructure/Address space & IP/ASN/Routing Registry & Registry/Synthesis & \cite{10.1145/3730567.3764449}, \cite{10.1145/3487552.3487825}, \cite{10.1007/978-3-030-98785-5_29} \\
+RPKiviews  & \cite{rpki-views} & 3 & Routing/Control Plane & IP/ASN/Routing Registry & Passive & \cite{10.1145/3730567.3764485}, \cite{10.1145/3730567.3764452}, \cite{10.1007/978-3-031-28486-1_18} \\
+SIE Europe  & \cite{sie-europe} & 3 & DNS & Intelligence Platform & Passive & \cite{10.1145/3646547.3689017}, \cite{10.1007/978-3-031-56249-5_9}, \cite{10.1007/978-3-031-56249-5_10} \\
+SURBL Blacklist  & \cite{surbl} & 3 & Security/Threat intelligence & Security/Reputation Feed & Passive & \cite{10.1145/3487552.3487857}, \cite{10.1007/978-3-030-98785-5_2}, \cite{10.1007/978-3-031-56249-5_9} \\
+Team Cymru IP-to-ASN mapping tool  & \cite{team-cymru-ip-asn} & 3 & Infrastructure/Address space & IP/ASN/Routing Registry & Registry/Synthesis & \cite{10.1145/3487552.3487854}, \cite{10.1007/978-3-031-28486-1_10}, \cite{10.1007/978-3-031-85960-1_18} \\
+Twitter  & \cite{twitter-x} & 3 & Web Popularity & Information Platform & Passive & \cite{10.1145/3618257.3624820}, \cite{10.1145/3618257.3624812}, \cite{10.1007/978-3-031-28486-1_8} \\
+Wikipedia  & \cite{wikipedia} & 3 & Web Content / Archiving & Information Platform & Passive & \cite{10.1145/3487552.3487825}, \cite{10.1145/3487552.3487822}, \cite{10.1007/978-3-030-98785-5_10} \\
+ZDNS  & \cite{zdns} & 3 & DNS & Intelligence/Scanning Platform & Active & \cite{10.1145/3646547.3688449}, \cite{10.1007/978-3-031-56249-5_5}, \cite{10.1007/978-3-031-85960-1_3} \\
+Abuse.ch URLHaus  & \cite{abusech-urlhaus} & 2 & Security & Security/Reputation Feed & Passive & \cite{10.1145/3487552.3487857}, \cite{10.1007/978-3-031-56249-5_9} \\
+AmiGo Framework  & \cite{amigo-framework} & 2 & Security & Network Measurement/Probing & Passive & \cite{10.1145/3730567.3764491}, \cite{10.1145/3517745.3561442} \\
+Anti Phishing Working Group URL Blacklist  & \cite{apwg-blacklist} & 2 & Security & Intelligence Feed/Aggregated Service & Passive & \cite{10.1007/978-3-031-28486-1_24}, \cite{10.1007/978-3-031-56249-5_9} \\
+BGPKit  & \cite{bgpkit} & 2 & Routing & Passive Observation/Data Repository & Passive & \cite{10.1145/3646547.3688444}, \cite{10.1007/978-3-031-85960-1_13} \\
+BrightData  & \cite{brightdata} & 2 & Security & Active Probing/Scanning & Active & \cite{10.1145/3487552.3487849}, \cite{10.1007/978-3-031-85960-1_15} \\
+BrowserTime  & \cite{browsertime} & 2 & Performance/Quality of Experience & Active Probing/Scanning & Active & \cite{10.1145/3517745.3561416}, \cite{10.1007/978-3-031-28486-1_1} \\
+CAIDA CC dataset  & \cite{caida-cc-dataset} & 2 & Network Topology & Passive Observation/Data Repository & Passive & \cite{10.1145/3618257.3624812}, \cite{10.1145/3487552.3487825} \\
+CAIDA DNS-OARC DITL  & \cite{caida-ditl} & 2 & DNS & Passive Observation/Data Repository & Passive & \cite{10.1007/978-3-030-72582-2_32}, \cite{10.1007/978-3-031-28486-1_21} \\
+CAIDA IXP dataset  & \cite{caida-ixp-dataset} & 2 & Infrastructure/Address space & Passive Observation/Data Repository & Registry/Synthesis & \cite{10.1145/3487552.3487854}, \cite{10.1007/978-3-030-98785-5_29} \\
+CAIDA-DZDB  & \cite{caida-dzdb} & 2 & Security & Passive Observation/Data Repository & Registry/Synthesis & \cite{10.1145/3517745.3561425}, \cite{10.1145/3487552.3487816} \\
+CCADB  & \cite{ccadb} & 2 & Security & Registry/Directory & Registry/Synthesis & \cite{10.1145/3646547.3688415}, \cite{10.1145/3618257.3624815} \\
+Censored Planet  & \cite{10.1145/3372297.3417883} & 2 & Censorship / Security & Network Measurement/Probing & Active & \cite{10.1007/978-3-030-98785-5_23}, \cite{10.1007/978-3-030-98785-5_28} \\
+Chrome telemetry data  & \cite{chrome-telemetry} & 2 & Performance/Quality of Experience & Passive Observation/Data Repository & Passive & \cite{10.1145/3517745.3561418}, \cite{10.1145/3517745.3561444} \\
+Citizen Lab Project  & \cite{citizen-lab} & 2 & Security/Threat intelligence & Passive Observation/Data Repository & Active & \cite{10.1145/3618257.3624817}, \cite{10.1145/3487552.3487836} \\
+Cloud Vision API  & \cite{google_cloud_vision} & 2 & Web Popularity & Intelligence Feed/Aggregated Service & Active & \cite{10.1145/3517745.3561460}, \cite{10.1145/3487552.3487850} \\
+Comcast Xfinity  & \cite{comcast-xfinity} & 2 & Traffic/Flow & Passive Observation/Data Repository & Passive & \cite{10.1145/3487552.3487862}, \cite{10.1007/978-3-030-98785-5_4} \\
+CrowdTangle (Discontinued)  & \cite{crowdtangle_api} & 2 & Web Popularity & Intelligence Feed/Aggregated Service & Passive & \cite{10.1145/3487552.3487859}, \cite{10.1007/978-3-031-28486-1_8} \\
+Crunchbase  & \cite{crunchbase} & 2 & Web Popularity & Registry/Directory & Registry/Synthesis & \cite{10.1145/3618257.3624803}, \cite{10.1145/3487552.3487853} \\
+DNS-OARC: Home  & \cite{dns_oarc} & 2 & DNS & Registry/Directory/Intelligence Feed & Passive & \cite{10.1145/3730567.3764428}, \cite{10.1007/978-3-030-72582-2_23} \\
+Etherscan: Ethereum Block Explorer  & \cite{etherscan} & 2 & Infrastructure/Address space & Registry/Directory & Passive & \cite{10.1145/3730567.3764476}, \cite{10.1145/3517745.3561469} \\
+FABRIC Mflib  & \cite{fabric_mflib} & 2 & Network Topology & Active Probing/Scanning & Active & \cite{10.1145/3730567.3764462}, \cite{10.1007/978-3-031-85960-1_10} \\
+FAST.com: Internet Speed Test  & \cite{fast_com} & 2 & Performance/Quality of Experience & Active Probing/Scanning & Active & \cite{10.1145/3730567.3764473}, \cite{10.1007/978-3-030-98785-5_4} \\
+FireHOL DROP List  & \cite{firehol_drop} & 2 & Security/Threat intelligence & Intelligence Feed/Aggregated Service & Registry/Synthesis & \cite{10.1145/3517745.3561454}, \cite{10.1007/978-3-030-72582-2_4} \\
+Freedom on the Net Report  & \cite{freedom_house_fotn} & 2 & Security/Threat intelligence & Synthetic/Derived Dataset & Registry/Synthesis & \cite{10.1145/3487552.3487822}, \cite{10.1007/978-3-030-98785-5_23} \\
+GitHub  & \cite{github} & 2 & Web Popularity & Registry/Directory & Registry/Synthesis & \cite{10.1007/978-3-030-72582-2_5}, \cite{10.1007/978-3-030-98785-5_30} \\
+Google Trends  & \cite{google_trends} & 2 & Web Popularity & Intelligence Feed/Aggregated Service & Passive & \cite{10.1145/3618257.3624823}, \cite{10.1145/3517745.3561428} \\
+H3: Uber’s Hexagonal Hierarchical Spatial Index  & \cite{h3_grid} & 2 & Infrastructure/Address space & Synthetic/Derived Dataset & Registry/Synthesis & \cite{10.1145/3646547.3688441}, \cite{10.1007/978-3-031-85960-1_20} \\
+IEEE OUI & \cite{ieee-oui-db} & 2 & Infrastructure/Address space & Registry/Directory & Registry/Synthesis & \cite{10.1145/3487552.3487829}, \cite{10.1007/978-3-031-56249-5_5} \\
+Internet Atlas  & \cite{internet_atlas} & 2 & Network Topology & Synthetic/Derived Dataset & Registry/Synthesis & \cite{10.1145/3517745.3561443}, \cite{10.1007/978-3-030-72582-2_15} \\
+Internet Exchange Report  & \cite{he_ix_report} & 2 & Infrastructure/Address space & Registry/Directory & Registry/Synthesis & \cite{10.1145/3517745.3561443}, \cite{10.1007/978-3-030-98785-5_16} \\
+Internet Health Report  & \cite{internet_health_report} & 2 & Performance/Quality of Experience & Synthetic/Aggregated Ranking & Passive & \cite{10.1145/3517745.3561419}, \cite{10.1007/978-3-031-56252-5_10} \\
+Isolario  & \cite{isolario_project} & 2 & Routing/Control Plane & Passive BGP Collection & Passive & \cite{10.1145/3487552.3487865}, \cite{10.1007/978-3-030-98785-5_10} \\
+justdomains Blocklist  & \cite{justdomains_blocklist} & 2 & Security/Threat intelligence &  & Passive & \cite{10.1007/978-3-031-28486-1_26}, \cite{10.1007/978-3-031-85960-1_8} \\
+List of Top-Level Domains  & \cite{icann_tlds} & 2 & DNS & Registry/Directory & Registry/Synthesis & \cite{10.1007/978-3-031-28486-1_22}, \cite{10.1007/978-3-031-56249-5_9} \\
+M-Lab traceroute  & \cite{mlab_traceroute} & 2 & Network Topology & Active Probing/Scanning & Active & \cite{10.1145/3618257.3624809}, \cite{10.1145/3517745.3561449} \\
+MANRS Participant List & \cite{manrs} & 2 & Infrastructure/Address space & Initiative / Registry & Registry/Synthesis & \cite{10.1007/978-3-030-98785-5_14}, \cite{10.1145/3517745.3561419} \\
+Mastodon Instances List  & \cite{instances_social} & 2 & Web Popularity & Registry/Directory & Passive & \cite{10.1145/3646547.3689027}, \cite{10.1145/3618257.3624820} \\
+Measuring Broadband America (MBA)  & \cite{measuring_broadband_america} & 2 & Performance/Quality of Experience & Active Probing/Scanning & Active & \cite{10.1145/3517745.3561441}, \cite{10.1007/978-3-030-72582-2_2} \\
+Media Bias/Fact Check  & \cite{media_bias_fact_check} & 2 & Web Popularity & Synthetic/Derived Dataset & Registry/Synthesis & \cite{10.1145/3487552.3487850}, \cite{10.1145/3487552.3487859} \\
+National Broadband Map  & \cite{national_broadband_map} & 2 & Infrastructure/Address space & Synthetic/Derived Dataset & Registry/Synthesis & \cite{10.1145/3646547.3688441}, \cite{10.1007/978-3-031-85960-1_20} \\
+NLNOG Looking Glass & \cite{nlnoglg} & 2 & Routing/Control Plane & Active Probing/Diagnostics & Active & \cite{10.1145/3618257.3624838}, \cite{10.1145/3646547.3689008} \\
+NRO Extended Delegation File  & \cite{nro_delegation_file} & 2 & Infrastructure/Address space & Registry/Directory & Registry/Synthesis & \cite{10.1007/978-3-031-56249-5_8}, \cite{10.1007/978-3-031-56252-5_11} \\
+OFAC Sanctions List & \cite{ofac} & 2 & Security/Threat intelligence & Registry/Directory & Registry/Synthesis & \cite{10.1145/3618257.3624824}, \cite{10.1145/3517745.3561423} \\
+One Step  & \cite{one_step_measurement} & 2 & Performance/Quality of Experience & Unclear/Ambiguous & Active & \cite{10.1145/3618257.3624838}, \cite{10.1007/978-3-030-98785-5_10} \\
+Orbis  & \cite{orbis_database} & 2 & Web Popularity & Registry/Directory & Registry/Synthesis & \cite{10.1145/3487552.3487822}, \cite{10.1007/978-3-030-98785-5_30} \\
+PhishTank  & \cite{phishtank} & 2 & Security/Threat intelligence & Intelligence Feed/Aggregated Service & Passive & \cite{10.1145/3487552.3487857}, \cite{10.1007/978-3-031-28486-1_24} \\
+PyASN  & \cite{pyasn} & 2 & Infrastructure/Address space & Synthetic/Derived Dataset & Registry/Synthesis & \cite{10.1145/3487552.3487854}, \cite{10.1007/978-3-031-85960-1_9} \\
+RDAP  & \cite{rdap_ietf} & 2 & Infrastructure/Address space & Registry/Directory & Registry/Synthesis & \cite{10.1007/978-3-031-56249-5_9}, \cite{10.1007/978-3-031-56249-5_10} \\
+RIR Stats  & \cite{rir_stats} & 2 & Infrastructure/Address space & Registry/Directory & Registry/Synthesis & \cite{10.1145/3517745.3561454},  \\
+routeservers.org & \cite{routeservers} & 2 & Routing/Control Plane & Registry/Directory & Registry/Synthesis & \cite{10.1145/3618257.3624812}, \cite{10.1007/978-3-031-85960-1_15} \\
+SecRank & \cite{secrank} & 2 & Security/Threat intelligence & Synthetic/Aggregated Ranking & Registry/Synthesis & \cite{10.1145/3646547.3688449}, \cite{10.1145/3517745.3561444} \\
+Shodan  & \cite{shodan} & 2 & Security/Threat intelligence & Intelligence/Scanning Platform & Active & \cite{10.1145/3487552.3487833}, \cite{10.1145/3487552.3487835} \\
+Speedchecker & \cite{speedchecker} & 2 & Performance/Quality of Experience & Active Probing/Scanning & Active & \cite{10.1145/3487552.3487854}, \cite{10.1145/3487552.3487862} \\
+Statista & \cite{statista} & 2 & Web Popularity & Synthetic/Derived Dataset & Registry/Synthesis & \cite{10.1007/978-3-031-28486-1_3}, \cite{10.1007/978-3-031-28486-1_8} \\
+Telegeography & \cite{telegeography} & 2 & Infrastructure/Address space & Synthetic/Derived Dataset & Registry/Synthesis & \cite{10.1145/3517745.3561443}, \cite{10.1007/978-3-030-98785-5_29} \\
+Trinocular & \cite{trinocular} & 2 & Infrastructure/Address space & Active Probing/Scanning & Active & \cite{10.1145/3618257.3624796}, \cite{10.1007/978-3-031-56252-5_7} \\
+Vultr & \cite{vultr} & 2 & Infrastructure/Address space & Active/Passive Data Provider & Registry/Synthesis & \cite{10.1145/3730567.3764495}, \cite{10.1007/978-3-031-85960-1_16} \\
+.nl Authoritative Servers & \cite{nl_authoritative_servers} & 1 & DNS & Registry/Directory & Passive & \cite{10.1007/978-3-030-72582-2_27} \\
+1Host Filter List & \cite{1host_filter} & 1 & Security/Threat intelligence & Intelligence Feed/Aggregated Service & Passive & \cite{10.1007/978-3-030-98785-5_19} \\
+360 Security & \cite{360_security} & 1 & Security/Threat intelligence & Intelligence Feed/Aggregated Service & Passive & \cite{10.1145/3618257.3624839} \\
+Abuse.ch Feodo Tracker & \cite{abusech_feodo} & 1 & Security/Threat intelligence & Intelligence Feed/Aggregated Service & Passive & \cite{10.1007/978-3-031-28486-1_6} \\
+Abuse.ch SSL BlackList & \cite{abusech_sslbl} & 1 & Security/Threat intelligence & Intelligence Feed/Aggregated Service & Passive & \cite{10.1007/978-3-031-28486-1_6} \\
+Ad Fontes media & \cite{ad_fontes} & 1 & Web Popularity & Synthetic/Derived Dataset & Registry/Synthesis & \cite{10.1007/978-3-031-28486-1_8} \\
+Afnic & \cite{afnic} & 1 & Infrastructure/Address space & Registry/Directory & Registry/Synthesis & \cite{10.1007/978-3-031-85960-1_5} \\
+AfriNIC FTP & \cite{afrinic_ftp} & 1 & Infrastructure/Address space & Registry/Directory & Registry/Synthesis & \cite{10.1145/3487552.3487838} \\
+Akamai Prolexic (DP) & \cite{akamai_prolexic} & 1 & Security/Threat intelligence & Intelligence Feed/Aggregated Service & Passive & \cite{10.1145/3646547.3688451} \\
+Akamai Prolexic (RA) & \cite{akamai_prolexic} & 1 & Security/Threat intelligence & Intelligence Feed/Aggregated Service & Passive & \cite{10.1145/3646547.3688451} \\
+Alice LG & \cite{alice_lg} & 1 & Routing/Control Plane & Active Probing/Scanning & Active & \cite{10.1007/978-3-031-56252-5_10} \\
+AllSides & \cite{allsides} & 1 & Web Popularity & Synthetic/Derived Dataset & Registry/Synthesis & \cite{10.1145/3487552.3487850} \\
+American Community Survey & \cite{american_community_survey} & 1 & Infrastructure/Address space & Synthetic/Derived Dataset & Registry/Synthesis & \cite{10.1145/3517745.3561460} \\
+AmpPot & \cite{amppot} & 1 & Security/Threat intelligence & Passive Observation/Data Repository & Passive & \cite{10.1145/3646547.3688451} \\
+Android Trust Store & \cite{android_trust_store} & 1 & Security/Threat intelligence & Registry/Directory & Registry/Synthesis & \cite{10.1007/978-3-031-28486-1_4} \\
+Androzoo & \cite{androzoo} & 1 & Security/Threat intelligence & Passive Observation/Data Repository & Passive & \cite{10.1145/3646547.3688405} \\
+AnonCDN Dataset & \cite{anoncdn_dataset} & 1 & Infrastructure/Address space & Passive Observation/Data Repository & Passive & \cite{10.1145/3646547.3688411} \\
+ANT Lab IP Address Space Hits & \cite{ant_lab_hits} & 1 & Infrastructure/Address space & Passive Observation/Data Repository & Passive & \cite{10.1007/978-3-030-98785-5_9} \\
+Anycast Census & \cite{anycast_census} & 1 & Network Topology & Active Probing/Scanning & Active & \cite{10.1007/978-3-031-56252-5_1} \\
+APNIC ASN dataset & \cite{apnic_asn} & 1 & Infrastructure/Address space & Registry/Directory & Registry/Synthesis & \cite{10.1145/3487552.3487854} \\
+APNIC Customers per AS & \cite{apnic_customers} & 1 & Infrastructure/Address space & Synthetic/Derived Dataset & Registry/Synthesis & \cite{10.1145/3646547.3688411} \\
+APNIC eyeballs dataset & \cite{apnic_eyeballs} & 1 & Network Topology & Synthetic/Derived Dataset & Passive & \cite{10.1145/3487552.3487822} \\
+APNIC FTP & \cite{apnic_ftp} & 1 & Infrastructure/Address space & Registry/Directory & Registry/Synthesis & \cite{10.1145/3487552.3487838} \\
+APNIC Historical Resources & \cite{apnic_erx} & 1 & Infrastructure/Address space & Registry/Directory & Registry/Synthesis & \cite{10.1145/3487552.3487838} \\
+Apple Safari CT logs & \cite{apple_safari_ct} & 1 & Security/Threat intelligence & Passive Observation/Data Repository & Passive & \cite{10.1145/3618257.3624802} \\
+Apple Store & \cite{apple_store} & 1 & Web Popularity & Registry/Directory & Registry/Synthesis & \cite{10.1007/978-3-031-56252-5_2} \\
+Appview getFeed & \cite{appview_getfeed} & 1 & Web Popularity & Intelligence Feed/Aggregated Service & Passive & \cite{10.1145/3646547.3688407} \\
+ARIN FTP & \cite{arin_ftp} & 1 & Infrastructure/Address space & Registry/Directory & Registry/Synthesis & \cite{10.1145/3487552.3487838} \\
+ARIN Historical Resources & \cite{arin_erx} & 1 & Infrastructure/Address space & Registry/Directory & Registry/Synthesis & \cite{10.1145/3487552.3487838} \\
+ARIN Resource Registry Service & \cite{arin_rrs} & 1 & Infrastructure/Address space & Registry/Directory & Registry/Synthesis & \cite{10.1145/3730567.3764452} \\
+AS Hegemony & \cite{as_hegemony} & 1 & Routing/Control Plane & Active Probing/Scanning & Passive & \cite{10.1007/978-3-031-56252-5_10} \\
+AXFR protocol & \cite{axfr_protocol} & 1 & DNS/Domain data & Active Probing/Scanning & Active & \cite{10.1145/3730567.3764501} \\
+Azure DNS & \cite{azure_dns} & 1 & DNS/Domain data & Infrastructure/Service & Passive & \cite{10.1007/978-3-030-72582-2_14} \\
+Berkman research center lists & \cite{berkman_lists} & 1 & Web Popularity & Synthetic/Derived Dataset & Registry/Synthesis & \cite{10.1145/3618257.3624817} \\
+Best National University Rankings & \cite{us_news_rankings} & 1 & Web Popularity & Synthetic/Derived Dataset & Registry/Synthesis & \cite{10.1007/978-3-030-72582-2_4} \\
+BGP community dictionary & \cite{bgp_community_dict} & 1 & Routing/Control Plane & Registry/Directory & Registry/Synthesis & \cite{10.1145/3730567.3732924} \\
+BGPie & \cite{bgpie} & 1 & Routing/Control Plane & Intelligence Feed/Aggregated Service & Passive & \cite{10.1007/978-3-030-72582-2_13} \\
+BGPmon & \cite{bgpmon} & 1 & Routing/Control Plane & Intelligence Feed/Aggregated Service & Passive & \cite{10.1145/3487552.3487838} \\
+BGPStream & \cite{bgpstream} & 1 & Routing/Control Plane & Intelligence Feed/Aggregated Service & Passive & \cite{10.1007/978-3-030-98785-5_20} \\
+Bitcoin Abuse Database & \cite{bitcoin_abuse} & 1 & Security/Threat intelligence & Passive Observation/Data Repository & Passive & \cite{10.1007/978-3-031-56252-5_3} \\
+Bluesky Relay & \cite{bluesky_relay} & 1 & Web Popularity & Infrastructure/Service & Passive & \cite{10.1145/3646547.3688407} \\
+CAIDA BGPView & \cite{caida-bgpview} & 1 & Routing/Control Plane & Intelligence Feed/Aggregated Service & Passive & \cite{10.1145/3618257.3624819} \\
+CAIDA pyipmeta & \cite{caida-pyipmeta} & 1 & Network Topology & Intelligence Feed/Aggregated Service & Active & \cite{10.1007/978-3-031-56249-5_8} \\
+CAIDA Router Names dataset & \cite{caida-router-names} & 1 & Network Topology & Passive Observation/Data Repository & Registry/Synthesis & \cite{10.1145/3487552.3487848} \\
+CAIDA RSDoS & \cite{caida-rsdos} & 1 & Security/Threat intelligence & Passive Observation/Data Repository & Active & \cite{10.1145/3517745.3561458} \\
+CAIDA Scamper & \cite{caida-scamper} & 1 & Network Topology & Active Probing/Scanning & Active & \cite{10.1007/978-3-031-85960-1_3} \\
+Cambridge CybercrimeCenter (CCC) honeypots & \cite{ccc-honeypots} & 1 & Security/Threat intelligence & Intelligence Feed/Aggregated Service & Passive & \cite{10.1145/3487552.3487835} \\
+CelesTrak NORAD & \cite{celestrak-norad} & 1 & Infrastructure/Address space & Passive Observation/Data Repository & Passive & \cite{10.1145/3646547.3689024} \\
+Census & \cite{census} & 1 & Infrastructure/Address space & Synthetic/Derived Dataset & Registry/Synthesis & \cite{10.1145/3646547.3688452} \\
+Certstream & \cite{certstream} & 1 & Security/Threat intelligence & Intelligence Feed/Aggregated Service & Passive & \cite{10.1145/3646547.3689021} \\
+Chainabuse & \cite{chainabuse} & 1 & Security/Threat intelligence & Intelligence Feed/Aggregated Service & Passive & \cite{10.1145/3730567.3764476} \\
+Chainalysis & \cite{chainalysis} & 1 & Security/Threat intelligence & Intelligence Feed/Aggregated Service & Passive & \cite{10.1145/3646547.3689005} \\
+CIA World Factbook & \cite{cia-world-factbook} & 1 & Infrastructure/Address space & Synthetic/Derived Dataset & Registry/Synthesis & \cite{10.1007/978-3-031-56252-5_11} \\
+CIDDS & \cite{cidds-dataset} & 1 & Traffic/Flow & Passive Observation/Data Repository & Passive & \cite{10.1145/3646547.3689011} \\
+Cisco AnyConnect VPN NVM & \cite{cisco-nvm} & 1 & Traffic/Flow & Infrastructure/Service & Passive & \cite{10.1007/978-3-030-72582-2_31} \\
+Cisco Crosswork Cloud & \cite{cisco-crosswork} & 1 & Infrastructure/Address space & Infrastructure/Service & Passive & \cite{10.1007/978-3-031-85960-1_14} \\
+Cisco Umbrella Investigate Risk Score & \cite{cisco-umbrella} & 1 & Security/Threat intelligence & Intelligence Feed/Aggregated Service & Passive & \cite{10.1007/978-3-030-72582-2_31} \\
+Citizen Lab Global Censorship List & \cite{citizen-lab} & 1 & Security/Threat intelligence & Synthetic/Derived Dataset & Passive & \cite{10.1007/978-3-031-56249-5_5} \\
+Clearbit & \cite{clearbit} & 1 & Infrastructure/Address space & Intelligence Feed/Aggregated Service & Registry/Synthesis & \cite{10.1145/3487552.3487853} \\
+CLIFF & \cite{cliff} & 1 & Infrastructure/Address space & Synthetic/Derived Dataset & Registry/Synthesis & \cite{10.1145/3618257.3624816} \\
+Cloudflare Domain Intelligence API & \cite{cloudflare-domain-intelligence} & 1 & DNS/Domain data & Intelligence Feed/Aggregated Service & Passive & \cite{10.1145/3517745.3561418} \\
+CloudFlare request data & \cite{cloudflare-request-data} & 1 & Traffic/Flow & Passive traffic telemetry / edge-service logs & Passive & \cite{10.1145/3517745.3561444} \\
+CloudFlare Speedtest & \cite{cloudflare-speedtest} & 1 & Performance/Quality of Experience & Active end-user measurement service & Active & \cite{10.1007/978-3-030-98785-5_4} \\
+CloudLab & \cite{cloudlab} & 1 & Network Topology & Multi-site experimental testbed & Active & \cite{10.1007/978-3-031-85960-1_15} \\
+CommsUpdate & \cite{commsupdate} & 1 & Infrastructure/Address space & Curated industry-news publication & Registry/Synthesis & \cite{10.1145/3487552.3487822} \\
+Cowrie & \cite{cowrie} & 1 & Security/Threat intelligence & Deployable SSH/Telnet honeypot & Passive & \cite{10.1145/3618257.3624826} \\
+crt.sh Certificate Search & \cite{crtsh} & 1 & DNS/Domain data & Certificate-transparency search/index service & Passive & \cite{10.1145/3517745.3561425} \\
+CSTR-VCTK dataset & \cite{cstr-vctk} & 1 & Note: Speech dataset; not network measurement & Recorded speech corpus & N/A & \cite{10.1145/3730567.3764444} \\
+Curlie & \cite{curlie} & 1 & Web Popularity & Human-curated web directory & Registry/Synthesis & \cite{10.1145/3618257.3624842} \\
+cvedetails.com & \cite{cvedetails} & 1 & Security/Threat intelligence & Vulnerability information portal & Registry/Synthesis & \cite{10.1145/3618257.3624804} \\
+Dark Visitors & \cite{darkvisitors} & 1 & Security/Threat intelligence & Web-crawler/bot intelligence service & Passive & \cite{10.1145/3730567.3732913} \\
+Decentralized Wireless Alliance Database & \cite{dwa} & 1 & Infrastructure/Address space & Industry directory / registry & Registry/Synthesis & \cite{10.1145/3487552.3487846} \\
+Disconnect Entity List & \cite{disconnect-entity-list} & 1 & DNS/Domain data; tracker and advertising entities & Curated tracker/entity list & Registry/Synthesis & \cite{10.1145/3618257.3624823} \\
+Disturbence storm time index & \cite{dst-index} & 1 & Note: Space weather index; not network measurement & Scientific observation dataset & N/A & \cite{10.1145/3646547.3689024} \\
+DNSPerf & \cite{dns-oarc-dnsperf} & 1 & Performance/Quality of Experience & Active DNS performance monitoring network & Active & \cite{10.1145/3517745.3561445} \\
+domainlist.io & \cite{domainlist-io} & 1 & DNS/Domain data & Domain-list / aggregated dataset service & Registry/Synthesis & \cite{10.1007/978-3-030-72582-2_3} \\
+Domains Monitor & \cite{domains-monitor} & 1 & DNS/Domain data & Domain-monitoring service & Passive & \cite{10.1007/978-3-031-56252-5_4} \\
+DomainTools Iris & \cite{domaintools-iris} & 1 & DNS/Domain data & Intelligence Feed / Domain Investigation Platform & Registry/Synthesis & \cite{10.1145/3517745.3561425} \\
+DomainTools Whois History & \cite{domaintools-whois} & 1 & DNS/Domain data & Registry/Directory Archive & Registry/Synthesis & \cite{10.1145/3487552.3487816} \\
+Dridex Malware traffic Capture & \cite{dridex-malware-traffic} & 1 & Security/Threat intelligence & Passive Traffic Dataset / Intelligence Feed & Passive & \cite{10.1007/978-3-031-28486-1_5} \\
+DScope & \cite{dscope-tool} & 1 & Performance/Quality of Experience & Active Network Measurement / Traffic Analysis Tool & Passive & \cite{10.1007/978-3-031-85960-1_4} \\
+DuckDuckGo Tracker radar & \cite{ddg-tracker-radar} & 1 & Security/Threat intelligence & Synthetic/Derived Dataset (Tracker/Entity List) & Registry/Synthesis & \cite{10.1145/3618257.3624803} \\
+Dun \& Bradstreet & \cite{dnb} & 1 & Infrastructure/Address space & Commercial business-information database & Registry/Synthesis & \cite{10.1145/3487552.3487853} \\
+EigenPhi & \cite{eigenphi} & 1 & Traffic/Flow & Passive Observation / Intelligence Feed (DeFi) & Passive & \cite{10.1145/3618257.3624824} \\
+Ethereum Name Service (ENS) & \cite{ens-ethereum} & 1 & DNS/Domain data & Decentralized Registry/Directory & Registry/Synthesis & \cite{10.1145/3618257.3624797} \\
+Everyday Conversations for LLMs dataset & \cite{everyday-conv-llm} & 1 & Traffic/Flow & Static Research Dataset & Passive & \cite{10.1145/3730567.3764441} \\
+Fabric & \cite{fabric-framework} & 1 & Infrastructure/Address space & Distributed Network Experimental Testbed & Registry/Synthesis & \cite{10.1145/3646547.3688441} \\
+Faker & \cite{faker-lib} & 1 & Infrastructure/Address space & Synthetic Data Generation Library & Registry/Synthesis & \cite{10.1145/3517745.3561467} \\
+FB Ads Manager API & \cite{fb-ads-api} & 1 & Web Popularity & API / Intelligence Feed & Registry/Synthesis & \cite{10.1145/3487552.3487861} \\
+Fiebig IPv6 Hitlist & \cite{fiebig-ipv6} & 1 & Network Topology & Synthetic/Derived Dataset (Active Probing) & Active & \cite{10.1145/3646547.3688420} \\
+Fierce & \cite{fierce-scanner} & 1 & DNS/Domain data & Active Network Reconnaissance/Scanning Tool & Active & \cite{10.1007/978-3-031-56249-5_4} \\
+Geofeed Finder & \cite{geofeed_finder} & 1 & Infrastructure/Address space & Registry/Directory / Intelligence Tool & Registry/Synthesis & \cite{10.1007/978-3-031-56252-5_11} \\
+Geoff Huston AS Names & \cite{huston_as_names} & 1 & Infrastructure/Address space & Registry/Directory / Synthetic Dataset & Registry/Synthesis & \cite{10.1007/978-3-030-98785-5_9} \\
+GeoIPLookup & \cite{geoip_lookup} & 1 & Infrastructure/Address space & Registry/Directory / Intelligence Feed & Registry/Synthesis & \cite{10.1145/3487552.3487854} \\
+Google Big Query & \cite{google_bigquery} & 1 & Traffic/Flow & Data Warehouse / Analysis Infrastructure & Registry/Synthesis & \cite{10.1007/978-3-030-98785-5_30} \\
+Google Cloud Ancho API & \cite{google_ancho_api} & 1 & Traffic/Flow & API / Infrastructure Interface & Passive & \cite{10.1007/978-3-030-98785-5_8} \\
+Google Community Mobility Reports & \cite{google_mobility} & 1 & Traffic/Flow & Passive Observation / Aggregated Dataset & Passive & \cite{10.1145/3487552.3487831} \\
+Google Perspective API & \cite{perspective_api} & 1 & Security/Threat intelligence & Intelligence Feed / ML Analysis Service & Passive & \cite{10.1145/3618257.3624820} \\
+Google political ad archive & \cite{google_political_ads} & 1 & Web Popularity & Intelligence Feed / Registry & Registry/Synthesis & \cite{10.1145/3487552.3487850} \\
+Google Related Website Set & \cite{related} & 1 & Web Popularity/Structure & Dataset/Registry & Registry/Synthesis & \cite{10.1145/3646547.3689026} \\
+Google Trust Store & \cite{google_trust_store} & 1 & Security/Threat intelligence & Registry / Directory & Registry/Synthesis & \cite{10.1007/978-3-031-28486-1_4} \\
+GRIP Global Routing Intelligence Platform & \cite{grip_platform} & 1 & Routing/Control Plane & Intelligence Feed / Data Aggregator & Passive & \cite{10.1007/978-3-031-28486-1_15} \\
+Hadoop Stream & \cite{hadoop_streaming} & 1 & Traffic/Flow & Distributed Data Processing Framework & Passive & \cite{10.1145/3730567.3764459} \\
+HypeAuditor YouTuber List & \cite{hypeauditor_youtuber} & 1 & Web Popularity & Intelligence Feed / Aggregated Dataset & Registry/Synthesis & \cite{10.1145/3618257.3624822} \\
+IANA Root Zone Database & \cite{iana_root_zone} & 1 & Infrastructure/Address space & Registry / Directory & Registry/Synthesis & \cite{10.1145/3618257.3624836} \\
+IANA TLS Parameters & \cite{iana_tls_parameters} & 1 & Security/Threat intelligence & Registry / Directory & Registry/Synthesis & \cite{10.1007/978-3-031-28486-1_6} \\
+ICANN M3 DNS Root Traffic Analysis & \cite{icann_m3_dns} & 1 & DNS/Domain data & Passive Observation / Traffic Dataset & Passive & \cite{10.1007/978-3-031-28486-1_21} \\
+ICLab: Internet Censorship Lab  & \cite{iclab} & 1 & Performance/Quality of Experience & Active Probing/Scanning & Active & \cite{10.1007/978-3-030-98785-5_23} \\
+IETF Datatracker & \cite{ietf_datatracker} & 1 & Routing/Control Plane & Registry / Directory & Registry/Synthesis & \cite{10.1145/3487552.3487821} \\
+IETF Mail Archive & \cite{ietf_mail_archive} & 1 & Traffic/Flow & Passive Observation / Archive & Passive & \cite{10.1145/3487552.3487821} \\
+iGDB & \cite{igdb} & 1 & Web Popularity & Registry / Directory & Registry/Synthesis & \cite{10.1145/3646547.3688429} \\
+IMF’s Fiscal Monitor report & \cite{imf_fiscal_monitor} & 1 & Web Popularity & Static Research Dataset & Registry/Synthesis & \cite{10.1145/3487552.3487822} \\
+Infrapedia & \cite{infrapedia} & 1 & Network Topology & Registry / Mapping Service & Registry/Synthesis & \cite{10.1007/978-3-030-98785-5_29} \\
+International Monetary Fund & \cite{imf_main} & 1 & Web Popularity & Institution / Data Repository & Registry/Synthesis & \cite{10.1145/3487552.3487822} \\
+Internet Archive Bot & \cite{internet_archive_bot} & 1 & Web Popularity & Active Crawler / Synthetic Dataset & Passive & \cite{10.1145/3517745.3561451} \\
+Internet Yellow Pages & \cite{10.1145/3646547.3688444} & 1 & DNS/Domain data & Registry / Directory & Registry/Synthesis & \cite{10.1007/978-3-031-85960-1_13} \\
+investigating.com & \cite{investigating_com} & 1 & Security/Threat intelligence & Intelligence Feed / Service & Registry/Synthesis & \cite{10.1007/978-3-031-56252-5_3} \\
+Ioda & \cite{ioda} & 1 & Traffic/Flow & Passive Observation / Monitoring Platform & Passive & \cite{10.1007/978-3-031-85960-1_13} \\
+IoT Inspector & \cite{iot_inspector} & 1 & Security/Threat intelligence & Active Scanning / Analysis Tool & Active & \cite{10.1145/3618257.3624815} \\
+ip-api & \cite{ip_api} & 1 & Infrastructure/Address space & Intelligence Feed / Registry Service & Registry/Synthesis & \cite{10.1007/978-3-030-98785-5_24} \\
+ipgeolocation.io & \cite{ipgeolocation} & 1 & Infrastructure/Address space & Intelligence Feed / Registry Service & Registry/Synthesis & \cite{10.1007/978-3-031-56252-5_11} \\
+ipwhois.io & \cite{ipwhois} & 1 & Infrastructure/Address space & Intelligence Feed / Registry Service & Registry/Synthesis & \cite{10.1145/3730567.3764427} \\
+ISCX Tor-nonTor dataset & \cite{iscx_tornontor} & 1 & Traffic/Flow & Static Research Dataset & Passive & \cite{10.1145/3517745.3561436} \\
+ISI AntLab Ipv4 scans & \cite{isi_antlab_ipv4} & 1 & Network Topology & Active Probing / Scanning Platform & Active & \cite{10.1007/978-3-031-56249-5_8} \\
+iTunes Search API & \cite{itunes_search_api} & 1 & Web Popularity & API / Directory Service & Registry/Synthesis & \cite{10.1145/3517745.3561439} \\
+IXP BH & \cite{10.1007/978-3-030-72582-2_17} & 1 & Routing/Control Plane & Passive Observation / Data Repository & Passive & \cite{10.1145/3646547.3688451} \\
+IXPDB & \cite{iscx_tornontor} & 1 & Infrastructure/Address space & Registry / Directory & Registry/Synthesis & \cite{10.1007/978-3-030-72582-2_14} \\
+JARM & \cite{isi_antlab_ipv4} & 1 & Security/Threat intelligence & Active Probing / Scanning Tool & Active & \cite{10.1007/978-3-031-28486-1_6} \\
+Johns Hopkins University CSSE real-time dashboard & \cite{itunes_search_api} & 1 & Security/Threat intelligence & Intelligence Dashboard / Data Visualization & Passive & \cite{10.1145/3487552.3487831} \\
+LACNIC FTP & \cite{lacnicftp} & 1 & Infrastructure/Address space & Registry / Data Repository & Registry/Synthesis & \cite{10.1145/3487552.3487838} \\
+Let's Encrypt CAA Bug List & \cite{lets_encrypt_caa_bug} & 1 & Security/Threat intelligence & Registry / List & Registry/Synthesis & \cite{10.1007/978-3-030-72582-2_10} \\
+LINX: Members by IP/ASN & \cite{linx_members} & 1 & Infrastructure/Address space & Registry / Directory & Registry/Synthesis & \cite{10.1007/978-3-030-98785-5_16} \\
+M-Lab IP geolocation & \cite{mlab_geolocation} & 1 & Infrastructure/Address space & Dataset / Research Tool & Registry/Synthesis & \cite{10.1145/3646547.3688441} \\
+MACCDC & \cite{maccdc} & 1 & Security/Threat intelligence & Cyber Defense Competition / Community & Passive & \cite{10.1145/3487552.3487856} \\
+MalwareBazaar & \cite{malwarebazaar} & 1 & Security/Threat intelligence & Intelligence Feed / Repository & Registry/Synthesis & \cite{10.1145/3517745.3561463} \\
+MANIC (Measurement and ANalysis of Internet Congestion) & \cite{manic} & 1 & Traffic/Flow & Security Research Tool & Active & \cite{10.1007/978-3-030-98785-5_7} \\
+MassDNS & \cite{massdns} & 1 & DNS/Domain data & Active Tool / Network Utility & Active & \cite{10.1007/978-3-030-98785-5_13} \\
+Mempool Guru project & \cite{mempoolguru} & 1 & Ethereum Data & Tool / Service & Passive & \cite{10.1145/3618257.3624824} \\
+Mercator & \cite{832534} & 1 & Network Topology & Active Probing / Mapping Tool & Active & \cite{10.1145/3487552.3487812} \\
+Meta Ad Library API & \cite{metaadlibrary} & 1 & Web Popularity & API & Registry/Synthesis & \cite{10.1145/3646547.3689020} \\
+Meta CrowdTangle (Discontinued) & \cite{crowdtangle} & 1 & Social Media Content & Intelligence / Monitoring Tool & Registry/Synthesis & \cite{10.1145/3618257.3624812} \\
+Microsoft Academic Knowledge API & \cite{academicknowledge} & 1 & Web Popularity & API / Research Repository & Registry/Synthesis & \cite{10.1145/3487552.3487821} \\
+Microsoft Outlook & \cite{owa} & 1 & Email Data & Passive Observation & Passive & \cite{10.1145/3487552.3487839} \\
+Microsoft Trusted Root Certificate Program & \cite{microsoftroot} & 1 & Security/Threat intelligence & Registry / Directory & Registry/Synthesis & \cite{10.1145/3646547.3688415} \\
+Mirage-19 & \cite{8888137} & 1 & Application Data & Research Dataset & Passive & \cite{10.1007/978-3-031-56249-5_7} \\
+Mirage-22 & \cite{9617789} & 1 & Application Data & Research Dataset & Passive & \cite{10.1007/978-3-031-56249-5_7} \\
+MonIoTr Lab & \cite{moniotr} & 1 & Security/Threat intelligence & Research Platform / Repository & Passive & \cite{10.1145/3618257.3624830} \\
+Mordecai & \cite{mordecai} & 1 & Physical/Geospatial & API / Tool (Geoparsing) & Registry/Synthesis & \cite{10.1145/3618257.3624816} \\
+MovieLens & \cite{movielens} & 1 & Web Popularity & Research Database & Registry/Synthesis & \cite{10.1145/3618257.3624823} \\
+Mozilla SSL Config Generator & \cite{sslgenerator} & 1 & Security/Threat intelligence & Tool & Registry/Synthesis & \cite{10.1007/978-3-031-28486-1_6} \\
+NANOG mailing list & \cite{nanogmailinglist} & 1 & Network Operations & Community / Archive & Passive & \cite{10.1145/3487552.3487838} \\
+NetCraft Blocklist & \cite{netcraft} & 1 & Security/Threat intelligence & Intelligence Feed & Passive & \cite{10.1007/978-3-030-98785-5_1} \\
+Netscout & \cite{netscout} & 1 & Security/Threat intelligence & Intelligence Feed & Passive & \cite{10.1145/3646547.3688451} \\
+NewKid & \cite{10.1007/978-3-030-72582-2_16} & 1 & Traffic/Flow & Network Research Tool & Active & \cite{10.1145/3646547.3688451} \\
+NewsGuard Media Sources List & \cite{newsguard} & 1 & Web Popularity & Intelligence Feed & Registry/Synthesis & \cite{10.1145/3487552.3487859} \\
+NextDNS & \cite{nextdns} & 1 & DNS/Domain data & Intelligence Feed/Service & Passive & \cite{10.1145/3730567.3764491} \\
+NLNet Labs DNSThought & \cite{nlnet} & 1 & DNS/Domain data & Active Measurement & Passive & \cite{10.1007/978-3-031-28486-1_21} \\
+Northwest Interagency Coordination Center: Northwest fire locations & \cite{gaccnifc} & 1 & Physical/Geospatial & Dataset/Directory & Registry/Synthesis & \cite{10.1007/978-3-031-56252-5_9} \\
+Ooni & \cite{ooni} & 1 & Traffic/Performance/Censorship & Active Measurement & Active & \cite{10.1007/978-3-030-98785-5_23} \\
+OpenAI Developer Forum & \cite{openaiforum} & 1 & AI & Community & Passive & \cite{10.1145/3730567.3732912} \\
+OpenCell ID & \cite{opencellid} & 1 & Infrastructure/Geospatial & Dataset/Registry & Registry/Synthesis & \cite{10.1007/978-3-030-72582-2_15} \\
+OVH Network Weathermap & \cite{ovhwm} & 1 & Traffic/Flow & Passive Observation & Passive & \cite{10.1145/3517745.3561462} \\
+Palo Alto Networks Domain Blocklist & \cite{paloalto} & 1 & Security/Threat intelligence & Intelligence Feed & Registry/Synthesis & \cite{10.1145/3618257.3624805} \\
+Peering & \cite{10.1145/3359989.3365414} & 1 & Infrastructure/Routing & Measurement Testbed & Active & \cite{10.1145/3517745.3561421} \\
+Politifact & \cite{politifact} & 1 & Social/Misinformation & Dataset/Intelligence Feed & Registry/Synthesis & \cite{10.1145/3487552.3487850} \\
+ProbLink & \cite{problink} & 1 & Network Topology/Routing & Research/Dataset & Active & \cite{10.1145/3487552.3487825} \\
+QAX & \cite{qax} & 1 & Security/Threat intelligence & Intelligence Feed & Active/Passive & \cite{10.1145/3618257.3624839} \\
+Qihoo 360 & \cite{qihoo} & 1 & Security/Threat intelligence & Intelligence Feed/Security Suite & Active/Passive & \cite{10.1007/978-3-031-56249-5_6} \\
+Real-Life Transactional Dataset & \cite{rltd} & 1 & Economic/Activity & Research Dataset & Registry/Synthesis & \cite{10.1145/3730567.3764487} \\
+Reddit & \cite{reddit} & 1 & Social/Web & Data Source & Passive & \cite{10.1007/978-3-030-72582-2_7} \\
+RFC Editor & \cite{rfc} & 1 & Network Protocol Standards & Registry/Directory & Registry/Synthesis & \cite{10.1145/3487552.3487821} \\
+RIPE IPMap & \cite{ipmap} & 1 & Infrastructure/Geospatial & Active Measurement & Active/Synthesis & \cite{10.1145/3730567.3764427} \\
+RIPE legacy resources & \cite{ripelegacy} & 1 & Infrastructure/Address space & Dataset/Repository & Registry/Synthesis & \cite{10.1145/3487552.3487838} \\
+RIPE Routing History API & \cite{historyapi} & 1 & Routing/Control Plane & Intelligence Feed/API & Registry/Synthesis & \cite{10.1145/3517745.3561421} \\
+RIR Brokers & \cite{brokers} & 1 & Infrastructure/Market & Service/Directory & Registry/Synthesis & \cite{10.1145/3646547.3689010} \\
+RSSAC002-data & \cite{rssac} & 1 & DNS/Traffic & Dataset/Repository & Passive & \cite{10.1007/978-3-030-98785-5_12} \\
+ScamAdviser & \cite{scamadviser} & 1 & Security/Threat intelligence & Intelligence Feed/Service & Active/Synthesis & \cite{10.1145/3618257.3624822} \\
+ScamWatcher & \cite{scamwatcher} & 1 & Security/Threat intelligence & Intelligence Feed/Service & Active/Synthesis & \cite{10.1145/3618257.3624822} \\
+Shutterstock & \cite{shutterstock} & 1 & Images & Content Platform & Registry/Synthesis & \cite{10.1145/3517745.3561450} \\
+Sketchfab & \cite{sketchfab} & 1 & Web Popularity/Content & Content Platform & Registry/Synthesis & \cite{10.1145/3618257.3624833} \\
+Sknic & \cite{sknic} & 1 & Infrastructure/DNS & Registry/Directory & Registry/Synthesis & \cite{10.1007/978-3-031-85960-1_5} \\
+Snopes & \cite{snopes} & 1 & Social/Misinformation & Intelligence Feed/Fact-Checking & Registry/Synthesis & \cite{10.1145/3487552.3487850} \\
+Snort IP Blocklist & \cite{snortip} & 1 & Security/Threat intelligence & Intelligence Feed & Registry/Synthesis & \cite{10.1007/978-3-030-72582-2_31} \\
+Snort3 Community Rules & \cite{snortcomrules} & 1 & Security/Threat intelligence & Intelligence Feed/Signature Dataset & Registry/Synthesis & \cite{10.1007/978-3-031-56252-5_15} \\
+SNYK Vulnerability DB & \cite{snyk} & 1 & Security/Threat intelligence & Intelligence Feed/Vulnerability Database & Registry/Synthesis & \cite{10.1145/3618257.3624804} \\
+Starlink Status API & \cite{dishy} & 1 & Performance/Quality of Experience & Service/API & Registry/Synthesis & \cite{10.1145/3517745.3561457} \\
+Statcounter & \cite{statcounter} & 1 & Web Popularity & Intelligence Feed/Analytics Service & Passive & \cite{10.1145/3618257.3624842} \\
+Steam & \cite{steam} & 1 & Games & Platform/Service & Passive & \cite{10.1007/978-3-031-56249-5_2} \\
+Steven Black Host List & \cite{stevenblack} & 1 & Security/Threat intelligence & Intelligence Feed/Blocklist & Registry/Synthesis & \cite{10.1145/3618257.3624842} \\
+SWITCH & \cite{switch} & 1 & DNS & Registry/Directory/Service & Registry/Synthesis & \cite{10.1145/3618257.3624797} \\
+ThousandEyes & \cite{thousandeyes} & 1 & Network Intelligence & Active Measurement/Monitoring Platform & Active & \cite{10.1007/978-3-031-85960-1_14} \\
+Threatfox & \cite{threatfox} & 1 & Security/Threat intelligence & Threat Intelligence Platform/Database & Registry/Synthesis & \cite{10.1007/978-3-031-56249-5_9} \\
+TinyGS & \cite{tinygs} & 1 & Satellite Data & Satellite Network / Ground Station Network & Passive & \cite{10.1145/3730567.3764496} \\
+TON\_IoT & \cite{ton} & 1 & Security/Threat intelligence & Dataset & Registry/Synthesis & \cite{10.1145/3646547.3689011} \\
+TopoScope & \cite{10.1145/3419394.3423627} & 1 & Network Topology & Mapping / Topographical Tool & Active & \cite{10.1145/3487552.3487825} \\
+TOR Metrics Portal & \cite{tor} & 1 & Infrastructure/Address space & Analytics / Monitoring Service & Passive & \cite{10.1007/978-3-030-72582-2_28} \\
+TowerMaps & \cite{towermaps} & 1 & Infrastructure/Geospacial & Mapping Platform & Registry/Synthesis & \cite{10.1007/978-3-031-85960-1_20} \\
+Trexa10KU & \cite{10.1145/3366423.3380104} & 1 & Infrastructure/Address space & Tech / Automation Platform & Registry/Synthesis & \cite{10.1145/3517745.3561444} \\
+U.S. Census & \cite{census} & 1 & Infrastructure/Address space & Demographic / Statistical Dataset & Registry/Synthesis & \cite{10.1145/3517745.3561460} \\
+Udger IP database & \cite{udger} & 1 & Infrastructure/Address space & IP Intelligence / Database & Registry/Synthesis & \cite{10.1145/3618257.3624797} \\
+UGR'16 & \cite{ugr16} & 1 & Security/Threat intelligence & Security / Traffic Research Dataset & Registry/Synthesis & \cite{10.1145/3646547.3689011} \\
+UK sanctions lists & \cite{uksanctions} & 1 & Security/Threat intelligence & Regulatory / Intelligence Database & Registry/Synthesis & \cite{10.1145/3517745.3561423} \\
+Ukrenergo Energy Map & \cite{ukrenegro} & 1 & Infrastructure & Infrastructure Map / Visualization & Registry/Synthesis & \cite{10.1145/3730567.3764449} \\
+Unacast & \cite{unacast} & 1 & Traffic/Flow & Location Intelligence Platform & Passive & \cite{10.1007/978-3-030-98785-5_6} \\
+USA Core Based Statistical Area & \cite{ucbsb} & 1 & Infrastructure/Address space & Statistical Geography Dataset & Registry/Synthesis & \cite{10.1007/978-3-030-72582-2_15} \\
+Vanguard Russell 3000 ETF & \cite{vanguard} & 1 & Fiancial & Dataset & Registry/Synthesis & \cite{10.1145/3646547.3689015} \\
+Verisign & \cite{verisign} & 1 & DNS & DNS Registry Data & Registry/Synthesis & \cite{10.1145/3517745.3561434} \\
+VPN Gate & \cite{2616448.2616470} & 1 & Infrastructure/Address space & VPN Relay Network & Passive & \cite{10.1007/978-3-030-98785-5_23} \\
+VPN Tier List & \cite{vpntierlist} & 1 & Web Popularity & Information Aggregator & Registry/Synthesis & \cite{10.1007/978-3-031-28486-1_3} \\
+WAND Network Research Group: WITS: Waikato VIII & \cite{wand} & 1 & Traffic/Flow & Passive Observation Repository & Passive & \cite{10.1007/978-3-030-72582-2_32} \\
+Web3 API & \cite{web3} & 1 & Ethereum Data & Service/API & Registry/Synthesis & \cite{10.1145/3517745.3561448} \\
+WebRTC Stats API & \cite{webrtc} & 1 & Performance/Quality of Experience & Service/API & Active & \cite{10.1145/3487552.3487842} \\
+Weimer Passive DNS Replication & \cite{pdns} & 1 & DNS & Passive Observation Repository & Passive & \cite{10.1145/3517745.3561431} \\
+WHO & \cite{who} & 1 & Health Data & Institutional Directory & Registry/Synthesis & \cite{10.1007/978-3-030-72582-2_3} \\
+Whoisxml & \cite{xml} & 1 & DNS & Intelligence Feed & Registry/Synthesis & \cite{10.1145/3618257.3624805} \\
+WhoTracksMe & \cite{whotracksme} & 1 & Web Popularity & Intelligence Feed/Dataset & Passive & \cite{10.1145/3730567.3764427} \\
+WonderNetwork & \cite{wonder} & 1 & Performance/Quality of Experience & Active Probing Service & Active & \cite{10.1145/3730567.3764427} \\
+World Bank & \cite{worldbank} & 1 & Financial & Socio-economic Dataset & Registry/Synthesis & \cite{10.1145/3487552.3487822} \\
+Xponents & \cite{xponent} & 1 & Infrastructure/Geospatial & Data Enrichment API & Registry/Synthesis & \cite{10.1145/3618257.3624816} \\
+YouTube & \cite{youtube} & 1 & Traffic/Flow & Platform/Service & Passive & \cite{10.1007/978-3-031-56252-5_8} \\
+YouTube Data API & \cite{youtubedata} & 1 & Web Popularity & API/Service & Registry/Synthesis & \cite{10.1145/3730567.3764492} \\
+ZeroMev & \cite{zeromev} & 1 & Traffic/Flow & Intelligence Feed (Blockchain/MEV) & Passive & \cite{10.1145/3618257.3624824} \\
+ZoomInfo & \cite{zoominfo} & 1 & Web Popularity & Intelligence Feed/Service & Registry/Synthesis & \cite{10.1145/3487552.3487853} \\
+Zvelo & \cite{zvelo} & 1 & Security/Threat intelligence & Intelligence Feed/Service & Registry/Synthesis & \cite{10.1145/3487552.3487853} \\
+\end{longtable}
+
+\section{Filtering}
+The list of resources must be filtered to remove resources that are not relevant to our area of interest, thus we remove all sources that gather and expose data that is not directly used in internet measurment.
+
+\bibliographystyle{plainnat}
+\bibliography{bib}
+
+\end{document}
+
+---------
+
