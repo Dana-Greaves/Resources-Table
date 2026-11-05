@@ -10446,3 +10446,167 @@ keywords = {internet of things, matter standard, security, privacy, network traf
 location = {Karlsruhe, Germany},
 series = {IMC '26}
 }
+
+@inproceedings{10.1145/3777912.3839802,
+author = {Mladenov, Martin and van der Horst, Max and Hossu, Alexandru and {\v S}tular, Rok and Griffioen, Harm and Smaragdakis, Georgios},
+title = {Investigating Next.js React2Shell Exploitation},
+year = {2026},
+isbn = {9798400723278},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3777912.3839802},
+doi = {10.1145/3777912.3839802},
+abstract = {Full-stack web development frameworks have become increasingly popular in recent years. One such framework, Next.js, is extensively used by one in five web developers. In December 2025, a critical vulnerability with the highest severity score of 10 was discovered, affecting Next.js through supply-chain propagation. It allows attackers to remotely execute code on vulnerable servers without user authentication and with a single malicious HTTP request. Additionally, public proof-of-concept exploits contributed to widespread exploitation.In this paper, we investigate 13 million exploitation attempts targeting Next.js and characterize the malware deployed by attackers following successful exploitation. Leveraging our custom Next.js honeypots and reactive telescope, we identify 93 unique clusters of payloads performing a wide range of exploitation activity such as botnet installation, cryptomining, and infostealers. Our analysis also shows that, initially, exploitation attempts relied on the released proof-of-concept code, but they later evolved into more sophisticated and effective code variants that successfully evade defense mechanisms such as Web Application Firewalls. We identify that some threat actors measure the vulnerability of targets before deploying any malicious payloads and demonstrate the presence of informed application-layer scanners with prior knowledge of a set of vulnerable hosts, which they exclusively target. Moreover, we observe markers consistent with LLM-style code artifacts, pointing towards the emergence of AI-assisted attacks. In the process, we characterize the demographics of the infrastructure used to attack Next.js and discuss the shortcomings of defense capabilities.},
+booktitle = {Proceedings of the 2026 ACM Internet Measurement Conference},
+pages = {456–472},
+numpages = {17},
+keywords = {Next.js, remote code execution, honeypot, network telescope, malware analysis, internet measurement, web application security},
+location = {Karlsruhe, Germany},
+series = {IMC '26}
+}
+
+@inproceedings{10.1145/3777912.3839821,
+author = {Gupta, Vidur},
+title = {Dialing in the Open: A Security Census of Internet-Facing Voice Infrastructure},
+year = {2026},
+isbn = {9798400723278},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3777912.3839821},
+doi = {10.1145/3777912.3839821},
+abstract = {Voice-over-IP (VoIP) powers nearly all modern telephony, yet its Internet-facing infrastructure lacks a systematic security census. We conduct the first Internet-wide measurement study of SIP security, scanning the IPv4 space to identify 631,045 application-layer responsive endpoints. Our analysis reveals a pervasive failure to adopt modern security standards: all but four authentication-requiring endpoints use 25-year-old MD5 defaults, with one SHA-256 and three SHA-512/256 responses, and 87\% omit the qop replay defense. Furthermore, at least 76.6\% of SIP-over-TLS endpoints also allow plaintext communication, and we estimate 1,808 endpoints with inferred open registration, some with strong PSTN connectivity indicators. We show that the landscape is highly centralized, with 10 providers controlling over 50\% of the infrastructure, and demonstrate credential cracking and RTP eavesdropping against a controlled lab deployment.},
+booktitle = {Proceedings of the 2026 ACM Internet Measurement Conference},
+pages = {473–486},
+numpages = {14},
+keywords = {SIP, VoIP security, internet-wide measurement, network scanning, digest authentication, TLS, toll fraud},
+location = {Karlsruhe, Germany},
+series = {IMC '26}
+}
+
+@inproceedings{10.1145/3777912.3839798,
+author = {Li, Ruixuan and Li, Enlong and Liu, Mingxuan and Liu, Baojun and Duan, Haixin and Pan, Qingfeng},
+title = {When Delivery Meets Error: Exploring Email Delivery Retry Strategies and Defects},
+year = {2026},
+isbn = {9798400723278},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3777912.3839798},
+doi = {10.1145/3777912.3839798},
+abstract = {Reliable delivery is a basic expectation of email services. The increasingly complex ecosystem has led to more frequent email bounces. When encountering various errors, properly handling failures and retrying are crucial to ensuring email deliverability. Currently, the community lacks a comprehensive understanding of email retry strategies, and bridging this gap can enhance the reliability of email services.In this paper, we measure the email delivery retry strategies of 11 email service providers and 8 open-source email software. We deploy a platform (RetryWatch) that simulates various types of bounce errors returned by email receiving servers, covering the DNS, TCP, and SMTP communication stages. We find that many providers and software exhibit defects in their email retry implementations. For example, we find that six email systems exhibit poor load balancing across MX record entries in dual-stack environments. In addition, when encountering blocklist- and greylist-related SMTP error messages, most email providers fail to handle retries appropriately. We release RetryWatch to support further testing by the email community. We hope this work helps improve email reliability and inspires efforts to refine email retry strategies.},
+booktitle = {Proceedings of the 2026 ACM Internet Measurement Conference},
+pages = {487–494},
+numpages = {8},
+keywords = {internet measurement, email delivery retry, SMTP, DNS},
+location = {Karlsruhe, Germany},
+series = {IMC '26}
+}
+
+@inproceedings{10.1145/3777912.3839799,
+author = {Lin, Zilong and Li, Zichuan and Liao, Xiaojing and Wang, XiaoFeng},
+title = {Characterizing the Ecosystem of Open-Source Uncensored Large Language Models: Supply Chain, Governance, and Risks},
+year = {2026},
+isbn = {9798400723278},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3777912.3839799},
+doi = {10.1145/3777912.3839799},
+abstract = {Open-source uncensored large language models (ULLMs) are increasingly available in public LLM ecosystems. By removing or weakening safety guardrails, these models can comply with harmful requests, generate unsafe content, and be readily reused in downstream systems. While prior work has demonstrated the misuse potential of individual uncensored models, little has been done to systematically understand the ULLM ecosystem in real-world settings. In this paper, we present a systematic study of the open-source ULLM ecosystem. We analyzed 22,096 ULLMs collected from five major LLM hosting platforms and examined them across five interconnected components: artifacts, development, propagation, governance, and adoption. Our analysis shows that ULLMs are produced through four major methods, supported by a rich ecosystem of publicly available tools and uncensored datasets. We further found that ULLMs propagate widely across platforms, forming 4,457 cross-platform clusters comprising 11,094 models, with Hugging Face serving as the dominant upstream source. We uncovered systemic governance and security gaps, including inconsistent moderation labels applied to ULLMs across platforms, cross-platform propagation of ULLMs flagged with threat indicators, and frequent violations of base-model licensing constraints. ULLMs are also actively deployed in diverse real-world settings, including web applications, GitHub projects, underground forums, and model routing platforms, significantly lowering the barrier to harmful use. Our findings indicate that ULLMs are not isolated model artifacts but components of a broader ecosystem in which supply-chain dynamics, weak governance, and diverse downstream deployments jointly amplify risks.},
+booktitle = {Proceedings of the 2026 ACM Internet Measurement Conference},
+pages = {495–513},
+numpages = {19},
+keywords = {uncensored large language model, ecosystem measurement, open-source artificial intelligence},
+location = {Karlsruhe, Germany},
+series = {IMC '26}
+}
+
+@inproceedings{10.1145/3777912.3839823,
+author = {Xu, Zuyao and Li, Xiang and Qiu, Yuqi and Sun, Lu},
+title = {Ollama in the Wild: A Longitudinal Measurement of Exposed Ollama LLM Endpoints at Internet Scale},
+year = {2026},
+isbn = {9798400723278},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3777912.3839823},
+doi = {10.1145/3777912.3839823},
+abstract = {Self-hosted large language model (LLM) serving is emerging as a distinct category of Internet service, but we still know little about how these deployments appear and change on the public Internet. We present a 365-day longitudinal measurement of exposed Ollama endpoints (port 11434) from February 2025 to February 2026, combining daily active probing with GeoIP/ASN enrichment, PTR and port-443 host observations, and survival analysis. Across 362 observation days and approximately 4.8 million IP{\texttimes}day observations, 26.4\% of the 152,137 cumulative IPs appear for a single day; across five selected CVEs, only 0.43–2.90\% of below-fix IPs upgraded in place; the top five countries/regions account for over 70\% of weighted observations; and cloud and hosting providers dominate the top ASNs. These results characterize exposed Ollama as a structural exposure surface: persistent, growing, and heavily concentrated. At the same time, old versions, common model choices, cloud and hosting ASNs, PTR categories, and TLS certificate patterns remain visible across the year, indicating recurring insecure deployment practices in cloud infrastructure and the potential reach of provider-level mitigation.},
+booktitle = {Proceedings of the 2026 ACM Internet Measurement Conference},
+pages = {514–528},
+numpages = {15},
+keywords = {internet measurement, exposed services, LLM infrastructure, Ollama, longitudinal analysis},
+location = {Karlsruhe, Germany},
+series = {IMC '26}
+}
+
+@InProceedings{10.1007/978-3-032-18268-5_1,
+author="Kastanakis, Savvas
+and Fontein, Rick
+and Khadka, Shyam Krishna
+and Jaw, Ebrima
+and Hesselman, Cristian
+and Jonker, Mattijs",
+editor="Ferlin-Reiter, Simone
+and Fontugne, Romain
+and Ullrich, Johanna",
+title="Prefix Top Lists Reloaded: A Temporal Prefix Ranking Dataset",
+booktitle="Passive and Active Measurement",
+year="2026",
+publisher="Springer Nature Switzerland",
+address="Cham",
+pages="3--16",
+abstract="Accurate Internet measurements depend on well-defined targets. A popular mechanism for target selection is domain-based top lists, e.g., the Tranco or Cisco Umbrella lists. Such lists have a few shortcomings such as the lack of aggregation across related domain names and high volatility over time. Prefix Top Lists (PTL) were introduced in 2019 to address these issues, by aggregating domain names into IP prefixes and applying a Zipf-based ranking model to improve stability and representativeness, nonetheless, the original PTL resource was discontinued, leaving a gap in publicly available prefix-level data.",
+isbn="978-3-032-18268-5"
+}
+
+@InProceedings{10.1007/978-3-032-18268-5_2,
+author="Khadka, Shyam Krishna
+and Bayhan, Suzan
+and Holz, Ralph
+and Hesselman, Cristian",
+editor="Ferlin-Reiter, Simone
+and Fontugne, Romain
+and Ullrich, Johanna",
+title="Detecting and Characterizing DDoS Scrubbing from Global BGP Routing: Insights from Five Leading Scrubbers",
+booktitle="Passive and Active Measurement",
+year="2026",
+publisher="Springer Nature Switzerland",
+address="Cham",
+pages="17--43",
+abstract="Many scrubbers use the Border Gateway Protocol (BGP) to route Distributed Denial of Service (DDoS) traffic to their infrastructure, allowing them to drop the DDoS traffic and forward legitimate traffic to the Autonomous Systems (ASes) the scrubber protects. Despite their importance, the prevalence and operational behaviors of BGP-based DDoS scrubbing services remain poorly understood, such as the extent to which protected ASes always have a scrubber on their path or activate a scrubber on-demand when an attack occurs. We bridge this gap by detecting scrubbing activations and deactivations in public BGP data, where they manifest themselves as a scrubber dynamically appearing as the first upstream of an origin AS or as an origin AS for a particular prefix. We use 30 days of BGP data from the RIS route collectors, focusing on the global top five scrubbing providers, such as Cloudflare and Akamai. We also characterize their behavior, including protection modes, on-demand mitigation strategies, and RPKI/IRR practices. We find that prefixes that always use a scrubber are dominant compared to those that activate a scrubber on-demand. We also observe that 48{\%} of the prefixes that scrubbers temporarily originate during an attack are not covered by valid RPKI ROAs (12.5{\%} Invalid and 35.5{\%} Notfound), which highlights a potential operational gap in current scrubbing practices regarding routing security. These insights are conservative because we only consider public BGP data and AS path changes that are most likely to be scrubbing events (e.g., those observed by two or more route collector peers). We believe our work is useful for security researchers and policymakers, for instance, to better understand DDoS protection levels of ASes in a particular country or region.",
+isbn="978-3-032-18268-5"
+}
+
+@InProceedings{10.1007/978-3-032-18268-5_3,
+author="Barreto, Renan Paredes
+and Bertholdo, Leandro M{\'a}rcio
+and Marcos, Pedro de Botelho",
+editor="Ferlin-Reiter, Simone
+and Fontugne, Romain
+and Ullrich, Johanna",
+title="Routing Under Siege: How Traffic Engineering Decisions Facilitate Prefix Hijackings",
+booktitle="Passive and Active Measurement",
+year="2026",
+publisher="Springer Nature Switzerland",
+address="Cham",
+pages="44--70",
+abstract="The reliability and security of Internet routing are increasingly challenged by applications with strict service requirements, where connectivity and traffic engineering play a central role. While operators apply traffic engineering to optimize performance and resilience, these decisions can inadvertently amplify routing security risks. Existing mechanisms such as BGPSec, RPKI, and ASPA remain insufficient due to limited deployment, leaving open questions about how traffic engineering practices and connectivity affect routing security. To address this, we propose a methodology that combines measurements from both the control and data planes. We use the PEERING Testbed to announce prefixes on the Internet using different traffic engineering techniques, such as AS Path Prepend, more specific announcements, and selective route announcements, and hijack our prefixes to understand the interplay between traffic engineering and prefix hijackings. Our results show that prepending can increase the impact of a hijack from 17{\%} to 67{\%}, and that the way an AS connects to other networks---its connectivity structure---can also determine its exposure to prefix hijacks. We further demonstrate that hijacking via more specific prefixes is particularly effective, achieving up to 100{\%} of both control and data plane targets. Based on these findings, we provide a comprehensive view of the current announced address space, showing that 61.4{\%} of the address space may be facing a higher exposure to prefix hijackings due to ASes' traffic engineering practices.",
+isbn="978-3-032-18268-5"
+}
+
+@InProceedings{10.1007/978-3-032-18268-5_4,
+author="Carisimo, Esteban
+and Beir{\'o}, Mariano G.
+and De Angelis Riva, Lukas
+and Buzzone, Mauricio
+and Bustamante, Fabi{\'a}n E.",
+editor="Ferlin-Reiter, Simone
+and Fontugne, Romain
+and Ullrich, Johanna",
+title="En Uni{\'o}n y Libertad: Subnational Strategies for Hosting Government Services",
+booktitle="Passive and Active Measurement",
+year="2026",
+publisher="Springer Nature Switzerland",
+address="Cham",
+pages="73--102",
+abstract="We present the first empirical study of subnational hosting strategies, using Argentina's 24 provinces as a case. Starting from official landing pages, we analyze {\$}{\$}{\backslash}approx {\$}{\$}≈1.2k domains (collected Oct 2023 -- Apr 2024), classifying serving networks by operational control (sovereign, domestic third-party, global) and examining authoritative DNS and HTTPS deployment. We relate these choices to 31 demographic, economic, technological, and political covariates -- associations only, not causal claims. We find substantial heterogeneity: some provinces operate sovereign infrastructure; others rely on domestic incumbents or outsource to global providers. Federal capacity is rarely used, with provinces favoring bespoke or repurposed networks (including utility backbones). Legacy telecom footprints remain strong predictors of hosting choice even within a shared national umbrella. We also observe frequent splits between hosting and nameservers and uneven HTTPS hygiene. Taken together, the study offers a reusable measurement template and benchmarks that make sovereignty--performance trade-offs measurable below the nation level.",
+isbn="978-3-032-18268-5"
+}
