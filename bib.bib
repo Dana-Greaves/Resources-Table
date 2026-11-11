@@ -10610,3 +10610,185 @@ pages="73--102",
 abstract="We present the first empirical study of subnational hosting strategies, using Argentina's 24 provinces as a case. Starting from official landing pages, we analyze {\$}{\$}{\backslash}approx {\$}{\$}≈1.2k domains (collected Oct 2023 -- Apr 2024), classifying serving networks by operational control (sovereign, domestic third-party, global) and examining authoritative DNS and HTTPS deployment. We relate these choices to 31 demographic, economic, technological, and political covariates -- associations only, not causal claims. We find substantial heterogeneity: some provinces operate sovereign infrastructure; others rely on domestic incumbents or outsource to global providers. Federal capacity is rarely used, with provinces favoring bespoke or repurposed networks (including utility backbones). Legacy telecom footprints remain strong predictors of hosting choice even within a shared national umbrella. We also observe frequent splits between hosting and nameservers and uneven HTTPS hygiene. Taken together, the study offers a reusable measurement template and benchmarks that make sovereignty--performance trade-offs measurable below the nation level.",
 isbn="978-3-032-18268-5"
 }
+
+@InProceedings{10.1007/978-3-032-18268-5_5,
+author="Hilal, Fahad
+and Albakour, Taha
+and Gasser, Oliver
+and Vermeulen, Kevin",
+editor="Ferlin-Reiter, Simone
+and Fontugne, Romain
+and Ullrich, Johanna",
+title="Unpacking Internet Ossification: A Large-Scale Study of Path-Impairing Middleboxes Across IPv4 and IPv6",
+booktitle="Passive and Active Measurement",
+year="2026",
+publisher="Springer Nature Switzerland",
+address="Cham",
+pages="103--134",
+abstract="The end-to-end principle that limits on-path devices to simple tasks such as forwarding and routing has been one of the backbones of the Internet's architecture. This is, however, being challenged as Internet paths now contain devices that inspect, filter, modify, or even discard packets. Some of these carry out benign and positive undertakings such as balancing resources and thwarting attacks, while others interfere with packets in unexpected ways leading to broken paths, thus inhibiting the deployment of new protocols or even extensions.",
+isbn="978-3-032-18268-5"
+}
+
+@InProceedings{10.1007/978-3-032-18268-5_6,
+author="Rye, Erik
+and Levin, Dave",
+editor="Ferlin-Reiter, Simone
+and Fontugne, Romain
+and Ullrich, Johanna",
+title="WikIPedia: Unearthing a 20-Year History of IPv6 Client Addressing",
+booktitle="Passive and Active Measurement",
+year="2026",
+publisher="Springer Nature Switzerland",
+address="Cham",
+pages="137--151",
+abstract="Due to their article editing policies, Wikimedia sites like Wikipedia have become inadvertent time capsules for IPv6 addresses. When Wikimedia users make edits without signing into an account, their IP addresses are used in lieu of a username. Wikimedia site dumps therefore provide researchers with over two decades worth of timestamped client IPv6 addresses to understand address assignments and how they have changed over time and space.",
+isbn="978-3-032-18268-5"
+}
+
+@InProceedings{10.1007/978-3-032-18268-5_8,
+author="Ben-Ameur, Ayoub
+and Bronzino, Francesco
+and Schmitt, Paul
+and Feamster, Nick",
+editor="Ferlin-Reiter, Simone
+and Fontugne, Romain
+and Ullrich, Johanna",
+title="Measuring Low Latency at Scale: A Field Study of L4S in Residential Broadband",
+booktitle="Passive and Active Measurement",
+year="2026",
+publisher="Springer Nature Switzerland",
+address="Cham",
+pages="168--181",
+abstract="The Low Latency, Low Loss, Scalable Throughput (L4S) architecture promises to reduce queuing delay while sustaining high throughput. Prior work has largely evaluated L4S in synthetic environments or controlled testbeds, leaving its real-world performance underexplored. In this study, we measure L4S performance specifically on Apple services delivered over Comcast residential networks. We deploy 83 Raspberry Pi devices across Comcast subscriber households and conduct over 120000 controlled experiments comparing L4S to traditional congestion control. Our results show that L4S reduces tail latency by up to 25{\%} for interactive applications and for bulk downloads from Apple's CDN, while providing minimal gains for iCloud. Gains are most pronounced during peak usage hours when networks are congested, highlighting the situational benefit of L4S in a single ISP ecosystem.",
+isbn="978-3-032-18268-5"
+}
+
+@InProceedings{10.1007/978-3-032-18268-5_9,
+author="Boswell, Elizabeth
+and Xian, Xinyan
+and Wang, Mingshu
+and McQuistin, Stephen
+and Perkins, Colin",
+editor="Ferlin-Reiter, Simone
+and Fontugne, Romain
+and Ullrich, Johanna",
+title="Black Holes and Prisoners: Understanding AS112 Deployment Characteristics",
+booktitle="Passive and Active Measurement",
+year="2026",
+publisher="Springer Nature Switzerland",
+address="Cham",
+pages="185--201",
+abstract="AS112 is a distributed, volunteer-run, anycast DNS service that acts as a sink for leaked DNS queries for local resources, preventing them from overloading core DNS infrastructure. AS112 helps protect important parts of the Internet infrastructure, but there has been no comprehensive study of who runs the AS112 servers, where they are located, and whether they effectively capture leaked queries. Using RIPE Atlas and 33646 open recursive resolvers, we detect 469 AS112 sites, run by 97 operators, and compare the response time and query distances of AS112 to root server queries. AS112 performs well, with 23.21{\%} lower median response times and 36.11{\%} lower median distances than the root. However, AS112 is largely dependent on few large operators (one operator serves 41.71{\%} of probes in our study), limiting its resilience.",
+isbn="978-3-032-18268-5"
+}
+
+@InProceedings{10.1007/978-3-032-18268-5_10,
+author="Bielefeld, Philipp
+and Hoffmann, Felix
+and Sassalla, Steffen
+and ververis, vasilis
+and Bajpai, Vaibhav",
+editor="Ferlin-Reiter, Simone
+and Fontugne, Romain
+and Ullrich, Johanna",
+title="The Future of DNS Privacy: A Comparison of DNS over QUIC and DNS over HTTP/3",
+booktitle="Passive and Active Measurement",
+year="2026",
+publisher="Springer Nature Switzerland",
+address="Cham",
+pages="202--228",
+abstract="This study presents a large-scale empirical analysis of DNSover-Encryption (DoE) protocols, focusing on the adoption, protocol feature support, and impact on webpage loading performance. We conducted measurements across over three thousand DoE resolvers, characterizing their support for features such as session resumption and 0-Round-trip Time (RTT) in DNS-over-QUIC (DoQ) and DNS-over-HTTP/3 (DoH/3). Despite broader feature adoption by DoQ, major browsers currently favor DoH/3. Our extensive latency measurements demonstrate that both protocols perform comparably, with DoQ slightly outperforming on average. Complementary experiments with the top one million websites show negligible overall page load time penalties when using DoQ or DoH/3 compared to traditional DNS-over-UDP (Do53), even under low-latency conditions.",
+isbn="978-3-032-18268-5"
+}
+
+@InProceedings{10.1007/978-3-032-18268-5_13,
+author="Jansen, Rob
+and Wails, Ryan
+and Johnson, Aaron",
+editor="Ferlin-Reiter, Simone
+and Fontugne, Romain
+and Ullrich, Johanna",
+title="A Measurement of Genuine Tor Traces for Realistic Website Fingerprinting",
+booktitle="Passive and Active Measurement",
+year="2026",
+publisher="Springer Nature Switzerland",
+address="Cham",
+pages="277--293",
+abstract="Website fingerprinting (WF) enables an adversary to predict the website a user is visiting, despite the use of encryption or Tor. Previous work almost exclusively uses synthetic datasets to evaluate the success of WF attacks. We present GTT23, the first dataset of genuine Tor traces, intended especially for WF analysis. We obtain it through a measurement of the Tor network, and, with {\$}{\$}1.4 {\backslash}times 10^7{\$}{\$}1.4{\texttimes}107traces, it is larger than any existing WF dataset by an order of magnitude. We survey 28 WF datasets published since 2008 and compare them to GTT23, discovering common deficiencies of synthetic datasets for drawing conclusions about WF effectiveness. We have made GTT23 available to other researchers.",
+isbn="978-3-032-18268-5"
+}
+
+@InProceedings{10.1007/978-3-032-18268-5_14,
+author="Degen, Bernhard
+and Kempen, Nils
+and Claffy, K. C.
+and Mok, Ricky K. P.
+and Holz, Ralph
+and Rijswijk-Deij, Roland van
+and Sommese, Raffaele
+and Jonker, Mattijs",
+editor="Ferlin-Reiter, Simone
+and Fontugne, Romain
+and Ullrich, Johanna",
+title="Through a Smaller Lens: Revisiting Opportunistic Analysis Using Network Telescopes",
+booktitle="Passive and Active Measurement",
+year="2026",
+publisher="Springer Nature Switzerland",
+address="Cham",
+pages="294--318",
+abstract="Unsolicited network traffic observed to the addresses monitored by a network telescope enables, among other things, tracking of Internet outages, botnets and DDoS attacks. We examine how a decrease in available address space affects what we can learn about the phenomena we study with telescopes. We conduct a targeted replication of a seminal study conducted 10  years ago. Since then, IPv4 scarcity and rising operational costs have placed increased pressure on operators to maximize use of their allocated space, which has resulted in a reduction of address space available to major telescopes. As a first step, we characterize traffic to three network telescopes that differ in size, spatial distribution, and prominence. We find that most address blocks within each telescope observe a similar number of source IP addresses, and that smaller telescopes offer higher visibility per monitored address. We also find that sources target the IPv4 address space pervasively, with 37.0{\%} of them targeting a /16 block in each of the three telescopes within an hour. As a case study, we examine the sensitivity of randomly-spoofed DoS attack inference to the size of the address space under observation and find that larger telescopes detect many attacks missed by smaller ones, although smaller telescopes observe disproportionately many relative to their address space size. Our study provides a framework to quantify the effects of reduced telescope address space and outlines future directions for telescope research.",
+isbn="978-3-032-18268-5"
+}
+
+@InProceedings{10.1007/978-3-032-18268-5_15,
+author="Bhardwaj, Prince
+and Sastry, Nishanth",
+editor="Ferlin-Reiter, Simone
+and Fontugne, Romain
+and Ullrich, Johanna",
+title="State of Passkey Authentication in the Wild: A Census of the Top 100K Sites",
+booktitle="Passive and Active Measurement",
+year="2026",
+publisher="Springer Nature Switzerland",
+address="Cham",
+pages="319--347",
+abstract="Passkeys -- discoverable WebAuthn credentials synchronized across devices are widely promoted as the future of passwordless authentication. Built on the FIDO2 standard, they eliminate shared secrets and resist phishing while offering usability through platform credential managers. Since their introduction in 2022, major vendors have integrated passkeys into operating systems and browsers, and prominent websites have announced support. Yet the true extent of adoption across the broader web remains unknown.",
+isbn="978-3-032-18268-5"
+}
+
+@InProceedings{10.1007/978-3-032-18268-5_16,
+author="Shi, Qinxuan
+and Yang, Zhanglong
+and Shao, Sicong",
+editor="Ferlin-Reiter, Simone
+and Fontugne, Romain
+and Ullrich, Johanna",
+title="Efficient System Log Analysis via Quantized On-Device Anomaly Detection and Response",
+booktitle="Passive and Active Measurement",
+year="2026",
+publisher="Springer Nature Switzerland",
+address="Cham",
+pages="348--373",
+abstract="The rapid expansion of the Internet of Things (IoT) and the growing interconnectivity of industrial systems have created an urgent need for log anomaly detection (LAD) to be performed locally on edge devices. However, a significant gap exists between the computational resources required by advanced deep learning models and the limited processing capacity of edge hardware, often forcing a trade-off between detection accuracy and deployment feasibility. To address this challenge, this paper makes two major contributions. First, we introduce EM-AT-based LAD by designing an unsupervised LAD method that extends the Transformer-based anomaly detection model via integrating the Expectation-Maximization (EM) algorithm for fully automated threshold determination. While EM-AT-based LAD achieves high detection accuracy, its computational requirement limits its direct applicability on power-constrained edge devices. Therefore, we introduce LiteLADR, a framework that enables efficient system log analysis via quantized on-device anomaly detection and response. LiteLADR leverages TorchAO and ExecuTorch for model quantization and optimization, enabling both EM-AT and large language models (LLMs) to operate efficiently on resource-constrained edge nodes. Comprehensive evaluations on the HDFS and OpenStack datasets show that EM-AT outperforms leading methods, achieving {\$}{\$}F{\_}{\{}1{\}}{\$}{\$}F1-scores of 98.90{\%} and 99.61{\%}, respectively. LiteLADR preserves strong detection performance ({\$}{\$}F{\_}{\{}1{\}}{\$}{\$}F1-scores of 98.65{\%} and 99.43{\%}) while substantially reducing computational resource consumption.",
+isbn="978-3-032-18268-5"
+}
+
+@InProceedings{10.1007/978-3-032-18268-5_17,
+author="Vanliefde, Maxime
+and Van Hauwaert, Romain
+and Tyunyayev, Nikita
+and Delzotti, Cl{\'e}ment
+and Agostini, Elena
+and Barbette, Tom",
+editor="Ferlin-Reiter, Simone
+and Fontugne, Romain
+and Ullrich, Johanna",
+title="xPUBench: Scalable and Energy-Efficient GPU and DPU-Accelerated Network Functions",
+booktitle="Passive and Active Measurement",
+year="2026",
+publisher="Springer Nature Switzerland",
+address="Cham",
+pages="377--405",
+abstract="The rapid increase in network speeds makes packet processing on general-purpose CPUs increasingly challenging. At 100 Gbps and beyond, CPUs struggle to sustain complex network functions without dedicated acceleration. This trend motivates the exploration and measurement of alternative compute platforms such as GPUs and embedded CPUs in Network Interface Cards (NICs). Modern NICs provide tighter integration with GPUs, with the ability to write received packets directly to GPU memory. SmartNICs, also known as Data Processing Units (DPUs), further feature embedded ARM or RISC-V cores capable of offloading NFV packet processing entirely.",
+isbn="978-3-032-18268-5"
+}
