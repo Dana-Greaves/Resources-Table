@@ -1,4 +1,4 @@
-\begin{thebibliography}{645}
+\begin{thebibliography}{644}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -95,26 +95,21 @@ Apnic asn dataset.
 \newblock \url{https://ftp.apnic.net/stats/apnic/}, {\natexlab{a}}.
 \newblock Accessed: 2026-10-27.
 
-\bibitem[apn({\natexlab{b}})]{apnic_customers}
-Apnic customers per as.
-\newblock \url{https://labs.apnic.net/dists/as-customer.html}, {\natexlab{b}}.
-\newblock Accessed: 2026-10-27.
-
-\bibitem[apn({\natexlab{c}})]{apnic_erx}
+\bibitem[apn({\natexlab{b}})]{apnic_erx}
 Apnic erx resources.
 \newblock
   \url{https://www.apnic.net/about-apnic/organization/history/erx-transfers/},
-  {\natexlab{c}}.
+  {\natexlab{b}}.
 \newblock Accessed: 2026-10-27.
 
-\bibitem[apn({\natexlab{d}})]{apnic_eyeballs}
+\bibitem[apn({\natexlab{c}})]{apnic_eyeballs}
 Apnic eyeballs dataset.
-\newblock \url{https://labs.apnic.net/}, {\natexlab{d}}.
+\newblock \url{https://labs.apnic.net/}, {\natexlab{c}}.
 \newblock Accessed: 2026-10-27.
 
-\bibitem[apn({\natexlab{e}})]{apnic_ftp}
+\bibitem[apn({\natexlab{d}})]{apnic_ftp}
 Apnic ftp repository.
-\newblock \url{https://ftp.apnic.net/}, {\natexlab{e}}.
+\newblock \url{https://ftp.apnic.net/}, {\natexlab{d}}.
 \newblock Accessed: 2026-10-27.
 
 \bibitem[app({\natexlab{a}})]{apple_safari_ct}
@@ -149,7 +144,7 @@ Apple safari certificate transparency logs.
 
 \bibitem[as_()]{as_hegemony}
 {AS Hegemony}.
-\newblock \url{http://as-hegemony.herokuapp.com/}.
+\newblock \url{https://archive.ihr.live/ihr/hegemony/}.
 \newblock Accessed: 2026-10-27.
 
 \bibitem[axf()]{axfr_protocol}
@@ -2107,7 +2102,8 @@ Remi Hendriks, Matthew Luckie, Mattijs Jonker, Raffaele Sommese, and Roland van
   Association for Computing Machinery.
 \newblock ISBN 9798400718601.
 \newblock \doi{10.1145/3730567.3764484}.
-\newblock URL \url{https://doi.org/10.1145/3730567.3764484}.
+\newblock URL \url{https://doi.org/10.1145/3730567.3764484;
+  https://manycast.net/}.
 
 \bibitem[Hernandez et~al.(2021)Hernandez, Recabarren, Carbunar, and
   Ahmed]{10.1145/3487552.3487837}

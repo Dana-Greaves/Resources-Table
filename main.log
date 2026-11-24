@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.7.12)  4 NOV 2026 23:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.7.12)  23 NOV 2026 15:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -3886,6 +3886,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 212--212
 Underfull \hbox (badness 10000) in paragraph at lines 212--212
 \T1/lmr/m/n/10.95 tomers
  []
+
+
+Package natbib Warning: Citation `apnic_customers' on page 2 undefined on input line 212.
 
 
 Overfull \hbox (46.38882pt too wide) in paragraph at lines 212--212
@@ -8447,222 +8450,222 @@ File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10.95> on input line 10.
  [25]
-Underfull \hbox (badness 2393) in paragraph at lines 121--124
+Underfull \hbox (badness 2393) in paragraph at lines 116--119
 []\T1/lmr/m/n/10.95 Apple sa-fari cer-tifi-cate trans-parency logs.  []$\T1/lmtt/m/n/10.95 https : / / support . apple . com / en-[]us /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 201--204
+Underfull \hbox (badness 10000) in paragraph at lines 196--199
 []\T1/lmr/m/n/10.95 Census.  []$\T1/lmtt/m/n/10.95 https : / / ec . europa . eu / eurostat / web / population-[]demography /
  []
 
 [26]
-Underfull \hbox (badness 1983) in paragraph at lines 216--220
+Underfull \hbox (badness 1983) in paragraph at lines 211--215
 []\T1/lmr/m/n/10.95 Internet health re-port.  []$\T1/lmtt/m/n/10.95 https : / / catalog . caida . org / dataset / internet _ health _
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 232--235
+Underfull \hbox (badness 10000) in paragraph at lines 227--230
 []\T1/lmr/m/n/10.95 Measuring broad-band amer-ica (mba).  []$\T1/lmtt/m/n/10.95 https : / / www . fcc . gov / general /
  []
 
-[27]
-Underfull \hbox (badness 5563) in paragraph at lines 329--332
+
+Underfull \hbox (badness 5563) in paragraph at lines 324--327
 []\T1/lmr/m/n/10.95 Snort3 com-mu-nity rules, .  URL []$\T1/lmtt/m/n/10.95 https : / / snort . org / downloads / community /
  []
 
-
-Underfull \hbox (badness 4108) in paragraph at lines 369--372
+[27]
+Underfull \hbox (badness 4108) in paragraph at lines 364--367
 []\T1/lmr/m/n/10.95 Trinocular: Net-work se-cu-rity mon-i-tor-ing.  []$\T1/lmtt/m/n/10.95 https : / / www . caida . org / projects /
  []
 
 
-Underfull \hbox (badness 3977) in paragraph at lines 383--387
+Underfull \hbox (badness 3977) in paragraph at lines 378--382
 []\T1/lmr/m/n/10.95 Best Na-tional Uni-ver-sity Rank-ings.  []$\T1/lmtt/m/n/10.95 https : / / www . usnews . com / best-[]colleges /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 389--392
+Underfull \hbox (badness 10000) in paragraph at lines 384--387
 []\T1/lmr/m/n/10.95 Vanguard rus-sell 3000 etf.  URL []$\T1/lmtt/m/n/10.95 https : / / investor . vanguard . com /
  []
 
 
-Underfull \hbox (badness 1052) in paragraph at lines 415--418
+Underfull \hbox (badness 1052) in paragraph at lines 410--413
 []\T1/lmr/m/n/10.95 Linx mem-ber por-tal: Mem-bers by ip/asn.  []$\T1/lmtt/m/n/10.95 https : / / portal . linx . net / members /
  []
 
 [28]
-Underfull \hbox (badness 2753) in paragraph at lines 541--544
+Underfull \hbox (badness 2753) in paragraph at lines 536--539
 []\T1/lmr/m/n/10.95 Palo Alto.  Palo alto black-list.  URL []$\T1/lmtt/m/n/10.95 https : / / docs . paloaltonetworks . com /
  []
 
 [29]
-Overfull \hbox (114.64758pt too wide) in paragraph at lines 616--624
+Overfull \hbox (114.64758pt too wide) in paragraph at lines 611--619
 \T1/lmtt/m/n/10.95 news / decommissioning-[]recognised-[]ipv4-[]transfer-[]brokers-[]list-[]and-[]ipv4-[]transfer-[]listing-[]service /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 616--624
+Underfull \hbox (badness 10000) in paragraph at lines 611--619
 \T1/lmtt/m/n/10.95 andhttps : / / www . arin . net / resources / registry / transfers / facilitators /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 616--624
+Underfull \hbox (badness 10000) in paragraph at lines 611--619
 \T1/lmtt/m/n/10.95 qualifiedfacilitators / andhttps : / / www . apnic . net / manage-[]ip /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 616--624
+Underfull \hbox (badness 10000) in paragraph at lines 611--619
 \T1/lmtt/m/n/10.95 manage-[]resources / transfer-[]resources / transfer-[]of-[]unused-[]ip-[]and-[]as-[]numbers /
  []
 
 
-Underfull \hbox (badness 7273) in paragraph at lines 632--636
+Underfull \hbox (badness 7273) in paragraph at lines 627--631
 []\T1/lmr/m/it/10.95 iTunes Search API Doc-u-men-ta-tion\T1/lmr/m/n/10.95 .  Ap-ple Inc., 2026.  URL []$\T1/lmtt/m/n/10.95 https : / /
  []
 
 [30] [31] [32]
-Underfull \hbox (badness 1735) in paragraph at lines 894--898
+Underfull \hbox (badness 1735) in paragraph at lines 889--893
 []\T1/lmr/m/n/10.95 CAIDA.  CAIDA-DZDB: DNS Zone Database.  []$\T1/lmtt/m/n/10.95 https : / / www . caida . org / data /
  []
 
 
-Underfull \hbox (badness 1215) in paragraph at lines 940--944
+Underfull \hbox (badness 1215) in paragraph at lines 935--939
 []\T1/lmr/m/n/10.95 CAIDA.  As clas-si-fi-ca-tion, .  URL []$\T1/lmtt/m/n/10.95 https : / / www . caida . org / catalog / datasets /
  []
 
 
-Underfull \hbox (badness 6078) in paragraph at lines 989--993
+Underfull \hbox (badness 6078) in paragraph at lines 984--988
 []\T1/lmr/m/n/10.95 Missiomo Can-dela.  Ge-ofeed finder.  []$\T1/lmtt/m/n/10.95 https : / / github . com / massimocandela /
  []
 
 [33]
-Underfull \hbox (badness 5189) in paragraph at lines 1040--1044
+Underfull \hbox (badness 5189) in paragraph at lines 1035--1039
 []\T1/lmr/m/n/10.95 Central In-tel-li-gence Agency.  The world fact-book.  []$\T1/lmtt/m/n/10.95 https : / / www . cia . gov /
  []
 
 [34]
-Underfull \hbox (badness 3019) in paragraph at lines 1143--1149
+Underfull \hbox (badness 3019) in paragraph at lines 1138--1144
 \T1/lmtt/m/n/10.95 cloud-[]systems-[]management / crosswork-[]network-[]automation / index . html$[]\T1/lmr/m/n/10.95 , .  Ac-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1151--1157
+Underfull \hbox (badness 10000) in paragraph at lines 1146--1152
 []$\T1/lmtt/m/n/10.95 https : / / www . cisco . com / c / en / us / td / docs / security / vpn _ client / anyconnect /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1151--1157
+Underfull \hbox (badness 10000) in paragraph at lines 1146--1152
 \T1/lmtt/m/n/10.95 Cisco-[]Secure-[]Client-[]5 / admin / guide / b-[]cisco-[]secure-[]client-[]admin-[]guide-[]5-[]0 /
  []
 
 [35] [36]
-Underfull \hbox (badness 10000) in paragraph at lines 1364--1368
+Underfull \hbox (badness 10000) in paragraph at lines 1359--1363
 []\T1/lmr/m/n/10.95 Disconnect.  Dis-con-nect en-tity list.  []$\T1/lmtt/m/n/10.95 https : / / github . com / disconnectme /
  []
 
 [37] [38] [39] [40]
-Underfull \hbox (badness 4660) in paragraph at lines 1822--1826
+Underfull \hbox (badness 4660) in paragraph at lines 1817--1821
 []\T1/lmr/m/n/10.95 Google.  Chrome Teleme-try Data.  []$\T1/lmtt/m/n/10.95 https : / / www . chromium . org / developers /
  []
 
 
-Underfull \hbox (badness 2781) in paragraph at lines 1840--1845
+Underfull \hbox (badness 2781) in paragraph at lines 1835--1840
 []\T1/lmr/m/n/10.95 Google.  Google cer-tifi-cate trans-parency logs, .  URL []$\T1/lmtt/m/n/10.95 https : / / github . com /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1840--1845
+Underfull \hbox (badness 10000) in paragraph at lines 1835--1840
 \T1/lmtt/m/n/10.95 google / certificate-[]transparency-[]community-[]site / blob / master / docs / google /
  []
 
 [41]
-Underfull \hbox (badness 1484) in paragraph at lines 1900--1904
+Underfull \hbox (badness 1484) in paragraph at lines 1895--1899
 []\T1/lmr/m/n/10.95 Google Cloud.  Google Big-Query Doc-u-men-ta-tion.  []$\T1/lmtt/m/n/10.95 https : / / cloud . google . com /
  []
 
 
-Underfull \hbox (badness 1406) in paragraph at lines 1978--1981
+Underfull \hbox (badness 1406) in paragraph at lines 1973--1976
 []\T1/lmr/m/n/10.95 MonIotr Re-search Group.  Mo-niotr lab, .  URL []$\T1/lmtt/m/n/10.95 https : / / moniotrlab . khoury .
  []
 
 [42] [43] [44]
-Underfull \hbox (badness 1910) in paragraph at lines 2276--2282
+Underfull \hbox (badness 1910) in paragraph at lines 2272--2278
 []\T1/lmr/m/n/10.95 IANA.  Trans-port Layer Se-cu-rity (TLS) Pa-ram-e-ters.  []$\T1/lmtt/m/n/10.95 https : / / www . iana . org /
  []
 
 [45]
-Underfull \hbox (badness 6758) in paragraph at lines 2344--2348
+Underfull \hbox (badness 6758) in paragraph at lines 2340--2344
 []\T1/lmr/m/n/10.95 International Mon-e-tary Fund.  Fis-cal Mon-i-tor.  []$\T1/lmtt/m/n/10.95 https : / / www . imf . org / en /
  []
 
 [46]
-Underfull \hbox (badness 4024) in paragraph at lines 2507--2513
+Underfull \hbox (badness 4024) in paragraph at lines 2503--2509
 []\T1/lmr/m/n/10.95 Janus.  Dis-tur-bance storm time (dst) in-dex.  []$\T1/lmtt/m/n/10.95 https : / / www . janusresearch .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2507--2513
+Underfull \hbox (badness 10000) in paragraph at lines 2503--2509
 \T1/lmtt/m/n/10.95 com / accelerated-[]missions / space-[]threat-[]acceleration$[]\T1/lmr/m/n/10.95 .  For-warded from
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2507--2513
+Underfull \hbox (badness 10000) in paragraph at lines 2503--2509
 \T1/lmr/m/n/10.95 https://www.aer.com/science-research/space/space-weather/space-weather-index/dst-
  []
 
 [47] [48] [49] [50] [51] [52] [53]
-Underfull \hbox (badness 2990) in paragraph at lines 3207--3212
+Underfull \hbox (badness 2990) in paragraph at lines 3203--3208
 []\T1/lmr/m/n/10.95 MaxMind.  Geoip databases.  URL []$\T1/lmtt/m/n/10.95 https : / / www . maxmind . com / en / solutions /
  []
 
 [54]
-Underfull \hbox (badness 1394) in paragraph at lines 3294--3298
+Underfull \hbox (badness 1394) in paragraph at lines 3290--3294
 []\T1/lmr/m/n/10.95 Measurement Lab (M-Lab).  M-Lab In-ter-net Speed Test Data.  []$\T1/lmtt/m/n/10.95 https : / / www .
  []
 
 [55] [56]
-Underfull \hbox (badness 10000) in paragraph at lines 3531--3534
+Underfull \hbox (badness 10000) in paragraph at lines 3527--3530
 []\T1/lmr/m/n/10.95 NANOG.  Nanog mail-ing lists.  URL []$\T1/lmtt/m/n/10.95 https : / / nanog . org / resources /
  []
 
 
-Underfull \hbox (badness 1043) in paragraph at lines 3606--3609
+Underfull \hbox (badness 1043) in paragraph at lines 3602--3605
 []\T1/lmr/m/n/10.95 Network Startup Re-source Cen-ter.  Route-views, 2025.  URL []$\T1/lmtt/m/n/10.95 https : / / archive .
  []
 
 [57] [58{C:/Users/danar/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/danar/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}] [59] [60]
-Underfull \hbox (badness 10000) in paragraph at lines 4001--4006
+Underfull \hbox (badness 10000) in paragraph at lines 3997--4002
 []\T1/lmr/m/n/10.95 RIPE NCC.  Ripe ris, .  URL []$\T1/lmtt/m/n/10.95 https : / / www . ripe . net / analyse /
  []
 
 
-Underfull \hbox (badness 3281) in paragraph at lines 4001--4006
+Underfull \hbox (badness 3281) in paragraph at lines 3997--4002
 \T1/lmtt/m/n/10.95 internet-[]measurements / routing-[]information-[]service-[]ris/$[]\T1/lmr/m/n/10.95 .  Ac-cessed: 2026-
  []
 
 
-Underfull \hbox (badness 5504) in paragraph at lines 4008--4012
+Underfull \hbox (badness 5504) in paragraph at lines 4004--4008
 []\T1/lmr/m/n/10.95 RIPEstat.  Rout-ing his-tory.  URL []$\T1/lmtt/m/n/10.95 https : / / stat . ripe . net / docs / data-[]api /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4045--4048
+Underfull \hbox (badness 10000) in paragraph at lines 4041--4044
 []\T1/lmr/m/n/10.95 rssac cau-cus.  Rssac002-data.  URL []$\T1/lmtt/m/n/10.95 https : / / github . com / rssac-[]caucus /
  []
 
 [61] [62]
-Underfull \hbox (badness 2189) in paragraph at lines 4242--4246
+Underfull \hbox (badness 2189) in paragraph at lines 4238--4242
 []\T1/lmr/m/n/10.95 Majestic SEO.  The ma-jes-tic mil-lion.  URL []$\T1/lmtt/m/n/10.95 https : / / majestic . com / reports /
  []
 
 [63] [64] [65]
-Underfull \hbox (badness 6493) in paragraph at lines 4513--4517
+Underfull \hbox (badness 6493) in paragraph at lines 4509--4513
 []\T1/lmr/m/n/10.95 Stratosphere IPS.  Dridex mal-ware traf-fic cap-tures.  URL []$\T1/lmtt/m/n/10.95 https : / / www .
  []
 
 [66]
-Underfull \hbox (badness 2173) in paragraph at lines 4596--4600
+Underfull \hbox (badness 2173) in paragraph at lines 4592--4596
 []\T1/lmr/m/n/10.95 Team Cymru.  IP to ASN Map-ping Ser-vice.  []$\T1/lmtt/m/n/10.95 https : / / www . team-[]cymru . com /
  []
 
@@ -8679,17 +8682,17 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 7B4384B320B2E90855588291EE98AF70;457.
  ) 
 Here is how much of TeX's memory you used:
- 13124 strings out of 467871
- 226924 string characters out of 5418376
- 1042280 words of memory out of 5000000
- 41131 multiletter control sequences out of 15000+600000
+ 13120 strings out of 467871
+ 226835 string characters out of 5418376
+ 1042207 words of memory out of 5000000
+ 41128 multiletter control sequences out of 15000+600000
  665998 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,6n,79p,1629b,1823s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,6n,79p,1629b,1821s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/danar/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/danar/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/danar/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/danar/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/danar/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/danar/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Users/danar/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/danar/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb>
-Output written on main.pdf (73 pages, 930654 bytes).
+Output written on main.pdf (73 pages, 930494 bytes).
 PDF statistics:
- 3247 PDF objects out of 3580 (max. 8388607)
- 725 named destinations out of 1000 (max. 500000)
+ 3244 PDF objects out of 3580 (max. 8388607)
+ 724 named destinations out of 1000 (max. 500000)
  25 words of extra memory for PDF output out of 10000 (max. 10000000)
 

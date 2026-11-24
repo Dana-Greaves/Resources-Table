@@ -10,6 +10,7 @@ Reallocating 'str_pool' (item size: 1) to 130000 items.
 Warning--I'm ignoring caida_itdk's extra "note" field
 --line 15215 of file bib.bib
 Warning--I didn't find a database entry for "iana-allocation"
+Warning--I didn't find a database entry for "apnic_customers"
 Warning--to sort, need author or key in fabric_mflib
 Warning--to sort, need author or key in internet_atlas
 Warning--to sort, need author or key in internet_health_report
@@ -52,7 +53,6 @@ Warning--to sort, need author or key in anoncdn_dataset
 Warning--to sort, need author or key in ant_lab_hits
 Warning--to sort, need author or key in anycast_census
 Warning--to sort, need author or key in apnic_asn
-Warning--to sort, need author or key in apnic_customers
 Warning--to sort, need author or key in apnic_eyeballs
 Warning--to sort, need author or key in apnic_ftp
 Warning--to sort, need author or key in apnic_erx
@@ -113,7 +113,6 @@ Warning--empty year in anoncdn_dataset
 Warning--empty year in ant_lab_hits
 Warning--empty year in anycast_census
 Warning--empty year in apnic_asn
-Warning--empty year in apnic_customers
 Warning--empty year in apnic_erx
 Warning--empty year in apnic_eyeballs
 Warning--empty year in apnic_ftp
@@ -389,45 +388,45 @@ Warning--empty year in twitter-x
 Warning--empty year in zeromev
 Warning--empty year in zoominfo
 Warning--empty year in zvelo
-You've used 645 entries,
+You've used 644 entries,
             2773 wiz_defined-function locations,
-            3303 strings with 102773 characters,
-and the built_in function-call counts, 336746 in all, are:
-= -- 32900
+            3301 strings with 102728 characters,
+and the built_in function-call counts, 336494 in all, are:
+= -- 32874
 > -- 17778
 < -- 576
-+ -- 6188
++ -- 6186
 - -- 5457
-* -- 23550
-:= -- 47580
-add.period$ -- 3088
-call.type$ -- 645
-change.case$ -- 3644
+* -- 23533
+:= -- 47559
+add.period$ -- 3085
+call.type$ -- 644
+change.case$ -- 3641
 chr.to.int$ -- 559
-cite$ -- 1754
-duplicate$ -- 16900
-empty$ -- 26376
+cite$ -- 1749
+duplicate$ -- 16885
+empty$ -- 26341
 format.name$ -- 6078
-if$ -- 75883
-int.to.chr$ -- 87
+if$ -- 75821
+int.to.chr$ -- 86
 int.to.str$ -- 1
 missing$ -- 312
-newline$ -- 4087
+newline$ -- 4082
 num.names$ -- 2452
-pop$ -- 9452
+pop$ -- 9436
 preamble$ -- 1
-purify$ -- 3000
+purify$ -- 2998
 quote$ -- 0
-skip$ -- 14618
+skip$ -- 14610
 stack$ -- 0
-substring$ -- 8096
-swap$ -- 5258
+substring$ -- 8093
+swap$ -- 5256
 text.length$ -- 302
 text.prefix$ -- 1
 top$ -- 0
-type$ -- 7095
-warning$ -- 379
+type$ -- 7084
+warning$ -- 377
 while$ -- 2308
 width$ -- 0
-write$ -- 10341
-(There were 381 warnings)
+write$ -- 10329
+(There were 380 warnings)
