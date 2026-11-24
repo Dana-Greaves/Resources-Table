@@ -1,4 +1,4 @@
-\begin{thebibliography}{644}
+\begin{thebibliography}{741}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -10,10 +10,18 @@
 \newblock \url{https://github.com/badmojr/1Hosts}.
 \newblock Accessed: 2026-10-27.
 
+\bibitem[2fa()]{2fa}
+2fa directory.
+\newblock URL \url{https://2fa.directory/in/}.
+
 \bibitem[360()]{360_security}
 360 security.
 \newblock \url{https://www.360.net/}.
 \newblock Accessed: 2026-10-27.
+
+\bibitem[Tre()]{TrendMicro}
+Trend micro site safety center.
+\newblock URL \url{https://global.sitesafety.trendmicro.com/}.
 
 \bibitem[abu({\natexlab{a}})]{abusech_feodo}
 Abuse.ch feodo tracker.
@@ -25,10 +33,9 @@ Abuse.ch ssl blacklist.
 \newblock \url{https://sslbl.abuse.ch/}, {\natexlab{b}}.
 \newblock Accessed: 2026-10-27.
 
-\bibitem[ad_()]{ad_fontes}
-Ad fontes media.
-\newblock \url{https://adfontesmedia.com/}.
-\newblock Accessed: 2026-10-27.
+\bibitem[abu({\natexlab{c}})]{abuseipdb}
+Abuseipdb, {\natexlab{c}}.
+\newblock URL \url{https://docs.abuseipdb.com/#introduction}.
 
 \bibitem[afn()]{afnic}
 Afnic.
@@ -49,11 +56,6 @@ Akamai prolexic: Ddos mitigation.
 \bibitem[ali()]{alice_lg}
 Alice-lg: Bgp looking glass.
 \newblock \url{https://github.com/alice-lg/alice-lg}.
-\newblock Accessed: 2026-10-27.
-
-\bibitem[all()]{allsides}
-Allsides: Media bias ratings.
-\newblock \url{https://www.allsides.com/}.
 \newblock Accessed: 2026-10-27.
 
 \bibitem[ame()]{american_community_survey}
@@ -117,15 +119,14 @@ Apple safari certificate transparency logs.
 \newblock \url{https://support.apple.com/en-us/HT205280}, {\natexlab{a}}.
 \newblock Accessed: 2026-10-27.
 
-\bibitem[app({\natexlab{b}})]{apple_store}
-{Apple Store}.
-\newblock \url{https://www.apple.com/app-store/}, {\natexlab{b}}.
+\bibitem[app({\natexlab{b}})]{appview_getfeed}
+{Appview getFeed}.
+\newblock \url{https://appview.com/}, {\natexlab{b}}.
 \newblock Accessed: 2026-10-27.
 
-\bibitem[app({\natexlab{c}})]{appview_getfeed}
-{Appview getFeed}.
-\newblock \url{https://appview.com/}, {\natexlab{c}}.
-\newblock Accessed: 2026-10-27.
+\bibitem[are()]{arelion}
+Arelion network map.
+\newblock URL \url{https://www.arelion.com/our-network}.
 
 \bibitem[ari({\natexlab{a}})]{arin_erx}
 {ARIN ERX Resources}.
@@ -142,10 +143,13 @@ Apple safari certificate transparency logs.
 \newblock \url{https://www.arin.net/}, {\natexlab{c}}.
 \newblock Accessed: 2026-10-27.
 
-\bibitem[as_()]{as_hegemony}
-{AS Hegemony}.
-\newblock \url{https://archive.ihr.live/ihr/hegemony/}.
-\newblock Accessed: 2026-10-27.
+\bibitem[as1()]{as112}
+As112 project operator listing.
+\newblock URL \url{https://www.as112.net/ops-listing/}.
+
+\bibitem[atl()]{atlasapi}
+Ripe atlas api.
+\newblock URL \url{https://atlas.ripe.net/api/v2/measurements/}.
 
 \bibitem[axf()]{axfr_protocol}
 {AXFR Protocol (DNS Zone Transfer)}.
@@ -177,9 +181,13 @@ Apple safari certificate transparency logs.
 \newblock \url{https://www.bgpmon.net/}, {\natexlab{c}}.
 \newblock Accessed: 2026-10-27.
 
-\bibitem[bgp({\natexlab{d}})]{bgpstream}
+\bibitem[bgp({\natexlab{d}})]{bgproutes}
+Bgp routes, {\natexlab{d}}.
+\newblock URL \url{https://www.bgproutes.io/}.
+
+\bibitem[bgp({\natexlab{e}})]{bgpstream}
 {BGPStream}.
-\newblock \url{https://bgpstream.caida.org/}, {\natexlab{d}}.
+\newblock \url{https://bgpstream.caida.org/}, {\natexlab{e}}.
 \newblock Accessed: 2026-10-27.
 
 \bibitem[bit()]{bitcoin_abuse}
@@ -187,20 +195,71 @@ Apple safari certificate transparency logs.
 \newblock \url{https://www.bitcoinabuse.com/}.
 \newblock Accessed: 2026-10-27.
 
-\bibitem[blu()]{bluesky_relay}
-{Bluesky Relay}.
-\newblock \url{https://bsky.network/docs/relay/}.
-\newblock Accessed: 2026-10-27.
+\bibitem[bla()]{blacklistalert}
+Blacklistalert.
+\newblock URL \url{https://blacklistalert.org/}.
+
+\bibitem[cai({\natexlab{a}})]{caidaipv4}
+Ipv4 routed /24 topology dataset, {\natexlab{a}}.
+\newblock URL
+  \url{https://www.caida.org/catalog/datasets/ipv4_routed_24_topology_dataset/}.
+
+\bibitem[cai({\natexlab{b}})]{caidaprobing}
+Ipv4 prefix-probing traceroute dataset, {\natexlab{b}}.
+\newblock URL
+  \url{https://www.caida.org/catalog/datasets/ipv4_prefix_probing_dataset/}.
 
 \bibitem[cen()]{census}
 Census.
 \newblock
   \url{https://ec.europa.eu/eurostat/web/population-demography/population-housing-censuses}.
 
+\bibitem[cgt()]{cgtf}
+Cgtf.
+\newblock URL \url{https://bgp.cgtf.net/}.
+
+\bibitem[clo()]{cloudflare}
+Cloudflare.
+\newblock URL \url{https://www.cloudflare.com/}.
+
+\bibitem[crl()]{crlite}
+Crlite.
+\newblock URL
+  \url{https://hacks.mozilla.org/2025/08/crlite-fast-private-and-comprehensive-certificate-revocation-checking-in-firefox/}.
+
+\bibitem[cyr()]{cyren}
+Cyren.
+\newblock URL \url{https://data443.com/cyren-threat-intelligence/}.
+
+\bibitem[dns()]{dns4eu}
+Dns4eu.
+\newblock URL \url{https://joindns4.eu/}.
+
+\bibitem[dom()]{domcop}
+Domcop top domains.
+\newblock URL \url{https://www.domcop.com/domains}.
+
 \bibitem[fab()]{fabric_mflib}
 Fabric mflib.
 \newblock \url{https://fabric-testbed.net/}.
 \newblock Accessed: 2026-10-27.
+
+\bibitem[for()]{fortiguard}
+Fortiguard.
+\newblock URL \url{https://www.fortiguard.com/}.
+
+\bibitem[get()]{getsafeonline}
+Get safe online.
+\newblock URL \url{https://www.getsafeonline.org/}.
+
+\bibitem[hoi()]{hoiho}
+Caida hoiho.
+\newblock URL
+  \url{https://www.caida.org/catalog/datasets/internet-topology-data-kit/#hoiho-geolocation-rule-files}.
+
+\bibitem[hyb()]{hybrid}
+Hybrid analysis.
+\newblock URL \url{https://www.hybrid-analysis.com/}.
 
 \bibitem[int({\natexlab{a}})]{internet_atlas}
 Internet atlas: A geographic database of the internet.
@@ -213,6 +272,10 @@ Internet health report.
   {\natexlab{b}}.
 \newblock Accessed: 2026-10-27.
 
+\bibitem[ipp()]{ipplus}
+Ipplus 360.
+\newblock URL \url{https://en.ipplus360.com/IPGeoDB/}.
+
 \bibitem[iso()]{isolario_project}
 Isolario project.
 \newblock \url{https://arxiv.org/abs/1611.06904}.
@@ -223,20 +286,36 @@ justdomains blocklist.
 \newblock Information regarding this resource may require specific project
   documentation.
 
+\bibitem[kas()]{kaspersky}
+Kaspersky threat intelligence portal.
+\newblock URL \url{https://www.kaspersky.com}.
+
+\bibitem[leo()]{leoscope}
+Leoscope.
+\newblock URL \url{https://leoscope.surrey.ac.uk/}.
+
+\bibitem[mal()]{maltiverse}
+Maltiverse.
+\newblock URL \url{https://maltiverse.com/start}.
+
 \bibitem[mea()]{measuring_broadband_america}
 Measuring broadband america (mba).
 \newblock \url{https://www.fcc.gov/general/measuring-broadband-america}.
-\newblock Accessed: 2026-10-27.
-
-\bibitem[med()]{media_bias_fact_check}
-Media bias/fact check.
-\newblock \url{https://mediabiasfactcheck.com/}.
 \newblock Accessed: 2026-10-27.
 
 \bibitem[mla()]{mlab_traceroute}
 M-lab traceroute dataset.
 \newblock \url{https://www.measurementlab.net/}.
 \newblock Accessed: 2026-10-27.
+
+\bibitem[moz()]{mozillatelemetry}
+Mozilla telemetry.
+\newblock URL
+  \url{https://glam.telemetry.mozilla.org/fog/probe/cert_validation_success_by_ca_2/table?}
+
+\bibitem[myw()]{mywot}
+Mywot.
+\newblock URL \url{https://www.mywot.com/}.
 
 \bibitem[nat()]{national_broadband_map}
 National broadband map.
@@ -248,15 +327,31 @@ National broadband map.
 \newblock \url{https://www.sidn.nl/en/about-nl/the-nl-domain/}.
 \newblock Accessed: 2026-10-27.
 
-\bibitem[nro()]{nro_delegation_file}
+\bibitem[nor()]{norton}
+Norton safe web.
+\newblock URL \url{https://safeweb.norton.com/}.
+
+\bibitem[nro({\natexlab{a}})]{nro}
+Nro list of country codes and rirs ordered by ri, {\natexlab{a}}.
+\newblock URL \url{https://www.nro.net/list-of-country-codes-ordered-by-rir/}.
+
+\bibitem[nro({\natexlab{b}})]{nro_delegation_file}
 Nro extended delegation file.
-\newblock \url{https://www.nro.net/about/nro-statistics/}.
+\newblock \url{https://www.nro.net/about/nro-statistics/}, {\natexlab{b}}.
 \newblock Accessed: 2026-10-27.
+
+\bibitem[nxt()]{nxthdr}
+Nxthdr.
+\newblock URL \url{https://nxthdr.dev/}.
 
 \bibitem[one()]{one_step_measurement}
 One step measurement tool.
 \newblock Information regarding this resource may require specific project
   documentation.
+
+\bibitem[ope()]{openzeppelin}
+Openzeppelin.
+\newblock URL \url{https://www.openzeppelin.com/}.
 
 \bibitem[orb()]{orbis_database}
 Orbis database.
@@ -282,35 +377,68 @@ Registration data access protocol (rdap).
 \newblock \url{https://datatracker.ietf.org/doc/html/rfc7480}.
 \newblock Accessed: 2026-10-27.
 
-\bibitem[red()]{reddit}
-Reddit.
-\newblock URL \url{https://www.reddit.com/}.
+\bibitem[red()]{redhunt}
+Redhunt labs.
+\newblock URL \url{https://redhuntlabs.com/online-ide-search/}.
+
+\bibitem[rip({\natexlab{a}})]{ripeabuse}
+Ripe abuse contact finder, {\natexlab{a}}.
+\newblock URL
+  \url{https://stat.ripe.net/docs/data-api/api-endpoints/abuse-contact-finder}.
+
+\bibitem[rip({\natexlab{b}})]{ripemailinglists}
+Ripe mailing lists, {\natexlab{b}}.
+\newblock URL \url{https://www.ripe.net/membership/mail/ripe-mailing-lists/}.
+
+\bibitem[rip({\natexlab{c}})]{ripestat}
+Ripestat, {\natexlab{c}}.
+\newblock URL \url{https://stat.ripe.net/}.
 
 \bibitem[rir()]{rir_stats}
 Rir statistics.
 \newblock \url{https://www.nro.net/about/nro-statistics/}.
 \newblock Accessed: 2026-10-27.
 
+\bibitem[ris()]{riswhois}
+Ripe ris whois.
+\newblock URL \url{https://ris.ripe.net/docs/ris-whois/}.
+
+\bibitem[rob()]{robocalldatabase}
+Robocall mitigation database.
+\newblock URL \url{https://fccprod.servicenowservices.com/rmd?id=rmd_welcome}.
+
 \bibitem[rou()]{routeservers}
 Routeservers.org.
 \newblock \url{https://www.routeservers.org/}.
 \newblock Accessed: 2026-10-27.
 
+\bibitem[rra()]{rraptor}
+Rraptor.
+\newblock URL \url{https://rraptor.org/what-is-rraptor/}.
+
+\bibitem[saf()]{safedns}
+Safedns.
+\newblock URL \url{https://www.safedns.com/check-website}.
+
 \bibitem[sca({\natexlab{a}})]{scamadviser}
 Scamadviser, {\natexlab{a}}.
 \newblock URL \url{https://www.scamadviser.com/}.
 
-\bibitem[sca({\natexlab{b}})]{scamwatcher}
-Scamwatcher, {\natexlab{b}}.
+\bibitem[sca({\natexlab{b}})]{scamdoc}
+Scamdoc, {\natexlab{b}}.
+\newblock URL \url{https://www.scamdoc.com/}.
+
+\bibitem[sca({\natexlab{c}})]{scamguard}
+Scamguard, {\natexlab{c}}.
+\newblock URL \url{https://www.scamguard.com/}.
+
+\bibitem[sca({\natexlab{d}})]{scamwatcher}
+Scamwatcher, {\natexlab{d}}.
 \newblock URL \url{https://www.scamwatcher.com/}.
 
 \bibitem[sec()]{secrank}
 Secrank: Security ranking datasets.
 \newblock Resource specific documentation may be required.
-
-\bibitem[shu()]{shutterstock}
-Shutterstock.
-\newblock URL \url{https://www.shutterstock.com/}.
 
 \bibitem[ske()]{sketchfab}
 Sketchfab.
@@ -338,14 +466,17 @@ Speedchecker.
 \newblock \url{https://www.speedchecker.com/}.
 \newblock Accessed: 2026-10-27.
 
-\bibitem[sta()]{statista}
-Statista.
-\newblock \url{https://www.statista.com/}.
-\newblock Accessed: 2026-10-27.
+\bibitem[sub()]{submarinenet}
+Submarine networks.
+\newblock URL \url{https://www.submarinenetworks.com/en/}.
 
-\bibitem[ste()]{steam}
-Steam.
-\newblock URL \url{https://store.steampowered.com/}.
+\bibitem[suc()]{sucuri}
+Sucuri.
+\newblock URL \url{https://sucuri.net/}.
+
+\bibitem[sur()]{surfnet}
+Surfnet.
+\newblock URL \url{https://www.surf.nl/en}.
 
 \bibitem[tel()]{telegeography}
 Telegeography.
@@ -374,16 +505,22 @@ Usa cored based statistical boundaries.
 Unacast.
 \newblock URL \url{https://www.unacast.com/}.
 
-\bibitem[us_()]{us_news_rankings}
-{Best National University Rankings}.
-\newblock
-  \url{https://www.usnews.com/best-colleges/rankings/national-universities}.
-\newblock Accessed: 2026-10-27.
+\bibitem[unw()]{unwiredlabs}
+Unwired labs.
+\newblock URL \url{https://unwiredlabs.com/}.
 
-\bibitem[van()]{vanguard}
-Vanguard russell 3000 etf.
+\bibitem[url({\natexlab{a}})]{urlscan}
+Urlscan, {\natexlab{a}}.
+\newblock URL \url{https://urlscan.io/}.
+
+\bibitem[url({\natexlab{b}})]{urlscanner}
+Cloudflare url scanner api, {\natexlab{b}}.
 \newblock URL
-  \url{https://investor.vanguard.com/investment-products/etfs/profile/vthr}.
+  \url{https://developers.cloudflare.com/api/resources/url_scanner/}.
+
+\bibitem[url({\natexlab{c}})]{urlvoid}
+Urlvoid, {\natexlab{c}}.
+\newblock URL \url{https://www.urlvoid.com/}.
 
 \bibitem[vpn()]{vpntierlist}
 Vpn tier list.
@@ -394,22 +531,23 @@ Vultr.
 \newblock \url{https://www.vultr.com/}.
 \newblock Accessed: 2026-10-27.
 
-\bibitem[web()]{web3}
-Web3 api.
-\newblock URL \url{https://web3js.readthedocs.io/en/v1.10.0/}.
-
-\bibitem[who()]{who}
-World health organisation.
-\newblock URL \url{https://www.who.int/}.
-
 \bibitem[xml()]{xml}
 Whois xml api.
 \newblock URL \url{https://www.whoisxmlapi.com/}.
+
+\bibitem[zsc()]{zscaler}
+Zscaler.
+\newblock URL \url{https://www.zscaler.com/}.
 
 \bibitem[lin(2026)]{linx_members}
 Linx member portal: Members by ip/asn.
 \newblock \url{https://portal.linx.net/members/members-ip-asn}, 2026.
 \newblock Accessed: 2026-10-27.
+
+\bibitem[1Password()]{passkey}
+1Password.
+\newblock Passkeys directory.
+\newblock URL \url{https://passkeys.directory/}.
 
 \bibitem[Abdullah et~al.(2022)Abdullah, Qazi, and
   Qazi]{10.1145/3517745.3561456}
@@ -439,20 +577,22 @@ abuse.ch and Spamhaus.
 \newblock Threatfox.
 \newblock URL \url{https://threatfox.abuse.ch/}.
 
-\bibitem[Aceto et~al.(2019)Aceto, Ciuonzo, Montieri, Persico, and
-  Pescapé]{8888137}
-Giuseppe Aceto, Domenico Ciuonzo, Antonio Montieri, Valerio Persico, and
-  Antonio Pescapé.
-\newblock Mirage: Mobile-app traffic capture and ground-truth creation.
-\newblock In \emph{2019 4th International Conference on Computing,
-  Communications and Security (ICCCS)}, pages 1--8, 2019.
-\newblock \doi{10.1109/CCCS.2019.8888137}.
-
 \bibitem[AFRINIC()]{afrinicwhois}
 AFRINIC.
 \newblock Whois.
 \newblock URL \url{https://afrinic.net/whois.html}.
 \newblock Accessed: 2026-10-26.
+
+\bibitem[Afroz et~al.(2026)Afroz, Dar, and Chowdhury]{10.1145/3777912.3839806}
+Meher Afroz, Muhammad Daniyal~Pirwani Dar, and Omar Chowdhury.
+\newblock The long road to web accessibility: Three decades of retrospective
+  analysis.
+\newblock In \emph{Proceedings of the 2026 ACM Internet Measurement
+  Conference}, IMC '26, page 389–415, New York, NY, USA, 2026. Association
+  for Computing Machinery.
+\newblock ISBN 9798400723278.
+\newblock \doi{10.1145/3777912.3839806}.
+\newblock URL \url{https://doi.org/10.1145/3777912.3839806}.
 
 \bibitem[Akhavan~Niaki et~al.(2021)Akhavan~Niaki, Marczak, Farhoodi, McGregor,
   Gill, and Weaver]{10.1007/978-3-030-72582-2_25}
@@ -607,16 +747,6 @@ APNIC.
 \newblock URL \url{https://wq.apnic.net//static/search.html}.
 \newblock Accessed: 2026-10-26.
 
-\bibitem[APNIC et~al.()APNIC, NCC, and ARIN]{brokers}
-APNIC, RIPE NCC, and ARIN.
-\newblock Rir brokers.
-\newblock URL
-  \url{https://www.ripe.net/about-us/news/decommissioning-recognised-ipv4-transfer-brokers-list-and-ipv4-transfer-listing-service/
-  and
-  https://www.arin.net/resources/registry/transfers/facilitators/qualifiedfacilitators/
-  and
-  https://www.apnic.net/manage-ip/manage-resources/transfer-resources/transfer-of-unused-ip-and-as-numbers/transfer-facilitators/}.
-
 \bibitem[{Apple Inc.}()]{apple_trust_store}
 {Apple Inc.}
 \newblock Available root certificates for apple operating systems.
@@ -690,6 +820,15 @@ Sana Asif, Byungjin Jun, Fabi{\'a}n~E. Bustamante, and John~P. Rula.
 \newblock \doi{10.1145/3487552.3487831}.
 \newblock URL \url{https://doi.org/10.1145/3487552.3487831}.
 
+\bibitem[Awadallah et~al.(2025)Awadallah, Lara, Magazine, Mozannar, Nambi,
+  Pandya, Rajeswaran, Rosset, Taymanov, Vineet, Whitehead, and
+  Zhao]{webtailbench}
+Ahmed Awadallah, Yash Lara, Raghav Magazine, Hussein Mozannar, Akshay Nambi,
+  Yash Pandya, Aravind Rajeswaran, Corby Rosset, Alexey Taymanov, Vibhav
+  Vineet, Spencer Whitehead, and Andrew Zhao.
+\newblock Fara-7b: An efficient agentic model for computer use, 2025.
+\newblock URL \url{https://arxiv.org/abs/2511.19663}.
+
 \bibitem[Balduf et~al.(2023)Balduf, Korczy{\'n}ski, Ascigil, Keizer, Pavlou,
   Scheuermann, and Kr{\'o}l]{10.1145/3618257.3624797}
 Leonhard Balduf, Maciej Korczy{\'n}ski, Onur Ascigil, Navin~V. Keizer, George
@@ -723,6 +862,28 @@ Guillermo Baltra, Xiao Song, and John Heidemann.
   \emph{Passive and Active Measurement}, pages 132--149, Cham, 2024. Springer
   Nature Switzerland.
 \newblock ISBN 978-3-031-56252-5.
+
+\bibitem[Band and Fontugne(2026)]{10.1145/3777912.3809141}
+Vivian Band and Romain Fontugne.
+\newblock The disputed internet: Quantifying fragmentation in the ipv6
+  internet.
+\newblock In \emph{Proceedings of the 2026 ACM Internet Measurement
+  Conference}, IMC '26, page 90–96, New York, NY, USA, 2026. Association for
+  Computing Machinery.
+\newblock ISBN 9798400723278.
+\newblock \doi{10.1145/3777912.3809141}.
+\newblock URL \url{https://doi.org/10.1145/3777912.3809141}.
+
+\bibitem[Barreto et~al.(2026)Barreto, Bertholdo, and
+  Marcos]{10.1007/978-3-032-18268-5_3}
+Renan~Paredes Barreto, Leandro~M{\'a}rcio Bertholdo, and Pedro de~Botelho
+  Marcos.
+\newblock Routing under siege: How traffic engineering decisions facilitate
+  prefix hijackings.
+\newblock In Simone Ferlin-Reiter, Romain Fontugne, and Johanna Ullrich,
+  editors, \emph{Passive and Active Measurement}, pages 44--70, Cham, 2026.
+  Springer Nature Switzerland.
+\newblock ISBN 978-3-032-18268-5.
 
 \bibitem[Basak et~al.(2024)Basak, Pal, and
   Bhattacherjee]{10.1145/3646547.3689024}
@@ -772,6 +933,17 @@ Nathaniel Bennett, Rebekah Sowards, and Casey Deccio.
 \newblock \doi{10.1145/3517745.3561468}.
 \newblock URL \url{https://doi.org/10.1145/3517745.3561468}.
 
+\bibitem[Beverly et~al.(2026)Beverly, Phokeer, and
+  Gasser]{10.1145/3777912.3809139}
+Robert Beverly, Amreesh Phokeer, and Oliver Gasser.
+\newblock Whereis: Ip address registration geo-consistency.
+\newblock In \emph{Proceedings of the 2026 ACM Internet Measurement
+  Conference}, IMC '26, page 1042–1056, New York, NY, USA, 2026. Association
+  for Computing Machinery.
+\newblock ISBN 9798400723278.
+\newblock \doi{10.1145/3777912.3809139}.
+\newblock URL \url{https://doi.org/10.1145/3777912.3809139}.
+
 \bibitem[{BGPKit}()]{bgpkit}
 {BGPKit}.
 \newblock {BGPKit: Open-source BGP Analysis Toolkit}.
@@ -783,6 +955,15 @@ Nathaniel Bennett, Rebekah Sowards, and Casey Deccio.
 \newblock {BGP.Tools}.
 \newblock \url{https://bgp.tools/}.
 \newblock Accessed 2026-10-26.
+
+\bibitem[Bhardwaj and Sastry(2026)]{10.1007/978-3-032-18268-5_15}
+Prince Bhardwaj and Nishanth Sastry.
+\newblock State of passkey authentication in the wild: A census of the top
+  100k sites.
+\newblock In Simone Ferlin-Reiter, Romain Fontugne, and Johanna Ullrich,
+  editors, \emph{Passive and Active Measurement}, pages 319--347, Cham, 2026.
+  Springer Nature Switzerland.
+\newblock ISBN 978-3-032-18268-5.
 
 \bibitem[Bhowmick et~al.(2023)Bhowmick, Ashiq, Deccio, and
   Chung]{10.1007/978-3-031-28486-1_23}
@@ -806,6 +987,17 @@ Masudul Hasan~Masud Bhuiyan, Matteo Varvello, Yasir Zaki, and
 \newblock \doi{10.1145/3730567.3764505}.
 \newblock URL \url{https://doi.org/10.1145/3730567.3764505}.
 
+\bibitem[Bielefeld et~al.(2026)Bielefeld, Hoffmann, Sassalla, ververis, and
+  Bajpai]{10.1007/978-3-032-18268-5_10}
+Philipp Bielefeld, Felix Hoffmann, Steffen Sassalla, vasilis ververis, and
+  Vaibhav Bajpai.
+\newblock The future of dns privacy: A comparison of dns over quic and dns
+  over http/3.
+\newblock In Simone Ferlin-Reiter, Romain Fontugne, and Johanna Ullrich,
+  editors, \emph{Passive and Active Measurement}, pages 202--228, Cham, 2026.
+  Springer Nature Switzerland.
+\newblock ISBN 978-3-032-18268-5.
+
 \bibitem[Bin~Zia et~al.(2024)Bin~Zia, He, Castro, and
   Tyson]{10.1145/3646547.3689027}
 Haris Bin~Zia, Jiahui He, Ignacio Castro, and Gareth Tyson.
@@ -817,6 +1009,18 @@ Haris Bin~Zia, Jiahui He, Ignacio Castro, and Gareth Tyson.
 \newblock ISBN 9798400705922.
 \newblock \doi{10.1145/3646547.3689027}.
 \newblock URL \url{https://doi.org/10.1145/3646547.3689027}.
+
+\bibitem[Binkle et~al.(2026)Binkle, Raghavajosyula, Heinrich, Feldmann, Fiebig,
+  and Zirngibl]{10.1145/3777912.3839800}
+Jonathan Binkle, Vaishnavi Raghavajosyula, Tiago Heinrich, Anja Feldmann,
+  Tobias Fiebig, and Johannes Zirngibl.
+\newblock The internet’s path mtus: How big can you go?
+\newblock In \emph{Proceedings of the 2026 ACM Internet Measurement
+  Conference}, IMC '26, page 742–760, New York, NY, USA, 2026. Association
+  for Computing Machinery.
+\newblock ISBN 9798400723278.
+\newblock \doi{10.1145/3777912.3839800}.
+\newblock URL \url{https://doi.org/10.1145/3777912.3839800}.
 
 \bibitem[Birge-Lee et~al.(2025{\natexlab{a}})Birge-Lee, Apostolaki, and
   Rexford]{10.1007/978-3-031-85960-1_14}
@@ -845,6 +1049,17 @@ blechschmidt.
 \newblock Massdns, a high-performance dns stub resolver.
 \newblock URL \url{https://github.com/blechschmidt/massdns}.
 
+\bibitem[Boswell et~al.(2026)Boswell, Xian, Wang, McQuistin, and
+  Perkins]{10.1007/978-3-032-18268-5_9}
+Elizabeth Boswell, Xinyan Xian, Mingshu Wang, Stephen McQuistin, and Colin
+  Perkins.
+\newblock Black holes and prisoners: Understanding as112 deployment
+  characteristics.
+\newblock In Simone Ferlin-Reiter, Romain Fontugne, and Johanna Ullrich,
+  editors, \emph{Passive and Active Measurement}, pages 185--201, Cham, 2026.
+  Springer Nature Switzerland.
+\newblock ISBN 978-3-032-18268-5.
+
 \bibitem[Bouchaud and Li{\'e}nard(2024)]{10.1145/3646547.3689020}
 Paul Bouchaud and Jean~F. Li{\'e}nard.
 \newblock Beyond the guidelines: Assessing meta's political ad moderation in
@@ -855,6 +1070,19 @@ Paul Bouchaud and Jean~F. Li{\'e}nard.
 \newblock ISBN 9798400705922.
 \newblock \doi{10.1145/3646547.3689020}.
 \newblock URL \url{https://doi.org/10.1145/3646547.3689020}.
+
+\bibitem[Brandl et~al.(2026)Brandl, Holzbauer, Kaplan, Ullrich, and
+  Dabrowski]{10.1145/3777912.3839811}
+J{\"u}rgen Brandl, Florian Holzbauer, Aaron Kaplan, Johanna Ullrich, and Adrian
+  Dabrowski.
+\newblock Eu digital sovereignty in practice: A technical assessment of digital
+  infrastructure dependencies.
+\newblock In \emph{Proceedings of the 2026 ACM Internet Measurement
+  Conference}, IMC '26, page 135–153, New York, NY, USA, 2026. Association
+  for Computing Machinery.
+\newblock ISBN 9798400723278.
+\newblock \doi{10.1145/3777912.3839811}.
+\newblock URL \url{https://doi.org/10.1145/3777912.3839811}.
 
 \bibitem[{Bright Data}()]{brightdata}
 {Bright Data}.
@@ -1007,6 +1235,17 @@ Esteban Carisimo, Ricky K.~P. Mok, David~D. Clark, and K.~C. Claffy.
   International Publishing.
 \newblock ISBN 978-3-030-98785-5.
 
+\bibitem[Carisimo et~al.(2026)Carisimo, Beir{\'o}, De~Angelis~Riva, Buzzone,
+  and Bustamante]{10.1007/978-3-032-18268-5_4}
+Esteban Carisimo, Mariano~G. Beir{\'o}, Lukas De~Angelis~Riva, Mauricio
+  Buzzone, and Fabi{\'a}n~E. Bustamante.
+\newblock En uni{\'o}n y libertad: Subnational strategies for hosting
+  government services.
+\newblock In Simone Ferlin-Reiter, Romain Fontugne, and Johanna Ullrich,
+  editors, \emph{Passive and Active Measurement}, pages 73--102, Cham, 2026.
+  Springer Nature Switzerland.
+\newblock ISBN 978-3-032-18268-5.
+
 \bibitem[{CelesTrak}()]{celestrak-norad}
 {CelesTrak}.
 \newblock Norad satellite catalog.
@@ -1018,11 +1257,6 @@ Censys.
 \newblock Censys.
 \newblock URL \url{https://censys.com/}.
 \newblock Accessed: 2026-10-26.
-
-\bibitem[Center()]{gaccnifc}
-Northwest Interagency~Coordination Center.
-\newblock Northwest interagency coordination center: Northwest fire locations.
-\newblock URL \url{https://gacc.nifc.gov/nwcc/information/firemap.aspx}.
 
 \bibitem[{Center for Applied Internet Data Analysis
   (CAIDA)}()]{caida-dns-names}
@@ -1088,6 +1322,30 @@ Zhiyi Chen, Zachary~S. Bischof, Cecilia Testart, and Alberto Dainotti.
   Nature Switzerland.
 \newblock ISBN 978-3-031-28486-1.
 
+\bibitem[Chen et~al.(2026{\natexlab{a}})Chen, Bischof, Testart, and
+  Dainotti]{10.1145/3777912.3809155}
+Zhiyi Chen, Zachary Bischof, Cecilia Testart, and Alberto Dainotti.
+\newblock As2biz: Leveraging web presence and ai to improve as business
+  classification.
+\newblock In \emph{Proceedings of the 2026 ACM Internet Measurement
+  Conference}, IMC '26, page 59–74, New York, NY, USA, 2026{\natexlab{a}}.
+  Association for Computing Machinery.
+\newblock ISBN 9798400723278.
+\newblock \doi{10.1145/3777912.3809155}.
+\newblock URL \url{https://doi.org/10.1145/3777912.3809155}.
+
+\bibitem[Chen et~al.(2026{\natexlab{b}})Chen, Bischof, Testart, and
+  Dainotti]{10.1145/3777912.3839831}
+Zhiyi Chen, Zachary Bischof, Cecilia Testart, and Alberto Dainotti.
+\newblock Rethinking and facilitating how we classify autonomous systems by
+  network properties.
+\newblock In \emph{Proceedings of the 2026 ACM Internet Measurement
+  Conference}, IMC '26, page 37–58, New York, NY, USA, 2026{\natexlab{b}}.
+  Association for Computing Machinery.
+\newblock ISBN 9798400723278.
+\newblock \doi{10.1145/3777912.3839831}.
+\newblock URL \url{https://doi.org/10.1145/3777912.3839831}.
+
 \bibitem[Cheng et~al.(2025)Cheng, Pathak, Xie, Varvello, Chen, and
   Han]{10.1145/3730567.3764441}
 Ruizhi Cheng, Surendra Pathak, Guowu Xie, Matteo Varvello, Songqing Chen, and
@@ -1099,6 +1357,17 @@ Ruizhi Cheng, Surendra Pathak, Guowu Xie, Matteo Varvello, Songqing Chen, and
 \newblock ISBN 9798400718601.
 \newblock \doi{10.1145/3730567.3764441}.
 \newblock URL \url{https://doi.org/10.1145/3730567.3764441}.
+
+\bibitem[Cheng et~al.(2026)Cheng, Xie, and Han]{10.1145/3777912.3839793}
+Ruizhi Cheng, Guowu Xie, and Bo~Han.
+\newblock Can you see me, genai? characterizing video-based conversational
+  interaction with generative ai.
+\newblock In \emph{Proceedings of the 2026 ACM Internet Measurement
+  Conference}, IMC '26, page 574–588, New York, NY, USA, 2026. Association
+  for Computing Machinery.
+\newblock ISBN 9798400723278.
+\newblock \doi{10.1145/3777912.3839793}.
+\newblock URL \url{https://doi.org/10.1145/3777912.3839793}.
 
 \bibitem[Chhabra et~al.(2021)Chhabra, Murley, Kumar, Bailey, and
   Wang]{10.1145/3487552.3487849}
@@ -1123,15 +1392,20 @@ Salim Chouaki, Oana Goga, Hamed Haddadi, and Peter Snyder.
 \newblock \doi{10.1145/3618257.3624823}.
 \newblock URL \url{https://doi.org/10.1145/3618257.3624823}.
 
-\bibitem[Cisco({\natexlab{a}})]{ciscoumbrellatop1m}
+\bibitem[Cisco()]{ciscoumbrellatop1m}
 Cisco.
-\newblock Cisco umbrella popularity list, {\natexlab{a}}.
+\newblock Cisco umbrella popularity list.
 \newblock URL
   \url{https://s3-us-west-1.amazonaws.com/umbrella-static/index.html}.
 
-\bibitem[Cisco({\natexlab{b}})]{thousandeyes}
+\bibitem[CISCO()]{talos}
+CISCO.
+\newblock Talos intelligence.
+\newblock URL \url{https://talosintelligence.com/}.
+
+\bibitem[Cisco()]{thousandeyes}
 Cisco.
-\newblock Thousandeyes, {\natexlab{b}}.
+\newblock Thousandeyes.
 \newblock URL \url{https://www.thousandeyes.com/}.
 
 \bibitem[{Cisco Systems}({\natexlab{a}})]{cisco-crosswork}
@@ -1234,6 +1508,11 @@ CloudFlare.
 \newblock \url{https://www.cvedetails.com/}.
 \newblock Accessed: 2026-10-27.
 
+\bibitem[Cymru()]{bogons}
+Team Cymru.
+\newblock Bogon list.
+\newblock URL \url{https://www.team-cymru.com/bogon-reference-http}.
+
 \bibitem[Dang et~al.(2021)Dang, Mohan, Corneo, Zavodovski, Ott, and
   Kangasharju]{10.1145/3487552.3487854}
 The~Khang Dang, Nitinder Mohan, Lorenzo Corneo, Aleksandr Zavodovski, J{\"o}rg
@@ -1304,6 +1583,17 @@ Jacob Davis and Casey Deccio.
 \newblock \url{https://www.decentralizedwireless.org/}.
 \newblock Accessed: 2026-10-27.
 
+\bibitem[Degen et~al.(2026)Degen, Kempen, Claffy, Mok, Holz, Rijswijk-Deij,
+  Sommese, and Jonker]{10.1007/978-3-032-18268-5_14}
+Bernhard Degen, Nils Kempen, K.~C. Claffy, Ricky K.~P. Mok, Ralph Holz,
+  Roland~van Rijswijk-Deij, Raffaele Sommese, and Mattijs Jonker.
+\newblock Through a smaller lens: Revisiting opportunistic analysis using
+  network telescopes.
+\newblock In Simone Ferlin-Reiter, Romain Fontugne, and Johanna Ullrich,
+  editors, \emph{Passive and Active Measurement}, pages 294--318, Cham, 2026.
+  Springer Nature Switzerland.
+\newblock ISBN 978-3-032-18268-5.
+
 \bibitem[Dekinder et~al.(2025)Dekinder, Vermeulen, and
   Donnet]{10.1145/3730567.3764436}
 Florian Dekinder, Kevin Vermeulen, and Benoit Donnet.
@@ -1338,6 +1628,13 @@ Nurullah Demir, Jan H{\"o}rnemann, Matteo Gro{\ss}e-Kampmann, Tobias Urban,
 \newblock ISBN 9798400703829.
 \newblock \doi{10.1145/3618257.3624795}.
 \newblock URL \url{https://doi.org/10.1145/3618257.3624795}.
+
+\bibitem[Deng et~al.(2023)Deng, Gu, Zheng, Chen, Stevens, Wang, Sun, and
+  Su]{mind2web}
+Xiang Deng, Yu~Gu, Boyuan Zheng, Shijie Chen, Samuel Stevens, Boshi Wang, Huan
+  Sun, and Yu~Su.
+\newblock Mind2web: Towards a generalist agent for the web, 2023.
+\newblock URL \url{https://arxiv.org/abs/2306.06070}.
 
 \bibitem[Dhamdhere et~al.(2018)Dhamdhere, Clark, Gamero-Garrido, Luckie, Mok,
   Akiwate, Gogia, Bajpai, Snoeren, and claffy]{manic}
@@ -1491,6 +1788,17 @@ Ben Du, Romain Fontugne, Cecilia Testart, Alex~C. Snoeren, and kc~claffy.
 \newblock \doi{10.1145/3646547.3689010}.
 \newblock URL \url{https://doi.org/10.1145/3646547.3689010}.
 
+\bibitem[Du et~al.(2017)Du, Li, Zheng, and Srikumar]{10.1145/3133956.3134015}
+Min Du, Feifei Li, Guineng Zheng, and Vivek Srikumar.
+\newblock Deeplog: Anomaly detection and diagnosis from system logs through
+  deep learning.
+\newblock In \emph{Proceedings of the 2017 ACM SIGSAC Conference on Computer
+  and Communications Security}, CCS '17, page 1285–1298, New York, NY, USA,
+  2017. Association for Computing Machinery.
+\newblock ISBN 9781450349468.
+\newblock \doi{10.1145/3133956.3134015}.
+\newblock URL \url{https://doi.org/10.1145/3133956.3134015}.
+
 \bibitem[{DuckDuckGo}()]{ddg-tracker-radar}
 {DuckDuckGo}.
 \newblock Tracker radar: Open-source dataset of third-party trackers.
@@ -1567,12 +1875,6 @@ Kathrin Elmenhorst, Bertram Sch{\"u}tz, Nils Aschenbruck, and Simone Basso.
 \newblock \doi{10.1145/3487552.3487836}.
 \newblock URL \url{https://doi.org/10.1145/3487552.3487836}.
 
-\bibitem[{ENS Labs}()]{ens-ethereum}
-{ENS Labs}.
-\newblock Ethereum name service (ens).
-\newblock URL \url{https://ens.domains/}.
-\newblock Accessed: 2026-10-27.
-
 \bibitem[Erdemir et~al.(2025)Erdemir, Li, and
   Pearce]{10.1007/978-3-031-85960-1_3}
 Mert Erdemir, Frank Li, and Paul Pearce.
@@ -1581,12 +1883,6 @@ Mert Erdemir, Frank Li, and Paul Pearce.
   editors, \emph{Passive and Active Measurement}, pages 44--73, Cham, 2025.
   Springer Nature Switzerland.
 \newblock ISBN 978-3-031-85960-1.
-
-\bibitem[Etherscan(2026)]{etherscan}
-Etherscan.
-\newblock Etherscan: Ethereum block explorer, 2026.
-\newblock URL \url{https://etherscan.io/}.
-\newblock Accessed: 2026-10-27.
 
 \bibitem[{Euro-IX}()]{euroix}
 {Euro-IX}.
@@ -1608,12 +1904,6 @@ Rahel~A. Fainchtein and Micah Sherr.
   Nature Switzerland.
 \newblock ISBN 978-3-031-56252-5.
 
-\bibitem[{Faker contributors}()]{faker-lib}
-{Faker contributors}.
-\newblock Faker: A library for generating fake data.
-\newblock URL \url{https://github.com/faker-js/faker}.
-\newblock Accessed: 2026-10-27.
-
 \bibitem[Farhan and Chung(2023)]{10.1007/978-3-031-28486-1_4}
 Syed~Muhammad Farhan and Taejoong Chung.
 \newblock Exploring the evolution of tls certificates.
@@ -1621,6 +1911,17 @@ Syed~Muhammad Farhan and Taejoong Chung.
   \emph{Passive and Active Measurement}, pages 71--84, Cham, 2023. Springer
   Nature Switzerland.
 \newblock ISBN 978-3-031-28486-1.
+
+\bibitem[Farina et~al.(2026)Farina, Trevisan, and
+  Bartoli]{10.1145/3777912.3839812}
+Mauro Farina, Martino Trevisan, and Alberto Bartoli.
+\newblock A first look at aspa: Deployment, route leaks, and as relationships.
+\newblock In \emph{Proceedings of the 2026 ACM Internet Measurement
+  Conference}, IMC '26, page 903–919, New York, NY, USA, 2026. Association
+  for Computing Machinery.
+\newblock ISBN 9798400723278.
+\newblock \doi{10.1145/3777912.3839812}.
+\newblock URL \url{https://doi.org/10.1145/3777912.3839812}.
 
 \bibitem[Fernandez et~al.(2022)Fernandez, Korczy{\'{n}}ski, and
   Duda]{10.1007/978-3-030-98785-5_2}
@@ -1652,6 +1953,19 @@ Alberto Fernandez-de Retana, Jannis Rautenstrauch, Igor Santos-Grueiro, and Ben
 \newblock ISBN 9798400718601.
 \newblock \doi{10.1145/3730567.3764489}.
 \newblock URL \url{https://doi.org/10.1145/3730567.3764489}.
+
+\bibitem[Ferrero et~al.(2026)Ferrero, Sordello, Griffioen, Drago, Smaragdakis,
+  and Mellia]{10.1145/3777912.3839810}
+Dario Ferrero, Andrea Sordello, Harm Griffioen, Idilio Drago, Georgios
+  Smaragdakis, and Marco Mellia.
+\newblock Understanding different perspectives: Analyzing udp scanning through
+  reactive telescopes.
+\newblock In \emph{Proceedings of the 2026 ACM Internet Measurement
+  Conference}, IMC '26, page 246–255, New York, NY, USA, 2026. Association
+  for Computing Machinery.
+\newblock ISBN 9798400723278.
+\newblock \doi{10.1145/3777912.3839810}.
+\newblock URL \url{https://doi.org/10.1145/3777912.3839810}.
 
 \bibitem[Fezeu et~al.(2023)Fezeu, Ramadan, Ye, Minneci, Xie, Narayanan, Hassan,
   Qian, Zhang, Chandrashekar, and Lee]{10.1007/978-3-031-28486-1_13}
@@ -1730,11 +2044,35 @@ Romain Fontugne, Malte Tashiro, Raffaele Sommese, Mattijs Jonker, Zachary~S.
 \newblock \doi{10.1145/3646547.3688444}.
 \newblock URL \url{https://doi.org/10.1145/3646547.3688444}.
 
+\bibitem[Fooda et~al.(2026)Fooda, Larisch, Schanck, Maggs, Chung, and
+  Levin]{10.1145/3777912.3839820}
+Nehal Fooda, James Larisch, John Schanck, Bruce Maggs, Tijay Chung, and Dave
+  Levin.
+\newblock A first look at certificate revocation latency.
+\newblock In \emph{Proceedings of the 2026 ACM Internet Measurement
+  Conference}, IMC '26, page 300–307, New York, NY, USA, 2026. Association
+  for Computing Machinery.
+\newblock ISBN 9798400723278.
+\newblock \doi{10.1145/3777912.3839820}.
+\newblock URL \url{https://doi.org/10.1145/3777912.3839820}.
+
 \bibitem[{Freedom House}(2024)]{freedom_house_fotn}
 {Freedom House}.
 \newblock Freedom on the net report, 2024.
 \newblock URL \url{https://freedomhouse.org/report/freedom-net}.
 \newblock Accessed: 2026-10-27.
+
+\bibitem[Fries et~al.(2026)Fries, Matezki, Bose, and
+  Mohan]{10.1145/3777912.3839805}
+Justus Fries, Yannis Matezki, Rohan Bose, and Nitinder Mohan.
+\newblock Looking at stars: Analyzing real-time video conferencing over
+  starlink.
+\newblock In \emph{Proceedings of the 2026 ACM Internet Measurement
+  Conference}, IMC '26, page 1143–1152, New York, NY, USA, 2026. Association
+  for Computing Machinery.
+\newblock ISBN 9798400723278.
+\newblock \doi{10.1145/3777912.3839805}.
+\newblock URL \url{https://doi.org/10.1145/3777912.3839805}.
 
 \bibitem[Gamero-Garrido et~al.(2022)Gamero-Garrido, Carisimo, Hao, Huffaker,
   Snoeren, and Dainotti]{10.1007/978-3-030-98785-5_29}
@@ -1765,6 +2103,17 @@ Oliver Gasser, Quirin Scheitle, Sebastian Gebhard, and Georg Carle.
 \newblock Scanning the ipv6 internet: Towards a comprehensive hitlist, 2016.
 \newblock URL \url{https://arxiv.org/abs/1607.05179}.
 
+\bibitem[Ghani et~al.(2026)Ghani, Vekaria, and Shafiq]{10.1145/3777912.3809147}
+Abdullah Ghani, Yash Vekaria, and Zubair Shafiq.
+\newblock Pixelconfig: Longitudinal measurement and reverse-engineering of meta
+  pixel configurations.
+\newblock In \emph{Proceedings of the 2026 ACM Internet Measurement
+  Conference}, IMC '26, page 944–962, New York, NY, USA, 2026. Association
+  for Computing Machinery.
+\newblock ISBN 9798400723278.
+\newblock \doi{10.1145/3777912.3809147}.
+\newblock URL \url{https://doi.org/10.1145/3777912.3809147}.
+
 \bibitem[Ghoshal et~al.(2022)Ghoshal, Dash, Kong, Xu, Hu, Koutsonikolas, and
   Li]{10.1007/978-3-030-98785-5_8}
 Moinak Ghoshal, Pranab Dash, Zhaoning Kong, Qiang Xu, Y.~Charlie Hu, Dimitrios
@@ -1779,6 +2128,19 @@ Moinak Ghoshal, Pranab Dash, Zhaoning Kong, Qiang Xu, Y.~Charlie Hu, Dimitrios
 Ghostery.
 \newblock Who tracks me.
 \newblock URL \url{https://www.ghostery.com/whotracksme/trackers}.
+
+\bibitem[Gigis et~al.(2021)Gigis, Calder, Manassakis, Nomikos, Kotronis,
+  Dimitropoulos, Katz-Bassett, and Smaragdakis]{10.1145/3452296.3472928}
+Petros Gigis, Matt Calder, Lefteris Manassakis, George Nomikos, Vasileios
+  Kotronis, Xenofontas Dimitropoulos, Ethan Katz-Bassett, and Georgios
+  Smaragdakis.
+\newblock Seven years in the life of hypergiants' off-nets.
+\newblock In \emph{Proceedings of the 2021 ACM SIGCOMM 2021 Conference},
+  SIGCOMM '21, page 516–533, New York, NY, USA, 2021. Association for
+  Computing Machinery.
+\newblock ISBN 9781450383837.
+\newblock \doi{10.1145/3452296.3472928}.
+\newblock URL \url{https://doi.org/10.1145/3452296.3472928}.
 
 \bibitem[Girish et~al.(2023)Girish, Hu, Prakash, Dubois, Matic, Huang, Egelman,
   Reardon, Tapiador, Choffnes, and Vallina-Rodriguez]{10.1145/3618257.3624830}
@@ -1838,33 +2200,11 @@ Google.
   \url{https://github.com/google/certificate-transparency-community-site/blob/master/docs/google/known-logs.md}.
 \newblock Accessed: 2026-10-26.
 
-\bibitem[Google({\natexlab{b}})]{googleplay}
+\bibitem[Google({\natexlab{b}})]{related}
 Google.
-\newblock Googleplay, {\natexlab{b}}.
-\newblock URL \url{https://play.google.com/store/games}.
-\newblock Accessed: 2026-10-26.
-
-\bibitem[Google({\natexlab{c}})]{googlesearch}
-Google.
-\newblock Google search, {\natexlab{c}}.
-\newblock URL \url{https://www.google.com/}.
-\newblock Accessed: 2026-10-26.
-
-\bibitem[Google({\natexlab{d}})]{related}
-Google.
-\newblock Related website sets, {\natexlab{d}}.
+\newblock Related website sets, {\natexlab{b}}.
 \newblock URL
   \url{https://services.google.com/fh/files/misc/overview_relatedwebsitesets.pdf}.
-
-\bibitem[Google({\natexlab{e}})]{youtube}
-Google.
-\newblock Youtube, {\natexlab{e}}.
-\newblock URL \url{https://www.youtube.com/}.
-
-\bibitem[Google({\natexlab{f}})]{youtubedata}
-Google.
-\newblock Youtube data api, {\natexlab{f}}.
-\newblock URL \url{https://developers.google.com/youtube/data}.
 
 \bibitem[{Google}(2026{\natexlab{a}})]{google_mobility}
 {Google}.
@@ -1872,23 +2212,16 @@ Google.
 \newblock \url{https://www.google.com/covid19/mobility/}, 2026{\natexlab{a}}.
 \newblock Accessed: 2026-10-27.
 
-\bibitem[{Google}(2026{\natexlab{b}})]{google_political_ads}
+\bibitem[{Google}(2026{\natexlab{b}})]{google_trends}
 {Google}.
-\newblock {Ads Transparency Center: Political Advertising}.
-\newblock \url{https://adstransparency.google.com/political},
-  2026{\natexlab{b}}.
-\newblock Accessed: 2026-10-27.
-
-\bibitem[{Google}(2026{\natexlab{c}})]{google_trends}
-{Google}.
-\newblock Google trends, 2026{\natexlab{c}}.
+\newblock Google trends, 2026{\natexlab{b}}.
 \newblock URL \url{https://trends.google.com/}.
 \newblock Accessed: 2026-10-27.
 
-\bibitem[{Google}(2026{\natexlab{d}})]{google_trust_store}
+\bibitem[{Google}(2026{\natexlab{c}})]{google_trust_store}
 {Google}.
 \newblock {Google Trust Store}.
-\newblock \url{https://pki.goog/}, 2026{\natexlab{d}}.
+\newblock \url{https://pki.goog/}, 2026{\natexlab{c}}.
 \newblock Accessed: 2026-10-27.
 
 \bibitem[{Google Cloud}(2026{\natexlab{a}})]{google_bigquery}
@@ -1985,32 +2318,46 @@ WAND Network~Research Group.
 \newblock Wits: Waikato viii, {\natexlab{b}}.
 \newblock URL \url{https://github.com/wandsdn}.
 
-\bibitem[Group({\natexlab{c}})]{worldbank}
-World~Bank Group.
-\newblock Open knowledge repository, {\natexlab{c}}.
-\newblock URL \url{https://openknowledge.worldbank.org/home}.
-
-\bibitem[GroupLens()]{movielens}
-GroupLens.
-\newblock Movielens.
-\newblock URL \url{https://movielens.org/}.
-
-\bibitem[Guarino et~al.(2021)Guarino, Aceto, Ciuonzo, Montieri, Persico, and
-  Pescapé]{9617789}
-Idio Guarino, Giuseppe Aceto, Domenico Ciuonzo, Antonio Montieri, Valerio
-  Persico, and Antonio Pescapé.
-\newblock Classification of communication and collaboration apps via advanced
-  deep-learning approaches.
-\newblock In \emph{2021 IEEE 26th International Workshop on Computer Aided
-  Modeling and Design of Communication Links and Networks (CAMAD)}, pages 1--6,
-  2021.
-\newblock \doi{10.1109/CAMAD52502.2021.9617789}.
+\bibitem[Habib et~al.(2026)Habib, Balachandran, Demir, and
+  Durumeric]{10.1145/3777912.3839788}
+Rumaisa Habib, Balaji Balachandran, Nurullah Demir, and Zakir Durumeric.
+\newblock "stop trying to make fetch happen": Towards a modality-aware
+  understanding of unnecessary resources on the web.
+\newblock In \emph{Proceedings of the 2026 ACM Internet Measurement
+  Conference}, IMC '26, page 339–355, New York, NY, USA, 2026. Association
+  for Computing Machinery.
+\newblock ISBN 9798400723278.
+\newblock \doi{10.1145/3777912.3839788}.
+\newblock URL \url{https://doi.org/10.1145/3777912.3839788}.
 
 \bibitem[Halterman(2017)]{mordecai}
 Andrew Halterman.
 \newblock Mordecai: Full text geoparsing and event geocoding.
 \newblock \emph{The Journal of Open Source Software}, 2:\penalty0 91, 01 2017.
 \newblock \doi{10.21105/joss.00091}.
+
+\bibitem[Hamid et~al.(2026)Hamid, Adei, and Reaves]{10.1145/3777912.3839819}
+Hamim Hamid, David Adei, and Bradley Reaves.
+\newblock Characterizing the deployment of the stir/shaken telephone network
+  pki.
+\newblock In \emph{Proceedings of the 2026 ACM Internet Measurement
+  Conference}, IMC '26, page 323–338, New York, NY, USA, 2026. Association
+  for Computing Machinery.
+\newblock ISBN 9798400723278.
+\newblock \doi{10.1145/3777912.3839819}.
+\newblock URL \url{https://doi.org/10.1145/3777912.3839819}.
+
+\bibitem[Hamza et~al.(2026)Hamza, Jonker, Sommese, Fernandez, Hureau, Pauley,
+  and Chung]{10.1145/3777912.3809146}
+Muhammad Hamza, Mattijs Jonker, Raffaele Sommese, Simon Fernandez, Olivier
+  Hureau, Eric Pauley, and Tijay Chung.
+\newblock Split alignment: Diffusing spf vulnerabilities with dmarc.
+\newblock In \emph{Proceedings of the 2026 ACM Internet Measurement
+  Conference}, IMC '26, page 308–322, New York, NY, USA, 2026. Association
+  for Computing Machinery.
+\newblock ISBN 9798400723278.
+\newblock \doi{10.1145/3777912.3809146}.
+\newblock URL \url{https://doi.org/10.1145/3777912.3809146}.
 
 \bibitem[Hantke and Stock(2022)]{10.1145/3517745.3561437}
 Florian Hantke and Ben Stock.
@@ -2058,6 +2405,18 @@ Sichang He, Italo Cunha, and Ethan Katz-Bassett.
 \newblock ISBN 9798400705922.
 \newblock \doi{10.1145/3646547.3689018}.
 \newblock URL \url{https://doi.org/10.1145/3646547.3689018}.
+
+\bibitem[Heidemann et~al.(2008)Heidemann, Pradkin, Govindan, Papadopoulos,
+  Bartlett, and Bannister]{10.1145/1452520.1452542}
+John Heidemann, Yuri Pradkin, Ramesh Govindan, Christos Papadopoulos, Genevieve
+  Bartlett, and Joseph Bannister.
+\newblock Census and survey of the visible internet.
+\newblock In \emph{Proceedings of the 8th ACM SIGCOMM Conference on Internet
+  Measurement}, IMC '08, page 169–182, New York, NY, USA, 2008. Association
+  for Computing Machinery.
+\newblock ISBN 9781605583341.
+\newblock \doi{10.1145/1452520.1452542}.
+\newblock URL \url{https://doi.org/10.1145/1452520.1452542}.
 
 \bibitem[Heimbach et~al.(2023)Heimbach, Kiffer, Ferreira~Torres, and
   Wattenhofer]{10.1145/3618257.3624824}
@@ -2117,6 +2476,14 @@ Nestor Hernandez, Ruben Recabarren, Bogdan Carbunar, and Syed~Ishtiaque Ahmed.
 \newblock \doi{10.1145/3487552.3487837}.
 \newblock URL \url{https://doi.org/10.1145/3487552.3487837}.
 
+\bibitem[Hiesgen et~al.(2021)Hiesgen, Nawrocki, King, Dainotti, Schmidt, and
+  Wählisch]{spoki}
+Raphael Hiesgen, Marcin Nawrocki, Alistair King, Alberto Dainotti, Thomas~C.
+  Schmidt, and Matthias Wählisch.
+\newblock Spoki: Unveiling a new wave of scanners through a reactive network
+  telescope, 2021.
+\newblock URL \url{https://arxiv.org/abs/2110.05160}.
+
 \bibitem[Hiesgen et~al.(2024)Hiesgen, Nawrocki, Barcellos, Kopp, Hohlfeld,
   Chan, Dobbins, Doerr, Rossow, Thomas, Jonker, Mok, Luo, Kristoff, Schmidt,
   W{\"a}hlisch, and claffy]{10.1145/3646547.3688451}
@@ -2133,6 +2500,21 @@ Raphael Hiesgen, Marcin Nawrocki, Marinho Barcellos, Daniel Kopp, Oliver
 \newblock \doi{10.1145/3646547.3688451}.
 \newblock URL \url{https://doi.org/10.1145/3646547.3688451}.
 
+\bibitem[Hilal(2023)]{edmond}
+Fahad Hilal.
+\newblock {Yarrpbox Measurement Data}, 2023.
+\newblock URL \url{https://doi.org/10.17617/3.EVDWIT}.
+
+\bibitem[Hilal et~al.(2026)Hilal, Albakour, Gasser, and
+  Vermeulen]{10.1007/978-3-032-18268-5_5}
+Fahad Hilal, Taha Albakour, Oliver Gasser, and Kevin Vermeulen.
+\newblock Unpacking internet ossification: A large-scale study
+  of path-impairing middleboxes across ipv4 and ipv6.
+\newblock In Simone Ferlin-Reiter, Romain Fontugne, and Johanna Ullrich,
+  editors, \emph{Passive and Active Measurement}, pages 103--134, Cham, 2026.
+  Springer Nature Switzerland.
+\newblock ISBN 978-3-032-18268-5.
+
 \bibitem[Hoang et~al.(2022)Hoang, Polychronakis, and
   Gill]{10.1007/978-3-030-98785-5_23}
 Nguyen~Phong Hoang, Michalis Polychronakis, and Phillipa Gill.
@@ -2142,6 +2524,19 @@ Nguyen~Phong Hoang, Michalis Polychronakis, and Phillipa Gill.
   \emph{Passive and Active Measurement}, pages 518--536, Cham, 2022. Springer
   International Publishing.
 \newblock ISBN 978-3-030-98785-5.
+
+\bibitem[Holterbach et~al.(2026)Holterbach, Alfroy, Mohsenpour, Krenc, Claffy,
+  and Pelsser]{10.1145/3777912.3839829}
+Thomas Holterbach, Thomas Alfroy, Abbas Mohsenpour, Thomas Krenc, K.~C. Claffy,
+  and Cristel Pelsser.
+\newblock A system for fast, accurate, and intuitive querying of large-scale
+  bgp datasets.
+\newblock In \emph{Proceedings of the 2026 ACM Internet Measurement
+  Conference}, IMC '26, page 1082–1101, New York, NY, USA, 2026. Association
+  for Computing Machinery.
+\newblock ISBN 9798400723278.
+\newblock \doi{10.1145/3777912.3839829}.
+\newblock URL \url{https://doi.org/10.1145/3777912.3839829}.
 
 \bibitem[Holzbauer et~al.(2024)Holzbauer, Maier, and
   Ullrich]{10.1145/3646547.3688420}
@@ -2228,12 +2623,6 @@ Jarrett Huddleston, Matthew Luckie, and Alexander Marder.
 \newblock \doi{10.1145/3730567.3764457}.
 \newblock URL \url{https://doi.org/10.1145/3730567.3764457}.
 
-\bibitem[{Hugging Face}()]{everyday-conv-llm}
-{Hugging Face}.
-\newblock Everyday conversations for llms dataset.
-\newblock URL \url{https://huggingface.co/datasets/}.
-\newblock Note: Specify exact source if applicable. Accessed: 2026-10-27.
-
 \bibitem[Hureau et~al.(2024)Hureau, Bayer, Duda, and
   Korczy{\'{n}}ski]{10.1007/978-3-031-56249-5_10}
 Olivier Hureau, Jan Bayer, Andrzej Duda, and Maciej Korczy{\'{n}}ski.
@@ -2256,24 +2645,12 @@ Geoff Huston.
 \newblock \url{https://www.potaroo.net/}, 2026.
 \newblock Accessed: 2026-10-27.
 
-\bibitem[{HypeAuditor}(2026)]{hypeauditor_youtuber}
-{HypeAuditor}.
-\newblock {YouTuber List and Analytics}.
-\newblock \url{https://hypeauditor.com/}, 2026.
-\newblock Accessed: 2026-10-27.
-
-\bibitem[{IANA}(2026{\natexlab{a}})]{iana_root_zone}
-{IANA}.
-\newblock {Root Zone Database}.
-\newblock \url{https://www.iana.org/domains/root/db}, 2026{\natexlab{a}}.
-\newblock Accessed: 2026-10-27.
-
-\bibitem[{IANA}(2026{\natexlab{b}})]{iana_tls_parameters}
+\bibitem[{IANA}(2026)]{iana_tls_parameters}
 {IANA}.
 \newblock {Transport Layer Security (TLS) Parameters}.
 \newblock
   \url{https://www.iana.org/assignments/tls-parameters/tls-parameters.xhtml},
-  2026{\natexlab{b}}.
+  2026.
 \newblock Accessed: 2026-10-27.
 
 \bibitem[ICANN()]{czds}
@@ -2328,24 +2705,6 @@ ICANN.
 {Infrapedia}.
 \newblock {Infrapedia: Global Infrastructure Map}.
 \newblock \url{https://infrapedia.com/}.
-\newblock Accessed: 2026-10-27.
-
-\bibitem[{Instances.social}(2026)]{instances_social}
-{Instances.social}.
-\newblock Mastodon instances list, 2026.
-\newblock URL \url{https://instances.social/}.
-\newblock Accessed: 2026-10-27.
-
-\bibitem[{International Monetary Fund}()]{imf_fiscal_monitor}
-{International Monetary Fund}.
-\newblock {Fiscal Monitor}.
-\newblock \url{https://www.imf.org/en/Publications/FM}.
-\newblock Accessed: 2026-10-27.
-
-\bibitem[{International Monetary Fund}(2026)]{imf_main}
-{International Monetary Fund}.
-\newblock {International Monetary Fund}.
-\newblock \url{https://www.imf.org/}, 2026.
 \newblock Accessed: 2026-10-27.
 
 \bibitem[{Internet Archive}({\natexlab{a}})]{internet-archive}
@@ -2422,6 +2781,28 @@ Umar Iqbal, Pouneh~Nikkhah Bahrami, Rahmadi Trimananda, Hao Cui, Alexander
 \newblock \doi{10.1145/3618257.3624803}.
 \newblock URL \url{https://doi.org/10.1145/3618257.3624803}.
 
+\bibitem[Ismail et~al.(2025)Ismail, Hammad, Hatcher, Dandan, Alomari, and
+  Spratt]{11267522}
+Shereen Ismail, Eman Hammad, William Hatcher, Salah Dandan, Ammar Alomari, and
+  Michael Spratt.
+\newblock Merit network telescope: Processing and initial insights from nearly
+  20 years of darknet traffic for cybersecurity research.
+\newblock In \emph{2025 IEEE 16th Annual Ubiquitous Computing, Electronics \&
+  Mobile Communication Conference (UEMCON)}, pages 0873--0879, 2025.
+\newblock \doi{10.1109/UEMCON67449.2025.11267522}.
+
+\bibitem[Izhikevich et~al.(2026)Izhikevich, Du, Rao, Tran, Ukani, Bellis, and
+  Izhikevich]{10.1145/3777912.3839804}
+Katherine Izhikevich, Ben Du, Sumanth Rao, Manda Tran, Alisha Ukani, Ray
+  Bellis, and Liz Izhikevich.
+\newblock Rooting out incorrect ripe atlas probe geolocations.
+\newblock In \emph{Proceedings of the 2026 ACM Internet Measurement
+  Conference}, IMC '26, page 1057–1066, New York, NY, USA, 2026. Association
+  for Computing Machinery.
+\newblock ISBN 9798400723278.
+\newblock \doi{10.1145/3777912.3839804}.
+\newblock URL \url{https://doi.org/10.1145/3777912.3839804}.
+
 \bibitem[Izhikevich et~al.(2022)Izhikevich, Akiwate, Berger, Drakontaidis,
   Ascheman, Pearce, Adrian, and Durumeric]{10.1145/3517745.3561434}
 Liz Izhikevich, Gautam Akiwate, Briana Berger, Spencer Drakontaidis, Anna
@@ -2491,6 +2872,31 @@ HyunSeok~Daniel Jang, Matteo Varvello, Aravindh Raman, and Yasir Zaki.
 \newblock \doi{10.1145/3730567.3764491}.
 \newblock URL \url{https://doi.org/10.1145/3730567.3764491}.
 
+\bibitem[Jang et~al.(2026{\natexlab{a}})Jang, Ibrahim, Asim, Varvello, and
+  Zaki]{10.1145/3777912.3839815}
+HyunSeok~(Daniel) Jang, Hazem Ibrahim, Rohail Asim, Matteo Varvello, and Yasir
+  Zaki.
+\newblock Replication: I tag, you tag, everybody tags!
+\newblock In \emph{Proceedings of the 2026 ACM Internet Measurement
+  Conference}, IMC '26, page 999–1013, New York, NY, USA, 2026{\natexlab{a}}.
+  Association for Computing Machinery.
+\newblock ISBN 9798400723278.
+\newblock \doi{10.1145/3777912.3839815}.
+\newblock URL \url{https://doi.org/10.1145/3777912.3839815}.
+
+\bibitem[Jang et~al.(2026{\natexlab{b}})Jang, Pandey, Varvello, Bustamante, and
+  Zaki]{10.1145/3777912.3839816}
+HyunSeok~(Daniel) Jang, Ayush Pandey, Matteo Varvello, Fabi'an~E. Bustamante,
+  and Yasir Zaki.
+\newblock Dissecting mellowtel: Bandwidth-as-a-service through browser
+  extensions.
+\newblock In \emph{Proceedings of the 2026 ACM Internet Measurement
+  Conference}, IMC '26, page 416–432, New York, NY, USA, 2026{\natexlab{b}}.
+  Association for Computing Machinery.
+\newblock ISBN 9798400723278.
+\newblock \doi{10.1145/3777912.3839816}.
+\newblock URL \url{https://doi.org/10.1145/3777912.3839816}.
+
 \bibitem[Jansen and Johnson(2021)]{10.1007/978-3-030-72582-2_28}
 Rob Jansen and Aaron Johnson.
 \newblock On the accuracy of tor bandwidth estimation.
@@ -2499,13 +2905,15 @@ Rob Jansen and Aaron Johnson.
   International Publishing.
 \newblock ISBN 978-3-030-72582-2.
 
-\bibitem[{Janus}()]{dst-index}
-{Janus}.
-\newblock Disturbance storm time (dst) index.
-\newblock
-  \url{https://www.janusresearch.com/accelerated-missions/space-threat-acceleration}.
-\newblock Forwarded from
-  https://www.aer.com/science-research/space/space-weather/space-weather-index/dst-storm-time/.
+\bibitem[Jansen et~al.(2026)Jansen, Wails, and
+  Johnson]{10.1007/978-3-032-18268-5_13}
+Rob Jansen, Ryan Wails, and Aaron Johnson.
+\newblock A measurement of genuine tor traces for realistic website
+  fingerprinting.
+\newblock In Simone Ferlin-Reiter, Romain Fontugne, and Johanna Ullrich,
+  editors, \emph{Passive and Active Measurement}, pages 277--293, Cham, 2026.
+  Springer Nature Switzerland.
+\newblock ISBN 978-3-032-18268-5.
 
 \bibitem[Jiang et~al.(2021)Jiang, Luo, Koch, Zhang, Katz-Bassett, and
   Calder]{10.1145/3487552.3487844}
@@ -2558,6 +2966,20 @@ Mattijs Jonker, Gautam Akiwate, Antonia Affinito, kc~Claffy, Alessio Botta,
 \newblock \doi{10.1145/3517745.3561423}.
 \newblock URL \url{https://doi.org/10.1145/3517745.3561423}.
 
+\bibitem[Jorgensen()]{vnat}
+Steven Jorgensen.
+\newblock Vpn/non-vpn network application traffic dataset (vnat).
+
+\bibitem[Jorgensen et~al.(2024)Jorgensen, Holodnak, Dempsey, de~Souza,
+  Raghunath, Rivet, DeMoes, Alejos, and Wollaber]{10044382}
+Steven Jorgensen, John Holodnak, Jensen Dempsey, Karla de~Souza, Ananditha
+  Raghunath, Vernon Rivet, Noah DeMoes, Andrés Alejos, and Allan Wollaber.
+\newblock Extensible machine learning for encrypted network traffic application
+  labeling via uncertainty quantification.
+\newblock \emph{IEEE Transactions on Artificial Intelligence}, 5\penalty0
+  (1):\penalty0 420--433, 2024.
+\newblock \doi{10.1109/TAI.2023.3244168}.
+
 \bibitem[Kalntis et~al.(2024)Kalntis, Su{\'a}rez-Varela, Iglesias,
   Bhattacharjee, Iosifidis, Kuipers, and Lutu]{10.1145/3646547.3688452}
 Michail Kalntis, Jos{\'e} Su{\'a}rez-Varela, Jes{\'u}s~Oma{\~n}a Iglesias,
@@ -2572,6 +2994,17 @@ Michail Kalntis, Jos{\'e} Su{\'a}rez-Varela, Jes{\'u}s~Oma{\~n}a Iglesias,
 \newblock \doi{10.1145/3646547.3688452}.
 \newblock URL \url{https://doi.org/10.1145/3646547.3688452}.
 
+\bibitem[Kapitanski and Mirkovic(2026)]{10.1145/3777912.3839790}
+Eric Kapitanski and Jelena Mirkovic.
+\newblock Lightscope: Turning production machines into telescopes and
+  honeypots.
+\newblock In \emph{Proceedings of the 2026 ACM Internet Measurement
+  Conference}, IMC '26, page 228–245, New York, NY, USA, 2026. Association
+  for Computing Machinery.
+\newblock ISBN 9798400723278.
+\newblock \doi{10.1145/3777912.3839790}.
+\newblock URL \url{https://doi.org/10.1145/3777912.3839790}.
+
 \bibitem[Kaplan et~al.(2022)Kaplan, Gerzon, Mislove, and
   Sapiezynski]{10.1145/3517745.3561450}
 Levi Kaplan, Nicole Gerzon, Alan Mislove, and Piotr Sapiezynski.
@@ -2583,6 +3016,18 @@ Levi Kaplan, Nicole Gerzon, Alan Mislove, and Piotr Sapiezynski.
 \newblock ISBN 9781450392594.
 \newblock \doi{10.1145/3517745.3561450}.
 \newblock URL \url{https://doi.org/10.1145/3517745.3561450}.
+
+\bibitem[Kappes et~al.(2026)Kappes, Feldmann, Fiebig, and
+  Zirngibl]{10.1145/3777912.3809149}
+Sebastian Kappes, Anja Feldmann, Tobias Fiebig, and Johannes Zirngibl.
+\newblock Ttl jumps: Unexpected ttl rewrites impacting inferences from
+  traceroutes.
+\newblock In \emph{Proceedings of the 2026 ACM Internet Measurement
+  Conference}, IMC '26, page 1067–1081, New York, NY, USA, 2026. Association
+  for Computing Machinery.
+\newblock ISBN 9798400723278.
+\newblock \doi{10.1145/3777912.3809149}.
+\newblock URL \url{https://doi.org/10.1145/3777912.3809149}.
 
 \bibitem[Karl et~al.(2022)Karl, Musch, Ma, Johns, and
   Lekies]{10.1145/3517745.3561446}
@@ -2618,6 +3063,16 @@ Mohamed~M. Kassem, Aravindh Raman, Diego Perino, and Nishanth Sastry.
 \newblock \doi{10.1145/3517745.3561457}.
 \newblock URL \url{https://doi.org/10.1145/3517745.3561457}.
 
+\bibitem[Kastanakis et~al.(2026)Kastanakis, Fontein, Khadka, Jaw, Hesselman,
+  and Jonker]{10.1007/978-3-032-18268-5_1}
+Savvas Kastanakis, Rick Fontein, Shyam~Krishna Khadka, Ebrima Jaw, Cristian
+  Hesselman, and Mattijs Jonker.
+\newblock Prefix top lists reloaded: A temporal prefix ranking dataset.
+\newblock In Simone Ferlin-Reiter, Romain Fontugne, and Johanna Ullrich,
+  editors, \emph{Passive and Active Measurement}, pages 3--16, Cham, 2026.
+  Springer Nature Switzerland.
+\newblock ISBN 978-3-032-18268-5.
+
 \bibitem[Kawaoka et~al.(2021)Kawaoka, Chiba, Watanabe, Akiyama, and
   Mori]{10.1007/978-3-030-72582-2_3}
 Ryo Kawaoka, Daiki Chiba, Takuya Watanabe, Mitsuaki Akiyama, and Tatsuya Mori.
@@ -2627,6 +3082,19 @@ Ryo Kawaoka, Daiki Chiba, Takuya Watanabe, Mitsuaki Akiyama, and Tatsuya Mori.
   International Publishing.
 \newblock ISBN 978-3-030-72582-2.
 
+\bibitem[Kempf et~al.(2026)Kempf, Gauder, Sp{\"a}th, Carle, and
+  Zirngibl]{10.1145/3777912.3839803}
+Marcel Kempf, Nikolas Gauder, Johannes Sp{\"a}th, Georg Carle, and Johannes
+  Zirngibl.
+\newblock A quic look back: Longitudinal internet-scale deployment and
+  transport parameter evolution.
+\newblock In \emph{Proceedings of the 2026 ACM Internet Measurement
+  Conference}, IMC '26, page 676–692, New York, NY, USA, 2026. Association
+  for Computing Machinery.
+\newblock ISBN 9798400723278.
+\newblock \doi{10.1145/3777912.3839803}.
+\newblock URL \url{https://doi.org/10.1145/3777912.3839803}.
+
 \bibitem[Keshvadi and Williamson(2021)]{10.1007/978-3-030-72582-2_7}
 Sina Keshvadi and Carey Williamson.
 \newblock An empirical measurement study of free live streaming services.
@@ -2634,6 +3102,16 @@ Sina Keshvadi and Carey Williamson.
   \emph{Passive and Active Measurement}, pages 111--127, Cham, 2021. Springer
   International Publishing.
 \newblock ISBN 978-3-030-72582-2.
+
+\bibitem[Khadka et~al.(2026)Khadka, Bayhan, Holz, and
+  Hesselman]{10.1007/978-3-032-18268-5_2}
+Shyam~Krishna Khadka, Suzan Bayhan, Ralph Holz, and Cristian Hesselman.
+\newblock Detecting and characterizing ddos scrubbing from global bgp
+  routing: Insights from five leading scrubbers.
+\newblock In Simone Ferlin-Reiter, Romain Fontugne, and Johanna Ullrich,
+  editors, \emph{Passive and Active Measurement}, pages 17--43, Cham, 2026.
+  Springer Nature Switzerland.
+\newblock ISBN 978-3-032-18268-5.
 
 \bibitem[Khan et~al.(2023)Khan, Sperotto, van~der Ham, and van
   Rijswijk-Deij]{10.1007/978-3-031-28486-1_3}
@@ -2644,6 +3122,17 @@ Etienne Khan, Anna Sperotto, Jeroen van~der Ham, and Roland van Rijswijk-Deij.
   \emph{Passive and Active Measurement}, pages 46--68, Cham, 2023. Springer
   Nature Switzerland.
 \newblock ISBN 978-3-031-28486-1.
+
+\bibitem[Khanlari and Rahmati(2026)]{10.1145/3777912.3839789}
+Amirhossein Khanlari and Amir Rahmati.
+\newblock Taking a bite out of the forbidden fruit: Characterizing third-party
+  iranian ios app stores.
+\newblock In \emph{Proceedings of the 2026 ACM Internet Measurement
+  Conference}, IMC '26, page 175–187, New York, NY, USA, 2026. Association
+  for Computing Machinery.
+\newblock ISBN 9798400723278.
+\newblock \doi{10.1145/3777912.3839789}.
+\newblock URL \url{https://doi.org/10.1145/3777912.3839789}.
 
 \bibitem[Kirci et~al.(2022)Kirci, Vahlensieck, and
   Vanbever]{10.1145/3517745.3561428}
@@ -2760,6 +3249,17 @@ Dhruv Kuchhal, Karthik Ramakrishnan, and Frank Li.
 \newblock \doi{10.1145/3646547.3688405}.
 \newblock URL \url{https://doi.org/10.1145/3646547.3688405}.
 
+\bibitem[Kunz et~al.(2026)Kunz, Kawollek, Alhamwy, and
+  Hohlfeld]{10.1145/3777912.3839809}
+Adrian Kunz, Lukas Kawollek, Yasin Alhamwy, and Oliver Hohlfeld.
+\newblock A fresh look at website complexity.
+\newblock In \emph{Proceedings of the 2026 ACM Internet Measurement
+  Conference}, IMC '26, page 356–373, New York, NY, USA, 2026. Association
+  for Computing Machinery.
+\newblock ISBN 9798400723278.
+\newblock \doi{10.1145/3777912.3839809}.
+\newblock URL \url{https://doi.org/10.1145/3777912.3839809}.
+
 \bibitem[Kunze et~al.(2023)Kunze, Sander, and Wehrle]{10.1145/3618257.3624844}
 Ike Kunze, Constantin Sander, and Klaus Wehrle.
 \newblock Does it spin? on the adoption and use of quic's spin bit.
@@ -2869,11 +3369,46 @@ Victor Le~Pochat, Cameron Ballard, Lieven Desmet, Wouter Joosen, Damon McCoy,
   Springer Nature Switzerland.
 \newblock ISBN 978-3-031-85960-1.
 
+\bibitem[Lee and Sun(2026)]{10.1145/3777912.3839830}
+Hyeonmin Lee and Yixin Sun.
+\newblock Revisit dane for the web: A performance perspective.
+\newblock In \emph{Proceedings of the 2026 ACM Internet Measurement
+  Conference}, IMC '26, page 287–299, New York, NY, USA, 2026. Association
+  for Computing Machinery.
+\newblock ISBN 9798400723278.
+\newblock \doi{10.1145/3777912.3839830}.
+\newblock URL \url{https://doi.org/10.1145/3777912.3839830}.
+
 \bibitem[{Let's Encrypt}(2020)]{lets_encrypt_caa_bug}
 {Let's Encrypt}.
 \newblock March 2020: Let's encrypt caa rechecking bug.
 \newblock \url{https://letsencrypt.org/docs/caa/}, 2020.
 \newblock Accessed: 2026-10-27.
+
+\bibitem[Li et~al.(2026{\natexlab{a}})Li, Wu, Chi, Wu, Li, Liu, Wang, and
+  Zhou]{10.1145/3777912.3809150}
+Pengfei Li, Lei Wu, Tianyang Chi, Siwei Wu, Runhuai Li, Sophie Liu, Cong Wang,
+  and Yajin Zhou.
+\newblock When hunters are hunted: An in-depth empirical study of mev bot
+  security.
+\newblock In \emph{Proceedings of the 2026 ACM Internet Measurement
+  Conference}, IMC '26, page 818–833, New York, NY, USA, 2026{\natexlab{a}}.
+  Association for Computing Machinery.
+\newblock ISBN 9798400723278.
+\newblock \doi{10.1145/3777912.3809150}.
+\newblock URL \url{https://doi.org/10.1145/3777912.3809150}.
+
+\bibitem[Li et~al.(2026{\natexlab{b}})Li, Li, Liu, Liu, Duan, and
+  Pan]{10.1145/3777912.3839798}
+Ruixuan Li, Enlong Li, Mingxuan Liu, Baojun Liu, Haixin Duan, and Qingfeng Pan.
+\newblock When delivery meets error: Exploring email delivery retry strategies
+  and defects.
+\newblock In \emph{Proceedings of the 2026 ACM Internet Measurement
+  Conference}, IMC '26, page 487–494, New York, NY, USA, 2026{\natexlab{b}}.
+  Association for Computing Machinery.
+\newblock ISBN 9798400723278.
+\newblock \doi{10.1145/3777912.3839798}.
+\newblock URL \url{https://doi.org/10.1145/3777912.3839798}.
 
 \bibitem[Li et~al.(2021)Li, Akiwate, Levchenko, Voelker, and
   Savage]{10.1007/978-3-030-72582-2_4}
@@ -2884,6 +3419,44 @@ Vector~Guo Li, Gautam Akiwate, Kirill Levchenko, Geoffrey~M. Voelker, and
   \emph{Passive and Active Measurement}, pages 57--75, Cham, 2021. Springer
   International Publishing.
 \newblock ISBN 978-3-030-72582-2.
+
+\bibitem[Li et~al.(2023)Li, Lin, Ashiq, Aben, Fontugne, Phokeer, and
+  Chung]{10.1145/3618257.3624806}
+Weitong Li, Zhexiao Lin, Md.~Ishtiaq Ashiq, Emile Aben, Romain Fontugne,
+  Amreesh Phokeer, and Taejoong Chung.
+\newblock Rovista: Measuring and analyzing the route origin validation (rov) in
+  rpki.
+\newblock In \emph{Proceedings of the 2023 ACM on Internet Measurement
+  Conference}, IMC '23, page 73–88, New York, NY, USA, 2023. Association for
+  Computing Machinery.
+\newblock ISBN 9798400703829.
+\newblock \doi{10.1145/3618257.3624806}.
+\newblock URL \url{https://doi.org/10.1145/3618257.3624806}.
+
+\bibitem[Li et~al.(2026{\natexlab{c}})Li, Xu, Zhang, Giotsas, and
+  Chung]{10.1145/3777912.3809144}
+Weitong Li, Yongzhe Xu, Mingwei Zhang, Vasileios Giotsas, and Taejoong Chung.
+\newblock Rscope: Unveiling global rov deployments and dependencies in the
+  post-rov era.
+\newblock In \emph{Proceedings of the 2026 ACM Internet Measurement
+  Conference}, IMC '26, page 888–902, New York, NY, USA, 2026{\natexlab{c}}.
+  Association for Computing Machinery.
+\newblock ISBN 9798400723278.
+\newblock \doi{10.1145/3777912.3809144}.
+\newblock URL \url{https://doi.org/10.1145/3777912.3809144}.
+
+\bibitem[Li et~al.(2026{\natexlab{d}})Li, Wu, Wang, Tian, Gao, Li, Xia, and
+  Li]{10.1145/3777912.3839801}
+Zihan Li, Wenhao Wu, Zhaohua Wang, Yu~Tian, Chuan Gao, Qinxin Li, Yiming Xia,
+  and Zhenyu Li.
+\newblock Taming dns responses: A measurement study of response size and its
+  impact.
+\newblock In \emph{Proceedings of the 2026 ACM Internet Measurement
+  Conference}, IMC '26, page 604–619, New York, NY, USA, 2026{\natexlab{d}}.
+  Association for Computing Machinery.
+\newblock ISBN 9798400723278.
+\newblock \doi{10.1145/3777912.3839801}.
+\newblock URL \url{https://doi.org/10.1145/3777912.3839801}.
 
 \bibitem[Lim et~al.(2023)Lim, Kwon, and Kim]{10.1145/3618257.3624804}
 Kyungchan Lim, Yonghwi Kwon, and Doowon Kim.
@@ -2905,6 +3478,17 @@ Maxwell Lin, Shihan Lin, Helen Wu, Karen Wang, and Xiaowei Yang.
 \newblock ISBN 9798400705922.
 \newblock \doi{10.1145/3646547.3689014}.
 \newblock URL \url{https://doi.org/10.1145/3646547.3689014}.
+
+\bibitem[Lin et~al.(2026)Lin, Li, Liao, and Wang]{10.1145/3777912.3839799}
+Zilong Lin, Zichuan Li, Xiaojing Liao, and XiaoFeng Wang.
+\newblock Characterizing the ecosystem of open-source uncensored large language
+  models: Supply chain, governance, and risks.
+\newblock In \emph{Proceedings of the 2026 ACM Internet Measurement
+  Conference}, IMC '26, page 495–513, New York, NY, USA, 2026. Association
+  for Computing Machinery.
+\newblock ISBN 9798400723278.
+\newblock \doi{10.1145/3777912.3839799}.
+\newblock URL \url{https://doi.org/10.1145/3777912.3839799}.
 
 \bibitem[Liu et~al.(2021{\natexlab{a}})Liu, Akiwate, Jonker, Mirian, Savage,
   and Voelker]{10.1145/3487552.3487820}
@@ -3012,15 +3596,21 @@ Ioana Livadariu, Romain Fontugne, Amreesh Phokeer, Massimo Candela, and
   Nature Switzerland.
 \newblock ISBN 978-3-031-56252-5.
 
+\bibitem[Loye et~al.(2026)Loye, Bautista, and
+  Fontugne]{10.1145/3777912.3809143}
+Justin Loye, Esteban Bautista, and Romain Fontugne.
+\newblock When bgp goes mad: Multi-scale anomaly detection in internet routing.
+\newblock In \emph{Proceedings of the 2026 ACM Internet Measurement
+  Conference}, IMC '26, page 855–871, New York, NY, USA, 2026. Association
+  for Computing Machinery.
+\newblock ISBN 9798400723278.
+\newblock \doi{10.1145/3777912.3809143}.
+\newblock URL \url{https://doi.org/10.1145/3777912.3809143}.
+
 \bibitem[Ltd.()]{netcraft}
 Netcraft Ltd.
 \newblock Netcraft.
 \newblock URL \url{https://www.netcraft.com/}.
-
-\bibitem[Lucchese et~al.(2004)Lucchese, Orlando, Perego, and Silvestri]{rltd}
-Claudio Lucchese, Salvatore Orlando, Raffaele Perego, and Fabrizio Silvestri.
-\newblock Webdocs: a real-life huge transactional dataset.
-\newblock 01 2004.
 
 \bibitem[Luckie et~al.(2025{\natexlab{a}})Luckie, Hariprasad, Sommese, Jones,
   Keys, Mok, and Claffy]{10.1007/978-3-031-85960-1_6}
@@ -3153,6 +3743,18 @@ Jonathan Magnusson, Moritz M{\"u}ller, Anna Brunstrom, and Tobias Pulls.
   Nature Switzerland.
 \newblock ISBN 978-3-031-28486-1.
 
+\bibitem[Mani et~al.(2026)Mani, Misell, Hennen, Feldmann, and
+  Fiebig]{10.1145/3777912.3809145}
+Poornima Mani, Q~Misell, Pascal Hennen, Anja Feldmann, and Tobias Fiebig.
+\newblock ‘quis mensurat ipsos mensores?:’ evaluating data consistency of
+  bgp route collectors \& brokers.
+\newblock In \emph{Proceedings of the 2026 ACM Internet Measurement
+  Conference}, IMC '26, page 936–943, New York, NY, USA, 2026. Association
+  for Computing Machinery.
+\newblock ISBN 9798400723278.
+\newblock \doi{10.1145/3777912.3809145}.
+\newblock URL \url{https://doi.org/10.1145/3777912.3809145}.
+
 \bibitem[MANRS()]{manrs}
 MANRS.
 \newblock Manrs participants.
@@ -3198,6 +3800,53 @@ Emeline Marechal, Pascal M{\'e}rindol, and Benoit Donnet.
   \emph{Passive and Active Measurement}, pages 441--469, Cham, 2022. Springer
   International Publishing.
 \newblock ISBN 978-3-030-98785-5.
+
+\bibitem[Marques et~al.(2026)Marques, Schachner, Marwell, and
+  Feamster]{10.1145/3777912.3809140}
+Jonatas Marques, Jared~N. Schachner, Nicole~P. Marwell, and Nick Feamster.
+\newblock Characterizing spatial variation in internet access latency: A
+  multilevel approach.
+\newblock In \emph{Proceedings of the 2026 ACM Internet Measurement
+  Conference}, IMC '26, page 1169–1182, New York, NY, USA, 2026. Association
+  for Computing Machinery.
+\newblock ISBN 9798400723278.
+\newblock \doi{10.1145/3777912.3809140}.
+\newblock URL \url{https://doi.org/10.1145/3777912.3809140}.
+
+\bibitem[Mart{\'i}nez-Durive et~al.(2026{\natexlab{a}})Mart{\'i}nez-Durive,
+  Chariton, and Fiore]{10.1145/3777912.3839785}
+Orlando~E. Mart{\'i}nez-Durive, Antonis Chariton, and Marco Fiore.
+\newblock The circuit breaker that cried wolf: Measuring bgp maximum-prefix
+  exceedance and connectivity impact.
+\newblock In \emph{Proceedings of the 2026 ACM Internet Measurement
+  Conference}, IMC '26, page 872–887, New York, NY, USA, 2026{\natexlab{a}}.
+  Association for Computing Machinery.
+\newblock ISBN 9798400723278.
+\newblock \doi{10.1145/3777912.3839785}.
+\newblock URL \url{https://doi.org/10.1145/3777912.3839785}.
+
+\bibitem[Mart{\'i}nez-Durive et~al.(2026{\natexlab{b}})Mart{\'i}nez-Durive,
+  Ucar, Smoreda, Moro, and Fiore]{10.1145/3777912.3839827}
+Orlando~E. Mart{\'i}nez-Durive, I{\~n}aki Ucar, Zbigniew Smoreda, Esteban Moro,
+  and Marco Fiore.
+\newblock Digital consumption and political alignment: Evidence from mobile
+  data across two european elections in france.
+\newblock In \emph{Proceedings of the 2026 ACM Internet Measurement
+  Conference}, IMC '26, page 154–174, New York, NY, USA, 2026{\natexlab{b}}.
+  Association for Computing Machinery.
+\newblock ISBN 9798400723278.
+\newblock \doi{10.1145/3777912.3839827}.
+\newblock URL \url{https://doi.org/10.1145/3777912.3839827}.
+
+\bibitem[Mathews et~al.(2023)Mathews, Holland, Oh, Rahman, Hopper, and
+  Wright]{10179289}
+Nate Mathews, James~K Holland, Se~Eun Oh, Mohammad~Saidur Rahman, Nicholas
+  Hopper, and Matthew Wright.
+\newblock Sok: A critical evaluation of efficient website fingerprinting
+  defenses.
+\newblock In \emph{2023 IEEE Symposium on Security and Privacy (SP)}, pages
+  969--986, 2023.
+\newblock \doi{10.1109/SP46215.2023.10179289}.
 
 \bibitem[MaxMind()]{maxmindgeo}
 MaxMind.
@@ -3292,11 +3941,6 @@ Stephen McQuistin, Peter Snyder, Hamed Haddadi, and Gareth Tyson.
 \newblock \url{https://www.measurementlab.net/data/}.
 \newblock Accessed 2026-10-27.
 
-\bibitem[Mempool.Guru()]{mempoolguru}
-Mempool.Guru.
-\newblock Mempool.guru.
-\newblock URL \url{https://mempool.guru/}.
-
 \bibitem[Merit()]{irr}
 Merit.
 \newblock Irr.
@@ -3308,31 +3952,6 @@ Merit.
 \newblock {Routing Assets Database (RADB)}.
 \newblock \url{https://www.radb.net/}.
 \newblock Accessed: 2026-10-26.
-
-\bibitem[Meta({\natexlab{a}})]{crowdtangle}
-Meta.
-\newblock Meta crowdtangle, {\natexlab{a}}.
-\newblock URL
-  \url{https://transparency.meta.com/researchtools/other-data-catalogue/crowdtangle/}.
-
-\bibitem[Meta({\natexlab{b}})]{metaadlibrary}
-Meta.
-\newblock Meta ad library api, {\natexlab{b}}.
-\newblock URL \url{https://www.facebook.com/ads/library/api/?_rdr}.
-
-\bibitem[Meta(2024)]{crowdtangle_api}
-Meta.
-\newblock Crowdtangle (discontinued), 2024.
-\newblock URL
-  \url{https://transparency.meta.com/researchtools/meta-content-library/}.
-\newblock Tool discontinued August 2024; see Meta Content Library as the
-  replacement. Accessed: 2026-10-27.
-
-\bibitem[{Meta Platforms}()]{fb-ads-api}
-{Meta Platforms}.
-\newblock Facebook ads manager api.
-\newblock URL \url{https://developers.facebook.com/docs/marketing-api/}.
-\newblock Accessed: 2026-10-27.
 
 \bibitem[Michel et~al.(2022)Michel, Trevisan, Giordano, and
   Bonaventure]{10.1145/3517745.3561416}
@@ -3363,12 +3982,6 @@ Microsoft.
 \newblock \url{https://learn.microsoft.com/en-us/security/trusted-root/}.
 \newblock Accessed 2026-10-27.
 
-\bibitem[Microsoft()]{owa}
-Microsoft.
-\newblock Microsoft outlook web access.
-\newblock URL
-  \url{https://www.microsoft.com/en-us/microsoft-365/outlook/web-email-login-for-outlook}.
-
 \bibitem[Misell et~al.(2025)Misell, Steurer, Zirngibl, Feldmann, and
   Fiebig]{10.1145/3730567.3764501}
 Q~Misell, Florian Steurer, Johannes Zirngibl, Anja Feldmann, and Tobias Fiebig.
@@ -3391,6 +4004,18 @@ Ayush Mishra and Ben Leong.
 \newblock \doi{10.1145/3618257.3624811}.
 \newblock URL \url{https://doi.org/10.1145/3618257.3624811}.
 
+\bibitem[Mladenov et~al.(2026)Mladenov, van~der Horst, Hossu, {\v S}tular,
+  Griffioen, and Smaragdakis]{10.1145/3777912.3839802}
+Martin Mladenov, Max van~der Horst, Alexandru Hossu, Rok {\v S}tular, Harm
+  Griffioen, and Georgios Smaragdakis.
+\newblock Investigating next.js react2shell exploitation.
+\newblock In \emph{Proceedings of the 2026 ACM Internet Measurement
+  Conference}, IMC '26, page 456–472, New York, NY, USA, 2026. Association
+  for Computing Machinery.
+\newblock ISBN 9798400723278.
+\newblock \doi{10.1145/3777912.3839802}.
+\newblock URL \url{https://doi.org/10.1145/3777912.3839802}.
+
 \bibitem[Mohammadinodooshan and Carlsson(2023)]{10.1007/978-3-031-28486-1_8}
 Alireza Mohammadinodooshan and Niklas Carlsson.
 \newblock Effects of political bias and reliability on temporal user
@@ -3411,6 +4036,18 @@ Ricky K.~P. Mok, Hongyu Zou, Rui Yang, Tom Koch, Ethan Katz-Bassett, and K~C
 \newblock ISBN 9781450391290.
 \newblock \doi{10.1145/3487552.3487862}.
 \newblock URL \url{https://doi.org/10.1145/3487552.3487862}.
+
+\bibitem[MontazeriShatoori et~al.(2020)MontazeriShatoori, Davidson, Kaur, and
+  Habibi~Lashkari]{9251211}
+Mohammadreza MontazeriShatoori, Logan Davidson, Gurdip Kaur, and Arash
+  Habibi~Lashkari.
+\newblock Detection of doh tunnels using time-series classification of
+  encrypted traffic.
+\newblock In \emph{2020 IEEE Intl Conf on Dependable, Autonomic and Secure
+  Computing, Intl Conf on Pervasive Intelligence and Computing, Intl Conf on
+  Cloud and Big Data Computing, Intl Conf on Cyber Science and Technology
+  Congress (DASC/PiCom/CBDCom/CyberSciTech)}, pages 63--70, 2020.
+\newblock \doi{10.1109/DASC-PICom-CBDCom-CyberSciTech49142.2020.00026}.
 
 \bibitem[Moura et~al.(2021{\natexlab{a}})Moura, Castro, Heidemann, and
   Hardaker]{10.1145/3487552.3487824}
@@ -3478,6 +4115,18 @@ Mozilla.
 Mozilla.
 \newblock Mozilla ssl config generator, {\natexlab{b}}.
 \newblock URL \url{https://configurator.tlsref.org/}.
+
+\bibitem[M{\"u}cke et~al.(2026)M{\"u}cke, Gasser, Schmidt, and
+  W{\"a}hlisch]{10.1145/3777912.3839832}
+Jonas M{\"u}cke, Konstantin Gasser, Thomas~C. Schmidt, and Matthias
+  W{\"a}hlisch.
+\newblock Discovering encrypted client hello deployments by active ech probing.
+\newblock In \emph{Proceedings of the 2026 ACM Internet Measurement
+  Conference}, IMC '26, page 276–286, New York, NY, USA, 2026. Association
+  for Computing Machinery.
+\newblock ISBN 9798400723278.
+\newblock \doi{10.1145/3777912.3839832}.
+\newblock URL \url{https://doi.org/10.1145/3777912.3839832}.
 
 \bibitem[Munteanu et~al.(2023)Munteanu, Saidi, Gasser, Smaragdakis, and
   Feldmann]{10.1145/3618257.3624826}
@@ -3603,11 +4252,6 @@ Netscout.
 \newblock Routeviews, 2025.
 \newblock URL \url{https://archive.routeviews.org/}.
 
-\bibitem[NewsGuard()]{newsguard}
-NewsGuard.
-\newblock Newsguard.
-\newblock URL \url{https://www.newsguardtech.com/}.
-
 \bibitem[NextDNS()]{nextdns}
 NextDNS.
 \newblock Nextdns.
@@ -3671,6 +4315,18 @@ Yevheniya Nosyk, Qasim Lone, Yury Zhauniarovich, Carlos~H. Ga{\~{n}}{\'a}n,
   \emph{Passive and Active Measurement}, pages 461--478, Cham,
   2023{\natexlab{b}}. Springer Nature Switzerland.
 \newblock ISBN 978-3-031-28486-1.
+
+\bibitem[Nosyk et~al.(2026)Nosyk, Fernandez, Duda, and
+  Korczy{\'n}ski]{10.1145/3777912.3809157}
+Yevheniya Nosyk, Simon Fernandez, Andrzej Duda, and Maciej Korczy{\'n}ski.
+\newblock Securing the missing link: Encrypted recursive-to-authoritative dns
+  in the wild.
+\newblock In \emph{Proceedings of the 2026 ACM Internet Measurement
+  Conference}, IMC '26, page 668–675, New York, NY, USA, 2026. Association
+  for Computing Machinery.
+\newblock ISBN 9798400723278.
+\newblock \doi{10.1145/3777912.3809157}.
+\newblock URL \url{https://doi.org/10.1145/3777912.3809157}.
 
 \bibitem[{Number Resource Organization (NRO)}()]{rir-delegation-files}
 {Number Resource Organization (NRO)}.
@@ -3766,6 +4422,17 @@ OVHcloud.
 \newblock \url{https://www.pch.net/}.
 \newblock Accessed: 2026-10-26.
 
+\bibitem[Pandey et~al.(2026)Pandey, Sharkovski, Varvello, and
+  Zaki]{10.1145/3777912.3839817}
+Ayush Pandey, Vladimir Sharkovski, Matteo Varvello, and Yasir Zaki.
+\newblock In-the-wild javascript dead-code elimination via http range requests.
+\newblock In \emph{Proceedings of the 2026 ACM Internet Measurement
+  Conference}, IMC '26, page 433–441, New York, NY, USA, 2026. Association
+  for Computing Machinery.
+\newblock ISBN 9798400723278.
+\newblock \doi{10.1145/3777912.3839817}.
+\newblock URL \url{https://doi.org/10.1145/3777912.3839817}.
+
 \bibitem[Pantelakis et~al.(2022)Pantelakis, Papadopoulos, Kourtellis, and
   Markatos]{10.1007/978-3-030-98785-5_19}
 George Pantelakis, Panagiotis Papadopoulos, Nicolas Kourtellis, and
@@ -3776,6 +4443,19 @@ George Pantelakis, Panagiotis Papadopoulos, Nicolas Kourtellis, and
   \emph{Passive and Active Measurement}, pages 426--438, Cham, 2022. Springer
   International Publishing.
 \newblock ISBN 978-3-030-98785-5.
+
+\bibitem[Papadogiannakis et~al.(2026)Papadogiannakis, Papadopoulos, Kourtellis,
+  and Markatos]{10.1145/3777912.3839787}
+Emmanouil Papadogiannakis, Panagiotis Papadopoulos, Nicolas Kourtellis, and
+  Evangelos Markatos.
+\newblock Paid to look like truth: The prevalence and dark patterns of
+  advertorials in news outlets.
+\newblock In \emph{Proceedings of the 2026 ACM Internet Measurement
+  Conference}, IMC '26, page 97–113, New York, NY, USA, 2026. Association for
+  Computing Machinery.
+\newblock ISBN 9798400723278.
+\newblock \doi{10.1145/3777912.3839787}.
+\newblock URL \url{https://doi.org/10.1145/3777912.3839787}.
 
 \bibitem[Paul et~al.(2022)Paul, Liu, Gu, Gupta, and
   Belding]{10.1145/3517745.3561441}
@@ -3800,6 +4480,18 @@ Eric Pauley, Paul Barford, and Patrick McDaniel.
 \newblock ISBN 9798400703829.
 \newblock \doi{10.1145/3618257.3624810}.
 \newblock URL \url{https://doi.org/10.1145/3618257.3624810}.
+
+\bibitem[Pauley et~al.(2026)Pauley, Beugin, Barford, Traynor, and
+  McDaniel]{10.1145/3777912.3809148}
+Eric Pauley, Yohan Beugin, Paul Barford, Patrick Traynor, and Patrick McDaniel.
+\newblock Honey configs: Measuring the emerging exploitation of cloud ip
+  address reuse.
+\newblock In \emph{Proceedings of the 2026 ACM Internet Measurement
+  Conference}, IMC '26, page 75–89, New York, NY, USA, 2026. Association for
+  Computing Machinery.
+\newblock ISBN 9798400723278.
+\newblock \doi{10.1145/3777912.3809148}.
+\newblock URL \url{https://doi.org/10.1145/3777912.3809148}.
 
 \bibitem[PeeringDB()]{peeringdb}
 PeeringDB.
@@ -3839,11 +4531,6 @@ Maxime Piraux, Louis Navarre, Nicolas Rybowski, Olivier Bonaventure, and Benoit
 \newblock \doi{10.1145/3517745.3561462}.
 \newblock URL \url{https://doi.org/10.1145/3517745.3561462}.
 
-\bibitem[Politifact()]{politifact}
-Politifact.
-\newblock Politifact.
-\newblock URL \url{https://politifact.com}.
-
 \bibitem[Poteat and Li(2021)]{10.1145/3487552.3487841}
 Tara Poteat and Frank Li.
 \newblock Who you gonna call? an empirical evaluation of website security.txt
@@ -3868,6 +4555,13 @@ Amogh Pradeep, Muhammad~Talha Paracha, Protick Bhowmick, Ali Davanian, Abbas
 \newblock ISBN 9781450392594.
 \newblock \doi{10.1145/3517745.3561439}.
 \newblock URL \url{https://doi.org/10.1145/3517745.3561439}.
+
+\bibitem[Prasad et~al.(2023)Prasad, Dunlap, Ross, and Reaves]{3620237.3620262}
+Sathvik Prasad, Trevor Dunlap, Alexander Ross, and Bradley Reaves.
+\newblock Diving into robocall content with snorcall.
+\newblock In \emph{Proceedings of the 32nd USENIX Conference on Security
+  Symposium}, SEC '23, USA, 2023. USENIX Association.
+\newblock ISBN 978-1-939133-37-3.
 
 \bibitem[Prehn and Feldmann(2021)]{10.1145/3487552.3487825}
 Lars Prehn and Anja Feldmann.
@@ -3894,10 +4588,39 @@ The~ZMap Project.
 \newblock Zdns.
 \newblock URL \url{https://zmap.io/}.
 
+\bibitem[Pulls(2020)]{goodenough}
+Tobias Pulls.
+\newblock Towards effective and efficient padding machines for tor, 2020.
+\newblock URL \url{https://arxiv.org/abs/2011.13471}.
+
 \bibitem[QAX()]{qax}
 QAX.
 \newblock Alpha threat intelligence platform.
 \newblock URL \url{https://en.qianxin.com/}.
+
+\bibitem[Ramadan et~al.(2026)Ramadan, Abdou, Mannan, and
+  Youssef]{10.1145/3777912.3809151}
+Tarek Ramadan, AbdelRahman Abdou, Mohammad Mannan, and Amr Youssef.
+\newblock The silent spill: Measuring sensitive data leaks across public url
+  repositories.
+\newblock In \emph{Proceedings of the 2026 ACM Internet Measurement
+  Conference}, IMC '26, page 188–199, New York, NY, USA, 2026. Association
+  for Computing Machinery.
+\newblock ISBN 9798400723278.
+\newblock \doi{10.1145/3777912.3809151}.
+\newblock URL \url{https://doi.org/10.1145/3777912.3809151}.
+
+\bibitem[Ramakrishnan et~al.(2026)Ramakrishnan, Xie, Anand, and
+  Li]{10.1145/3777912.3839794}
+Karthik Ramakrishnan, Qinge Xie, Uma Anand, and Frank Li.
+\newblock Crawling in the deep: Evaluating web crawling configurations for web
+  privacy measurements.
+\newblock In \emph{Proceedings of the 2026 ACM Internet Measurement
+  Conference}, IMC '26, page 374–388, New York, NY, USA, 2026. Association
+  for Computing Machinery.
+\newblock ISBN 9798400723278.
+\newblock \doi{10.1145/3777912.3839794}.
+\newblock URL \url{https://doi.org/10.1145/3777912.3839794}.
 
 \bibitem[Raman and Flores(2021)]{10.1007/978-3-030-72582-2_21}
 Prathy Raman and Marcel Flores.
@@ -4064,6 +4787,14 @@ Kimberly Ruth, Deepak Kumar, Brandon Wang, Luke Valenta, and Zakir Durumeric.
 \newblock ISBN 9781450392594.
 \newblock \doi{10.1145/3517745.3561444}.
 \newblock URL \url{https://doi.org/10.1145/3517745.3561444}.
+
+\bibitem[Rye and Levin(2026)]{10.1007/978-3-032-18268-5_6}
+Erik Rye and Dave Levin.
+\newblock Wikipedia: Unearthing a 20-year history of ipv6 client addressing.
+\newblock In Simone Ferlin-Reiter, Romain Fontugne, and Johanna Ullrich,
+  editors, \emph{Passive and Active Measurement}, pages 137--151, Cham, 2026.
+  Springer Nature Switzerland.
+\newblock ISBN 978-3-032-18268-5.
 
 \bibitem[Rye et~al.(2021)Rye, Beverly, and Claffy]{10.1145/3487552.3487829}
 Erik Rye, Robert Beverly, and K~C Claffy.
@@ -4280,6 +5011,15 @@ Taveesh Sharma, Tarun Mangla, Arpit Gupta, Junchen Jiang, and Nick Feamster.
 \newblock \doi{10.1145/3618257.3624828}.
 \newblock URL \url{https://doi.org/10.1145/3618257.3624828}.
 
+\bibitem[Shi et~al.(2026)Shi, Yang, and Shao]{10.1007/978-3-032-18268-5_16}
+Qinxuan Shi, Zhanglong Yang, and Sicong Shao.
+\newblock Efficient system log analysis via quantized on-device anomaly
+  detection and response.
+\newblock In Simone Ferlin-Reiter, Romain Fontugne, and Johanna Ullrich,
+  editors, \emph{Passive and Active Measurement}, pages 348--373, Cham, 2026.
+  Springer Nature Switzerland.
+\newblock ISBN 978-3-032-18268-5.
+
 \bibitem[Shmeis et~al.(2023)Shmeis, Abdullah, Nikolopoulos, Argyraki, Choffnes,
   and Gill]{10.1145/3618257.3624809}
 Zeinab Shmeis, Muhammad Abdullah, Pavlos Nikolopoulos, Katerina Argyraki, David
@@ -4297,6 +5037,17 @@ Zeinab Shmeis, Muhammad Abdullah, Pavlos Nikolopoulos, Katerina Argyraki, David
 \newblock {Shodan: The Search Engine for the Internet of Things}.
 \newblock \url{https://www.shodan.io/}.
 \newblock Accessed 2026-10-27.
+
+\bibitem[Shu et~al.(2026)Shu, Luo, Chung, Voelker, and
+  Savage]{10.1145/3777912.3839786}
+Ye~Shu, Elisa Luo, Paul Chung, Geoffrey~M. Voelker, and Stefan Savage.
+\newblock The case of the missing cases: Inferring sealed u.s. federal cases.
+\newblock In \emph{Proceedings of the 2026 ACM Internet Measurement
+  Conference}, IMC '26, page 114–134, New York, NY, USA, 2026. Association
+  for Computing Machinery.
+\newblock ISBN 9798400723278.
+\newblock \doi{10.1145/3777912.3839786}.
+\newblock URL \url{https://doi.org/10.1145/3777912.3839786}.
 
 \bibitem[Shyamkumar et~al.(2025)Shyamkumar, Bang, Sagstad, Venkateshmurthy,
   Cummings, and Sultana]{10.1145/3730567.3764462}
@@ -4332,6 +5083,10 @@ Sudheesh Singanamalla, Muhammad~Talha Paracha, Suleman Ahmad, Jonathan Hoyland,
 \newblock \doi{10.1145/3517745.3561453}.
 \newblock URL \url{https://doi.org/10.1145/3517745.3561453}.
 
+\bibitem[Singh et~al.(2019)Singh, Singh, and Kaur]{mendeley}
+Manmeet Singh, Maninder Singh, and Sanmeet Kaur.
+\newblock {10 Days DNS Network Traffic from April-May, 2016}, 2019.
+
 \bibitem[Singh et~al.(2025)Singh, Ricci, and
   Gamero-Garrido]{10.1145/3730567.3764427}
 Sachin~Kumar Singh, Robert Ricci, and Alexander Gamero-Garrido.
@@ -4358,10 +5113,30 @@ Lukas Sismis and Jan Korenek.
 \newblock \url{https://www.sitespeed.io/documentation/browsertime/}.
 \newblock Accessed 2026-10-27.
 
-\bibitem[Snopes()]{snopes}
-Snopes.
-\newblock Snopes' field guide to fake news sites and hoax purveyors.
-\newblock URL \url{https://www.snopes.com/news/2016/01/14/fake-news-sites/}.
+\bibitem[Smith et~al.(2026)Smith, Grossman, Franaszek, Torres-Ag{\"u}ero, Sen,
+  Borcea, and Chen]{10.1145/3777912.3839792}
+Michael Smith, Riley Grossman, Krzysztof Franaszek, Antonio Torres-Ag{\"u}ero,
+  Pritam Sen, Cristian Borcea, and Yi~Chen.
+\newblock A longitudinal study of extended user ids in the online advertising
+  ecosystem.
+\newblock In \emph{Proceedings of the 2026 ACM Internet Measurement
+  Conference}, IMC '26, page 1014–1023, New York, NY, USA, 2026. Association
+  for Computing Machinery.
+\newblock ISBN 9798400723278.
+\newblock \doi{10.1145/3777912.3839792}.
+\newblock URL \url{https://doi.org/10.1145/3777912.3839792}.
+
+\bibitem[Sommers et~al.(2026)Sommers, Kranig, Wung, Barford, Crovella, and
+  Pauley]{10.1145/3777912.3839791}
+Joel Sommers, Calvin Kranig, Wei-Shiang Wung, Paul Barford, Mark Crovella, and
+  Eric Pauley.
+\newblock namefill: Synthesizing dns naming conventions.
+\newblock In \emph{Proceedings of the 2026 ACM Internet Measurement
+  Conference}, IMC '26, page 589–603, New York, NY, USA, 2026. Association
+  for Computing Machinery.
+\newblock ISBN 9798400723278.
+\newblock \doi{10.1145/3777912.3839791}.
+\newblock URL \url{https://doi.org/10.1145/3777912.3839791}.
 
 \bibitem[Sommese et~al.(2020)Sommese, Bertholdo, Akiwate, Jonker, van
   Rijswijk-Deij, Dainotti, Claffy, and Sperotto]{10.1145/3419394.3423646}
@@ -4420,6 +5195,17 @@ Yuqian Song, Georgios Smaragdakis, and Harm Griffioen.
 \newblock \doi{10.1145/3730567.3764481}.
 \newblock URL \url{https://doi.org/10.1145/3730567.3764481}.
 
+\bibitem[Sordello et~al.(2026)Sordello, Mellia, Drago, Valentim, Musumeci,
+  Tornatore, Cerutti, Trevisan, Botta, and Coelho]{holoscope}
+Andrea Sordello, Marco Mellia, Idilio Drago, Rodolfo Valentim, Francesco
+  Musumeci, Massimo Tornatore, Federico Cerutti, Martino Trevisan, Alessio
+  Botta, and Willen~B. Coelho.
+\newblock Holoscope: Open and lightweight telescope \& honeypot platform.
+\newblock \emph{IEEE Communications Magazine}, page 1–6, 2026.
+\newblock ISSN 1558-1896.
+\newblock \doi{10.1109/mcom.001.2500784}.
+\newblock URL \url{http://dx.doi.org/10.1109/MCOM.001.2500784}.
+
 \bibitem[Sosnowski et~al.(2023)Sosnowski, Zirngibl, Sattler, and
   Carle]{10.1007/978-3-031-28486-1_6}
 Markus Sosnowski, Johannes Zirngibl, Patrick Sattler, and Georg Carle.
@@ -4468,6 +5254,18 @@ Milind Srivastava, Shao-Tse Hung, Hun Namkung, Kate Ching-Ju Lin, Zaoxing Liu,
 starlink community.
 \newblock Starlink-cli.
 \newblock URL \url{https://github.com/starlink-community/starlink-cli}.
+
+\bibitem[Steger et~al.(2026)Steger, Junginger, Carle, and
+  Zirngibl]{10.1145/3777912.3839826}
+Lion Steger, Christian Junginger, Georg Carle, and Johannes Zirngibl.
+\newblock Punching bag: A tool for testing ipv6 scans and target generation
+  algorithms.
+\newblock In \emph{Proceedings of the 2026 ACM Internet Measurement
+  Conference}, IMC '26, page 219–227, New York, NY, USA, 2026. Association
+  for Computing Machinery.
+\newblock ISBN 9798400723278.
+\newblock \doi{10.1145/3777912.3839826}.
+\newblock URL \url{https://doi.org/10.1145/3777912.3839826}.
 
 \bibitem[Steurer et~al.(2024)Steurer, Wagner, Lachos, Feldmann, and
   Fiebig]{10.1145/3646547.3689008}
@@ -4568,6 +5366,17 @@ Ram Sundara~Raman, Prerana Shenoy, Katharina Kohls, and Roya Ensafi.
 \newblock \doi{10.1145/3372297.3417883}.
 \newblock URL \url{https://doi.org/10.1145/3372297.3417883}.
 
+\bibitem[Sundriyal et~al.(2026)Sundriyal, Kim, Dong, Lee, and
+  Cha]{10.1145/3777912.3839814}
+Megha Sundriyal, Jaehong Kim, Wenchao Dong, Wonjae Lee, and Meeyoung Cha.
+\newblock Nothing to dread: A measurement study of a dark web social forum.
+\newblock In \emph{Proceedings of the 2026 ACM Internet Measurement
+  Conference}, IMC '26, page 834–854, New York, NY, USA, 2026. Association
+  for Computing Machinery.
+\newblock ISBN 9798400723278.
+\newblock \doi{10.1145/3777912.3839814}.
+\newblock URL \url{https://doi.org/10.1145/3777912.3839814}.
+
 \bibitem[{SURBL}()]{surbl}
 {SURBL}.
 \newblock {SURBL: Spam URI Real-time Blocklists}.
@@ -4587,6 +5396,17 @@ Malte Tashiro, Romain Fontugne, and Kensuke Fukuda.
   \emph{Passive and Active Measurement}, pages 199--227, Cham, 2024. Springer
   Nature Switzerland.
 \newblock ISBN 978-3-031-56252-5.
+
+\bibitem[Tashiro et~al.(2026)Tashiro, Fontugne, Fukuda, Bush, and
+  Madory]{10.1145/3777912.3809137}
+Malte Tashiro, Romain Fontugne, Kensuke Fukuda, Randy Bush, and Doug Madory.
+\newblock Hanging by a thread: A study of single-upstream networks.
+\newblock In \emph{Proceedings of the 2026 ACM Internet Measurement
+  Conference}, IMC '26, page 920–935, New York, NY, USA, 2026. Association
+  for Computing Machinery.
+\newblock ISBN 9798400723278.
+\newblock \doi{10.1145/3777912.3809137}.
+\newblock URL \url{https://doi.org/10.1145/3777912.3809137}.
 
 \bibitem[{Team Cymru}()]{team-cymru-ip-asn}
 {Team Cymru}.
@@ -4675,6 +5495,17 @@ TOR.
 \newblock Tor metrics.
 \newblock URL \url{https://metrics.torproject.org/}.
 
+\bibitem[Tran et~al.(2026)Tran, Liu, Li, and Feamster]{10.1145/3777912.3839833}
+Van Tran, Shinan Liu, Tian Li, and Nick Feamster.
+\newblock Quantifying the privacy implications of high-fidelity synthetic
+  network traffic.
+\newblock In \emph{Proceedings of the 2026 ACM Internet Measurement
+  Conference}, IMC '26, page 1024–1041, New York, NY, USA, 2026. Association
+  for Computing Machinery.
+\newblock ISBN 9798400723278.
+\newblock \doi{10.1145/3777912.3839833}.
+\newblock URL \url{https://doi.org/10.1145/3777912.3839833}.
+
 \bibitem[Trevisan et~al.(2023)Trevisan, Drago, Schmitt, and
   Bronzino]{10.1007/978-3-031-28486-1_1}
 Martino Trevisan, Idilio Drago, Paul Schmitt, and Francesco Bronzino.
@@ -4712,18 +5543,10 @@ Zeya Umayya, Dhruv Malik, Devashish Gosain, and Piyush Kumar~Sharma.
 \newblock \doi{10.1145/3618257.3624817}.
 \newblock URL \url{https://doi.org/10.1145/3618257.3624817}.
 
-\bibitem[{USC Information Sciences Institute
-  (ISI)}({\natexlab{a}})]{isi-ipv4-hitlist}
+\bibitem[{USC Information Sciences Institute (ISI)}()]{isi-ipv4-hitlist}
 {USC Information Sciences Institute (ISI)}.
 \newblock {ISI IPv4 Hitlist}.
-\newblock \url{https://ant.isi.edu/datasets/index.html}, {\natexlab{a}}.
-\newblock Accessed 2026-10-27.
-
-\bibitem[{USC Information Sciences Institute
-  (ISI)}({\natexlab{b}})]{isi-ipv4-response}
-{USC Information Sciences Institute (ISI)}.
-\newblock {Internet Addresses IPv4 Response History Dataset}.
-\newblock \url{https://ant.isi.edu/datasets/index.html}, {\natexlab{b}}.
+\newblock \url{https://ant.isi.edu/datasets/index.html}.
 \newblock Accessed 2026-10-27.
 
 \bibitem[van~den Hout et~al.(2022)van~den Hout, Wabeke, Moura, and
@@ -4749,10 +5572,16 @@ Olivier van~der Toorn, Roland van Rijswijk-Deij, Raffaele Sommese, Anna
 \newblock \doi{10.1145/3517745.3561424}.
 \newblock URL \url{https://doi.org/10.1145/3517745.3561424}.
 
-\bibitem[Various()]{openaiforum}
-Various.
-\newblock Openai forum.
-\newblock URL \url{https://forum.openai.com/}.
+\bibitem[Vanliefde et~al.(2026)Vanliefde, Van~Hauwaert, Tyunyayev, Delzotti,
+  Agostini, and Barbette]{10.1007/978-3-032-18268-5_17}
+Maxime Vanliefde, Romain Van~Hauwaert, Nikita Tyunyayev, Cl{\'e}ment Delzotti,
+  Elena Agostini, and Tom Barbette.
+\newblock xpubench: Scalable and energy-efficient gpu and dpu-accelerated
+  network functions.
+\newblock In Simone Ferlin-Reiter, Romain Fontugne, and Johanna Ullrich,
+  editors, \emph{Passive and Active Measurement}, pages 377--405, Cham, 2026.
+  Springer Nature Switzerland.
+\newblock ISBN 978-3-032-18268-5.
 
 \bibitem[Varvello et~al.(2022)Varvello, Chang, and
   Zaki]{10.1145/3517745.3561442}
@@ -4814,6 +5643,18 @@ Daniel Wagner, Sahil~Ashish Ranadive, Harm Griffioen, Michalis Kallitsis,
 \newblock \doi{10.1145/3618257.3624831}.
 \newblock URL \url{https://doi.org/10.1145/3618257.3624831}.
 
+\bibitem[Wang et~al.(2026)Wang, Zhang, Dong, Carisimo, Durairajan, and
+  Bustamante]{10.1145/3777912.3809135}
+Caleb Wang, Ying Zhang, Qianli Dong, Esteban Carisimo, Ramakrishnan Durairajan,
+  and Fabian Bustamante.
+\newblock Calypso’s voyage: Charting traceroute paths to submarine cables.
+\newblock In \emph{Proceedings of the 2026 ACM Internet Measurement
+  Conference}, IMC '26, page 1–17, New York, NY, USA, 2026. Association for
+  Computing Machinery.
+\newblock ISBN 9798400723278.
+\newblock \doi{10.1145/3777912.3809135}.
+\newblock URL \url{https://doi.org/10.1145/3777912.3809135}.
+
 \bibitem[Wang et~al.(2024)Wang, Finamore, Michiardi, Gallo, and
   Rossi]{10.1007/978-3-031-56249-5_7}
 Chao Wang, Alessandro Finamore, Pietro Michiardi, Massimo Gallo, and Dario
@@ -4834,6 +5675,26 @@ Jingjing Wang, Liu Wang, Feng Dong, and Haoyu Wang.
 \newblock ISBN 9798400703829.
 \newblock \doi{10.1145/3618257.3624800}.
 \newblock URL \url{https://doi.org/10.1145/3618257.3624800}.
+
+\bibitem[Wang et~al.(2017)Wang, Zhu, Zeng, Ye, and Sheng]{7899588}
+Wei Wang, Ming Zhu, Xuewen Zeng, Xiaozhou Ye, and Yiqiang Sheng.
+\newblock Malware traffic classification using convolutional neural network for
+  representation learning.
+\newblock In \emph{2017 International Conference on Information Networking
+  (ICOIN)}, pages 712--717, 2017.
+\newblock \doi{10.1109/ICOIN.2017.7899588}.
+
+\bibitem[Wei et~al.(2026)Wei, He, Phokeer, Benson, and
+  Tyson]{10.1145/3777912.3839834}
+Yiluo Wei, Jiahui He, Amreesh Phokeer, Theophilus Benson, and Gareth Tyson.
+\newblock Internet in africa: A quantitative study of the impact of
+  infrastructure development.
+\newblock In \emph{Proceedings of the 2026 ACM Internet Measurement
+  Conference}, IMC '26, page 18–36, New York, NY, USA, 2026. Association for
+  Computing Machinery.
+\newblock ISBN 9798400723278.
+\newblock \doi{10.1145/3777912.3839834}.
+\newblock URL \url{https://doi.org/10.1145/3777912.3839834}.
 
 \bibitem[Weimer(2005)]{pdns}
 Florian Weimer.
@@ -4861,16 +5722,21 @@ Jonathan~Codi West and Tyler Moore.
   International Publishing.
 \newblock ISBN 978-3-030-98785-5.
 
+\bibitem[Wickramasinghe et~al.(2026)Wickramasinghe, Li, Jha, and
+  Shaghaghi]{10.1145/3777912.3839797}
+Nimesha Wickramasinghe, Frank Li, Sanjay Jha, and Arash Shaghaghi.
+\newblock Mind the gap: Policy vs reality in post-quantum tls deployment.
+\newblock In \emph{Proceedings of the 2026 ACM Internet Measurement
+  Conference}, IMC '26, page 256–275, New York, NY, USA, 2026. Association
+  for Computing Machinery.
+\newblock ISBN 9798400723278.
+\newblock \doi{10.1145/3777912.3839797}.
+\newblock URL \url{https://doi.org/10.1145/3777912.3839797}.
+
 \bibitem[{WIDE Project}()]{mawi-archive}
 {WIDE Project}.
 \newblock {MAWI Working Group Traffic Archive}.
 \newblock \url{https://mawi.wide.ad.jp/mawi/}.
-\newblock Accessed 2026-10-27.
-
-\bibitem[{Wikimedia Foundation}()]{wikipedia}
-{Wikimedia Foundation}.
-\newblock {Wikipedia}.
-\newblock \url{https://www.wikipedia.org/}.
 \newblock Accessed 2026-10-27.
 
 \bibitem[Williams and Pearce(2024)]{10.1145/3646547.3688449}
@@ -4948,12 +5814,6 @@ Yuhao Wu, Evin Jaff, Ke~Yang, Ning Zhang, and Umar Iqbal.
 \newblock \doi{10.1145/3730567.3732912}.
 \newblock URL \url{https://doi.org/10.1145/3730567.3732912}.
 
-\bibitem[{X Corp. (formerly Twitter)}()]{twitter-x}
-{X Corp. (formerly Twitter)}.
-\newblock {X (Twitter)}.
-\newblock \url{https://x.com/}.
-\newblock Accessed 2026-10-27.
-
 \bibitem[Xia et~al.(2022)Xia, Wang, Yu, Liu, Luo, Xu, and
   Tyson]{10.1145/3517745.3561469}
 Pengcheng Xia, Haoyu Wang, Zhou Yu, Xinyu Liu, Xiapu Luo, Guoai Xu, and Gareth
@@ -4982,6 +5842,30 @@ Rui Xin, Shihan Lin, and Xiaowei Yang.
   Nature Switzerland.
 \newblock ISBN 978-3-031-28486-1.
 
+\bibitem[Xu et~al.(2026{\natexlab{a}})Xu, Iqbal, and
+  Montgomery]{10.1145/3777912.3839818}
+Haofei Xu, Umar Iqbal, and Jacob~M. Montgomery.
+\newblock Measuring google ai overviews: Activation, source quality, claim
+  fidelity, and publisher impact.
+\newblock In \emph{Proceedings of the 2026 ACM Internet Measurement
+  Conference}, IMC '26, page 529–546, New York, NY, USA, 2026{\natexlab{a}}.
+  Association for Computing Machinery.
+\newblock ISBN 9798400723278.
+\newblock \doi{10.1145/3777912.3839818}.
+\newblock URL \url{https://doi.org/10.1145/3777912.3839818}.
+
+\bibitem[Xu et~al.(2026{\natexlab{b}})Xu, Li, Qiu, and
+  Sun]{10.1145/3777912.3839823}
+Zuyao Xu, Xiang Li, Yuqi Qiu, and Lu~Sun.
+\newblock Ollama in the wild: A longitudinal measurement of exposed ollama llm
+  endpoints at internet scale.
+\newblock In \emph{Proceedings of the 2026 ACM Internet Measurement
+  Conference}, IMC '26, page 514–528, New York, NY, USA, 2026{\natexlab{b}}.
+  Association for Computing Machinery.
+\newblock ISBN 9798400723278.
+\newblock \doi{10.1145/3777912.3839823}.
+\newblock URL \url{https://doi.org/10.1145/3777912.3839823}.
+
 \bibitem[Xygkou et~al.(2025)Xygkou, Chariton, Dimitropoulos, and
   Dainotti]{10.1145/3730567.3764469}
 Iliana Xygkou, Antonis Chariton, Xenofontas Dimitropoulos, and Alberto
@@ -5002,13 +5886,6 @@ Masanori Yajima, Daiki Chiba, Yoshiro Yoneya, and Tatsuya Mori.
   \emph{Passive and Active Measurement}, pages 479--495, Cham, 2023. Springer
   Nature Switzerland.
 \newblock ISBN 978-3-031-28486-1.
-
-\bibitem[Yamagishi et~al.(2019)Yamagishi, Veaux, and MacDonald]{cstr-vctk}
-Junichi Yamagishi, Christophe Veaux, and Kirsten MacDonald.
-\newblock Cstr vctk corpus: English multi-speaker corpus for cstr voice cloning
-  toolkit.
-\newblock \url{https://datashare.is.ed.ac.uk/handle/10283/3443}, 2019.
-\newblock Accessed: 2026-10-27.
 
 \bibitem[Yan et~al.(2025)Yan, Zhang, Huffaker, Mok, claffy, and
   Levchenko]{10.1007/978-3-031-85960-1_4}
@@ -5043,6 +5920,16 @@ Jia Yao, Yiming Zhang, Baojun Liu, Zhan Liu, Mingming Zhang, and Haixin Duan.
 \newblock \doi{10.1145/3730567.3732921}.
 \newblock URL \url{https://doi.org/10.1145/3730567.3732921}.
 
+\bibitem[Yao et~al.(2026)Yao, Shi, Liu, Han, and Chen]{10.1145/3777912.3839824}
+Tingting Yao, Ruizhe Shi, Yao Liu, Bo~Han, and Songqing Chen.
+\newblock When smartglasses meet ai: A first performance look.
+\newblock In \emph{Proceedings of the 2026 ACM Internet Measurement
+  Conference}, IMC '26, page 547–562, New York, NY, USA, 2026. Association
+  for Computing Machinery.
+\newblock ISBN 9798400723278.
+\newblock \doi{10.1145/3777912.3839824}.
+\newblock URL \url{https://doi.org/10.1145/3777912.3839824}.
+
 \bibitem[Yazdani et~al.(2022)Yazdani, van Rijswijk-Deij, Jonker, and
   Sperotto]{10.1007/978-3-030-98785-5_13}
 Ramin Yazdani, Roland van Rijswijk-Deij, Mattijs Jonker, and Anna Sperotto.
@@ -5062,6 +5949,31 @@ Ramin Yazdani, Mattijs Jonker, and Anna Sperotto.
   \emph{Passive and Active Measurement}, pages 3--18, Cham, 2024. Springer
   Nature Switzerland.
 \newblock ISBN 978-3-031-56252-5.
+
+\bibitem[Yazdani et~al.(2026)Yazdani, Hilal, Vermeulen, Testart, Dainotti,
+  Heinrich, and Albakour]{10.1145/3777912.3839828}
+Zahra Yazdani, Fahad Hilal, Kevin Vermeulen, Cecilia Testart, Alberto Dainotti,
+  Tiago Heinrich, and Taha Albakour.
+\newblock Endless cookies: Exploring tcp fast open on the internet.
+\newblock In \emph{Proceedings of the 2026 ACM Internet Measurement
+  Conference}, IMC '26, page 693–710, New York, NY, USA, 2026. Association
+  for Computing Machinery.
+\newblock ISBN 9798400723278.
+\newblock \doi{10.1145/3777912.3839828}.
+\newblock URL \url{https://doi.org/10.1145/3777912.3839828}.
+
+\bibitem[Ye et~al.(2026)Ye, Yang, Sokoto, Balduf, Kr{\'o}l, Ascigil, and
+  Tyson]{10.1145/3777912.3809136}
+Qiming Ye, Wen Yang, Saidu Sokoto, Leonhard Balduf, Micha{\l} Kr{\'o}l, Onur
+  Ascigil, and Gareth Tyson.
+\newblock Behind farcaster: Characterizing a hybrid decentralized social
+  network.
+\newblock In \emph{Proceedings of the 2026 ACM Internet Measurement
+  Conference}, IMC '26, page 761–778, New York, NY, USA, 2026. Association
+  for Computing Machinery.
+\newblock ISBN 9798400723278.
+\newblock \doi{10.1145/3777912.3809136}.
+\newblock URL \url{https://doi.org/10.1145/3777912.3809136}.
 
 \bibitem[Yeung et~al.(2024)Yeung, Kohno, and Roesner]{10.1145/3646547.3688427}
 Christina Yeung, Tadayoshi Kohno, and Franziska Roesner.
@@ -5083,6 +5995,33 @@ Shuaicong Yu, Shuying Zhuang, Tao Yu, Changqing An, and Jilong Wang.
 \newblock ISBN 9798400705922.
 \newblock \doi{10.1145/3646547.3688417}.
 \newblock URL \url{https://doi.org/10.1145/3646547.3688417}.
+
+\bibitem[Yu et~al.(2026)Yu, Spang, Garland, Chen, Gummadi, Zussman,
+  Katz-Bassett, Huang, and Teixeira]{10.1145/3777912.3839796}
+Shuyue Yu, Bruce Spang, Carson Garland, Kevin Chen, Ramki Gummadi, Gil Zussman,
+  Ethan Katz-Bassett, Te-Yuan Huang, and Renata Teixeira.
+\newblock Measuring service congestion, sharing, and pacing in a residential
+  access network.
+\newblock In \emph{Proceedings of the 2026 ACM Internet Measurement
+  Conference}, IMC '26, page 1183–1202, New York, NY, USA, 2026. Association
+  for Computing Machinery.
+\newblock ISBN 9798400723278.
+\newblock \doi{10.1145/3777912.3839796}.
+\newblock URL \url{https://doi.org/10.1145/3777912.3839796}.
+
+\bibitem[Zagson et~al.(2026)Zagson, Gillespie, Veara, Patel, Choffnes, Mislove,
+  Ranganathan, Sapiezynski, and Wilson]{10.1145/3777912.3839795}
+Nicole Zagson, Sarah~Elizabeth Gillespie, Jason Veara, Devin Patel, David
+  Choffnes, Alan Mislove, Aanjhan Ranganathan, Piotr Sapiezynski, and Christo
+  Wilson.
+\newblock Automatic transmission: An empirical study of data privacy in the
+  connected vehicle ecosystem.
+\newblock In \emph{Proceedings of the 2026 ACM Internet Measurement
+  Conference}, IMC '26, page 963–980, New York, NY, USA, 2026. Association
+  for Computing Machinery.
+\newblock ISBN 9798400723278.
+\newblock \doi{10.1145/3777912.3839795}.
+\newblock URL \url{https://doi.org/10.1145/3777912.3839795}.
 
 \bibitem[Zeber et~al.(2020)Zeber, Bird, Oliveira, Rudametkin, Segall,
   Wolls{\'e}n, and Lopatka]{10.1145/3366423.3380104}
@@ -5130,11 +6069,6 @@ Yuwei Zeng, Xunxun Chen, Tianning Zang, and Haiwei Tsang.
   2021{\natexlab{b}}. Springer International Publishing.
 \newblock ISBN 978-3-030-72582-2.
 
-\bibitem[ZeroMEV()]{zeromev}
-ZeroMEV.
-\newblock Zeromev.
-\newblock URL \url{https://info.zeromev.org/api}.
-
 \bibitem[Zeynali et~al.(2024)Zeynali, Weyulu, Fathalli, Chandrasekaran, and
   Feldmann]{10.1007/978-3-031-56252-5_12}
 Danesh Zeynali, Emilia~N. Weyulu, Seifeddine Fathalli, Balakrishnan
@@ -5168,6 +6102,17 @@ Fenglu Zhang, Yunyi Zhang, Baojun Liu, Eihal Alowaisheq, Lingyun Ying, Xiang
 \newblock \doi{10.1145/3618257.3624839}.
 \newblock URL \url{https://doi.org/10.1145/3618257.3624839}.
 
+\bibitem[Zhang et~al.(2026{\natexlab{a}})Zhang, Zhou, and
+  Wu]{10.1145/3777912.3839782}
+Wenlong Zhang, Yajin Zhou, and Lei Wu.
+\newblock Stalled cross-chain transactions: Scale, impacts, and causes.
+\newblock In \emph{Proceedings of the 2026 ACM Internet Measurement
+  Conference}, IMC '26, page 795–817, New York, NY, USA, 2026{\natexlab{a}}.
+  Association for Computing Machinery.
+\newblock ISBN 9798400723278.
+\newblock \doi{10.1145/3777912.3839782}.
+\newblock URL \url{https://doi.org/10.1145/3777912.3839782}.
+
 \bibitem[Zhang et~al.(2025)Zhang, Lin, Huang, Maggs, Schomp, and
   Yang]{10.1007/978-3-031-85960-1_15}
 Xiao Zhang, Shihan Lin, Tingshan Huang, Bruce~M. Maggs, Kyle Schomp, and
@@ -5177,6 +6122,30 @@ Xiao Zhang, Shihan Lin, Tingshan Huang, Bruce~M. Maggs, Kyle Schomp, and
   editors, \emph{Passive and Active Measurement}, pages 361--388, Cham, 2025.
   Springer Nature Switzerland.
 \newblock ISBN 978-3-031-85960-1.
+
+\bibitem[Zhang et~al.(2026{\natexlab{b}})Zhang, Zhou, Wan, Duan, Hao, Liu, Lu,
+  and Zhou]{10.1145/3777912.3839813}
+Yiming Zhang, Hang Zhou, Tao Wan, Haixin Duan, Liqian Hao, Baojun Liu, Chaoyi
+  Lu, and Jingying Zhou.
+\newblock Unintended revelations and risks: Understanding cellular dns leakage
+  on the public internet.
+\newblock In \emph{Proceedings of the 2026 ACM Internet Measurement
+  Conference}, IMC '26, page 636–652, New York, NY, USA, 2026{\natexlab{b}}.
+  Association for Computing Machinery.
+\newblock ISBN 9798400723278.
+\newblock \doi{10.1145/3777912.3839813}.
+\newblock URL \url{https://doi.org/10.1145/3777912.3839813}.
+
+\bibitem[Zhang et~al.(2026{\natexlab{c}})Zhang, Lee, Huque, and
+  Sun]{10.1145/3777912.3839807}
+Yizhe Zhang, Hyeonmin Lee, Shumon Huque, and Yixin Sun.
+\newblock Dissecting nsec and nsec3 deployment in the wild.
+\newblock In \emph{Proceedings of the 2026 ACM Internet Measurement
+  Conference}, IMC '26, page 620–635, New York, NY, USA, 2026{\natexlab{c}}.
+  Association for Computing Machinery.
+\newblock ISBN 9798400723278.
+\newblock \doi{10.1145/3777912.3839807}.
+\newblock URL \url{https://doi.org/10.1145/3777912.3839807}.
 
 \bibitem[Zhang et~al.(2021)Zhang, Marder, Mok, Huffaker, Luckie, Claffy, and
   Schulman]{10.1145/3487552.3487812}
@@ -5190,6 +6159,16 @@ Zesen Zhang, Alexander Marder, Ricky Mok, Bradley Huffaker, Matthew Luckie, K~C
 \newblock ISBN 9781450391290.
 \newblock \doi{10.1145/3487552.3487812}.
 \newblock URL \url{https://doi.org/10.1145/3487552.3487812}.
+
+\bibitem[Zhao and Pan(2026)]{10.1145/3777912.3839781}
+Jinwei Zhao and Jianping Pan.
+\newblock Measuring starlink aviation around the world.
+\newblock In \emph{Proceedings of the 2026 ACM Internet Measurement
+  Conference}, IMC '26, page 1118–1132, New York, NY, USA, 2026. Association
+  for Computing Machinery.
+\newblock ISBN 9798400723278.
+\newblock \doi{10.1145/3777912.3839781}.
+\newblock URL \url{https://doi.org/10.1145/3777912.3839781}.
 
 \bibitem[Zhao et~al.(2024)Zhao, Kobayashi, and
   Fukuda]{10.1007/978-3-031-56249-5_4}
@@ -5235,6 +6214,19 @@ Jingyuan Zhu, Huanchen Sun, and Harsha~V. Madhyastha.
 \newblock ISBN 9798400718601.
 \newblock \doi{10.1145/3730567.3764507}.
 \newblock URL \url{https://doi.org/10.1145/3730567.3764507}.
+
+\bibitem[Zhu et~al.(2026)Zhu, Zhang, Li, Li, Xiong, Liu, and
+  Wang]{10.1145/3777912.3839825}
+Yujia Zhu, Linkang Zhang, Baiyang Li, Zhen Li, Gang Xiong, Qingyun Liu, and
+  Xuebin Wang.
+\newblock Exploring the missing half: A dual-perspective measurement of
+  encrypted recursive-to-authoritative dns.
+\newblock In \emph{Proceedings of the 2026 ACM Internet Measurement
+  Conference}, IMC '26, page 653–667, New York, NY, USA, 2026. Association
+  for Computing Machinery.
+\newblock ISBN 9798400723278.
+\newblock \doi{10.1145/3777912.3839825}.
+\newblock URL \url{https://doi.org/10.1145/3777912.3839825}.
 
 \bibitem[Zirngibl et~al.(2021)Zirngibl, Buschmann, Sattler, Jaeger, Aulbach,
   and Carle]{10.1145/3487552.3487826}
