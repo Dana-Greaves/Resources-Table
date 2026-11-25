@@ -4,7 +4,7 @@ The top-level auxiliary file: main.aux
 Reallocating 'name_of_file' (item size: 1) to 9 items.
 The style file: plainnat.bst
 Reallocating 'name_of_file' (item size: 1) to 4 items.
-Reallocating 'field_info' (item size: 4) to 25888 items.
+Reallocating 'field_info' (item size: 4) to 25916 items.
 Database file #1: bib.bib
 Reallocating 'str_pool' (item size: 1) to 130000 items.
 Warning--I'm ignoring caida_itdk's extra "note" field
@@ -15,11 +15,9 @@ Warning--entry type for "mendeley" isn't style-file defined
 --line 23893 of file bib.bib
 Warning--entry type for "vnat" isn't style-file defined
 --line 24013 of file bib.bib
-Warning--I didn't find a database entry for "apnic_customers"
-Warning--I didn't find a database entry for "isi-ipv4-respone"
-Warning--I didn't find a database entry for "iana-allocation"
 Warning--I didn't find a database entry for "10.1145/3727133"
 Warning--I didn't find a database entry for "unsw"
+Warning--to sort, need author or key in apnic_lab
 Warning--to sort, need author or key in internet_health_report
 Warning--to sort, need author or key in telegeography
 Warning--to sort, need author or key in nro_delegation_file
@@ -160,6 +158,7 @@ Warning--empty year in apnic_asn
 Warning--empty year in apnic_erx
 Warning--empty year in apnic_eyeballs
 Warning--empty year in apnic_ftp
+Warning--empty year in apnic_lab
 Warning--empty year in apple_safari_ct
 Warning--empty year in appview_getfeed
 Warning--empty year in arelion
@@ -355,6 +354,7 @@ Warning--empty year in infrapedia
 Warning--empty year in internet-archive
 Warning--empty year in internet_archive_bot
 Warning--empty year in wayback-machine
+Warning--empty year in iana-allocations
 Warning--empty year in ip2location
 Warning--empty year in ipgeolocation
 Warning--empty year in ipinfo
@@ -434,6 +434,7 @@ Warning--empty year in tor
 Warning--empty year in udger
 Warning--empty year in ukrenegro
 Warning--empty year in isi-ipv4-hitlist
+Warning--empty year in isi-ipv4-response
 Warning--empty year in verisign
 Warning--empty year in virustotal
 Warning--empty year in webrtc
@@ -442,45 +443,45 @@ Warning--empty year in mawi-archive
 Warning--empty year in wonder
 Warning--empty year in zoominfo
 Warning--empty year in zvelo
-You've used 741 entries,
+You've used 745 entries,
             2773 wiz_defined-function locations,
-            3771 strings with 123619 characters,
-and the built_in function-call counts, 407253 in all, are:
-= -- 40150
-> -- 21942
-< -- 643
-+ -- 7590
-- -- 6756
-* -- 29005
-:= -- 56931
-add.period$ -- 3627
-call.type$ -- 741
-change.case$ -- 4352
-chr.to.int$ -- 648
-cite$ -- 2022
-duplicate$ -- 20601
-empty$ -- 31071
-format.name$ -- 7454
-if$ -- 92291
-int.to.chr$ -- 94
+            3780 strings with 123885 characters,
+and the built_in function-call counts, 408428 in all, are:
+= -- 40260
+> -- 21972
+< -- 646
++ -- 7606
+- -- 6765
+* -- 29071
+:= -- 57093
+add.period$ -- 3642
+call.type$ -- 745
+change.case$ -- 4367
+chr.to.int$ -- 649
+cite$ -- 2035
+duplicate$ -- 20661
+empty$ -- 31202
+format.name$ -- 7466
+if$ -- 92551
+int.to.chr$ -- 97
 int.to.str$ -- 1
 missing$ -- 399
-newline$ -- 4734
-num.names$ -- 2730
-pop$ -- 10819
+newline$ -- 4757
+num.names$ -- 2742
+pop$ -- 10877
 preamble$ -- 1
-purify$ -- 3612
+purify$ -- 3623
 quote$ -- 0
-skip$ -- 18356
+skip$ -- 18388
 stack$ -- 0
-substring$ -- 10096
-swap$ -- 6856
+substring$ -- 10105
+swap$ -- 6865
 text.length$ -- 388
 text.prefix$ -- 1
 top$ -- 0
-type$ -- 8151
-warning$ -- 422
-while$ -- 2625
+type$ -- 8195
+warning$ -- 426
+while$ -- 2634
 width$ -- 0
-write$ -- 12144
-(There were 431 warnings)
+write$ -- 12198
+(There were 432 warnings)

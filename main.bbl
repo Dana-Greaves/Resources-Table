@@ -1,4 +1,4 @@
-\begin{thebibliography}{741}
+\begin{thebibliography}{745}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -112,6 +112,11 @@ Apnic eyeballs dataset.
 \bibitem[apn({\natexlab{d}})]{apnic_ftp}
 Apnic ftp repository.
 \newblock \url{https://ftp.apnic.net/}, {\natexlab{d}}.
+\newblock Accessed: 2026-10-27.
+
+\bibitem[apn({\natexlab{e}})]{apnic_lab}
+Apnic lab.
+\newblock \url{https://labs.apnic.net}, {\natexlab{e}}.
 \newblock Accessed: 2026-10-27.
 
 \bibitem[app({\natexlab{a}})]{apple_safari_ct}
@@ -2645,12 +2650,18 @@ Geoff Huston.
 \newblock \url{https://www.potaroo.net/}, 2026.
 \newblock Accessed: 2026-10-27.
 
-\bibitem[{IANA}(2026)]{iana_tls_parameters}
+\bibitem[{IANA}(2026{\natexlab{a}})]{iana_root_zone}
+{IANA}.
+\newblock {Root Zone Database}.
+\newblock \url{https://www.iana.org/domains/root/db}, 2026{\natexlab{a}}.
+\newblock Accessed: 2026-10-27.
+
+\bibitem[{IANA}(2026{\natexlab{b}})]{iana_tls_parameters}
 {IANA}.
 \newblock {Transport Layer Security (TLS) Parameters}.
 \newblock
   \url{https://www.iana.org/assignments/tls-parameters/tls-parameters.xhtml},
-  2026.
+  2026{\natexlab{b}}.
 \newblock Accessed: 2026-10-27.
 
 \bibitem[ICANN()]{czds}
@@ -2724,6 +2735,12 @@ ICANN.
 \newblock {Wayback Machine}.
 \newblock \url{https://web.archive.org/}, {\natexlab{c}}.
 \newblock Accessed: 2026-10-26.
+
+\bibitem[{Internet Assigned Numbers Authority (IANA)}()]{iana-allocations}
+{Internet Assigned Numbers Authority (IANA)}.
+\newblock {IANA IP Address Allocations}.
+\newblock \url{https://www.iana.org/numbers}.
+\newblock Accessed 2026-10-27.
 
 \bibitem[{Investigating.com}(2026)]{investigating_com}
 {Investigating.com}.
@@ -5543,10 +5560,18 @@ Zeya Umayya, Dhruv Malik, Devashish Gosain, and Piyush Kumar~Sharma.
 \newblock \doi{10.1145/3618257.3624817}.
 \newblock URL \url{https://doi.org/10.1145/3618257.3624817}.
 
-\bibitem[{USC Information Sciences Institute (ISI)}()]{isi-ipv4-hitlist}
+\bibitem[{USC Information Sciences Institute
+  (ISI)}({\natexlab{a}})]{isi-ipv4-hitlist}
 {USC Information Sciences Institute (ISI)}.
 \newblock {ISI IPv4 Hitlist}.
-\newblock \url{https://ant.isi.edu/datasets/index.html}.
+\newblock \url{https://ant.isi.edu/datasets/index.html}, {\natexlab{a}}.
+\newblock Accessed 2026-10-27.
+
+\bibitem[{USC Information Sciences Institute
+  (ISI)}({\natexlab{b}})]{isi-ipv4-response}
+{USC Information Sciences Institute (ISI)}.
+\newblock {Internet Addresses IPv4 Response History Dataset}.
+\newblock \url{https://ant.isi.edu/datasets/index.html}, {\natexlab{b}}.
 \newblock Accessed 2026-10-27.
 
 \bibitem[van~den Hout et~al.(2022)van~den Hout, Wabeke, Moura, and

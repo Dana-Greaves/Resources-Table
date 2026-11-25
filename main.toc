@@ -1,4 +1,4 @@
 \contentsline {section}{\numberline {1}What is a Resource?}{2}{section.1}%
 \contentsline {section}{\numberline {2}Full Resource List}{2}{section.2}%
-\contentsline {section}{\numberline {3}Resource Usages and Categorization}{25}{section.3}%
-\contentsline {section}{\numberline {4}Filtering}{48}{section.4}%
+\contentsline {section}{\numberline {3}Resource Usages and Categorization}{14}{section.3}%
+\contentsline {section}{\numberline {4}Filtering}{36}{section.4}%
